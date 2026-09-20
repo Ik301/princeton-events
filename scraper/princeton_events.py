@@ -467,6 +467,36 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
   .src.reg{text-decoration:none;border-color:var(--muted);color:var(--muted);cursor:pointer}
   .src.reg:hover{border-color:var(--accent);color:var(--accent)}
   .list .desc{color:var(--muted);font-size:12px;margin-top:4px}
+  .weeknav{display:flex;align-items:center;gap:12px;margin:2px 0 12px}
+  .weeknav b{font-size:15.5px}
+  .weeknav button{background:var(--card);border:1px solid var(--line);color:var(--fg);
+    border-radius:7px;padding:4px 11px;cursor:pointer}
+  .wkwrap{overflow-x:auto}
+  .wk{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+  .wkhead{display:grid;grid-template-columns:52px repeat(7,1fr);border-bottom:1px solid var(--line)}
+  .wkhead div{padding:7px 8px;font-size:12px;color:var(--muted);border-left:1px solid var(--line)}
+  .wkhead div:first-child{border-left:0}
+  .wkhead .today{color:var(--accent);font-weight:600}
+  .wkhead .more{margin-left:5px;font-size:10px;color:var(--accent);border:1px solid var(--accent);
+    border-radius:999px;padding:0 5px;cursor:help}
+  .wkallday{display:grid;grid-template-columns:52px repeat(7,1fr);border-bottom:1px solid var(--line)}
+  .wkallday .lab{padding:5px 8px;font-size:10.5px;color:var(--muted)}
+  .wkallday .cell{border-left:1px solid var(--line);padding:4px 3px;min-height:28px}
+  .wkad{display:block;text-decoration:none;color:var(--fg);background:var(--card2);border-left:3px solid var(--dot);
+    border-radius:4px;padding:1px 5px;font-size:10.5px;margin-bottom:3px;overflow:hidden;white-space:nowrap;
+    text-overflow:ellipsis}
+  .wkad:hover{background:#232a3b}
+  .wkscroll{display:grid;grid-template-columns:52px repeat(7,1fr)}
+  .wkgut{position:relative}
+  .wkhr{position:absolute;right:6px;transform:translateY(-6px);font-size:10.5px;color:var(--muted)}
+  .wkday{position:relative;border-left:1px solid var(--line)}
+  .wkline{position:absolute;left:0;right:0;border-top:1px solid rgba(255,255,255,.06)}
+  .wkev{position:absolute;display:block;text-decoration:none;color:var(--fg);background:var(--card2);
+    border-left:3px solid var(--dot);border-radius:5px;padding:2px 5px;font-size:10.8px;line-height:1.3;
+    overflow:hidden}
+  .wkev:hover{background:#232a3b}
+  .wkev .t{color:var(--muted);font-size:10px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  @media(max-width:760px){ .wk{min-width:620px} .wkhead div{padding:6px 4px;font-size:11px} }
   .empty{color:var(--muted);padding:28px 4px}
   footer{color:var(--muted);font-size:11.5px;padding:0 22px 26px}
   @media(max-width:760px){ .grid{grid-template-columns:repeat(2,1fr)} .dow{display:none}
@@ -481,6 +511,7 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
     <div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
     <div class="seg">
       <button id="bMonth" class="on">Month</button>
+      <button id="bWeek">Week</button>
       <button id="bList">List</button>
     </div>
   </div>
@@ -493,6 +524,17 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
     </div>
     <div class="grid" id="dows"></div>
     <div class="grid" id="grid" style="margin-top:6px"></div>
+  </div>
+  <div id="week" style="display:none">
+    <div class="weeknav">
+      <button id="wprev">&larr;</button><b id="wtitle"></b><button id="wnext">&rarr;</button>
+      <button id="wtoday">Today</button>
+    </div>
+    <div class="wkwrap"><div class="wk">
+      <div class="wkhead" id="wkHead"></div>
+      <div class="wkallday" id="wkAllday"></div>
+      <div class="wkscroll" id="wkScroll"></div>
+    </div></div>
   </div>
   <div id="list" class="list" style="display:none"></div>
 </main>
@@ -513,11 +555,21 @@ DATA.sources.forEach(s => {
 });
 const dows = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 document.getElementById('dows').innerHTML = dows.map(d => `<div class="dow">${d}</div>`).join('');
-let view = new URLSearchParams(location.search).get('view') === 'list' ? 'list' : 'month';
-let cursor = new Date(Date.now());
+const PARAMS = new URLSearchParams(location.search);
+let view = ['month','week','list'].includes(PARAMS.get('view')) ? PARAMS.get('view') : 'month';
+let cursor = PARAMS.get('date') ? new Date(PARAMS.get('date') + 'T12:00:00') : new Date(Date.now());
 const fmtT = d => d.toLocaleTimeString([], {hour:'numeric', minute:'2-digit'}).replace(':00','');
 const sameDay = (a,b) => a.toDateString() === b.toDateString();
 const vis = () => EV.filter(e => on.has(e.source));
+const esc = s => (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const col = e => (SRC[e.source] ? SRC[e.source].color : '#888');
+const fmtHour = h => (h % 12 === 0 ? 12 : h % 12) + (h < 12 ? 'am' : 'pm');
+const overlapsDay = (e, d) => {
+  const a = new Date(e.d.getFullYear(), e.d.getMonth(), e.d.getDate());
+  const b = new Date(e.e2.getFullYear(), e.e2.getMonth(), e.e2.getDate());
+  const t = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  return t >= a && t <= (e.allday ? new Date(b - 86400000) : b);
+};
 
 function render(){
   const ev = vis();
@@ -525,11 +577,14 @@ function render(){
     `${ev.length} upcoming events · ${DATA.sources.length} sources · refreshed ${DATA.generated_label}`;
   document.getElementById('foot').textContent =
     'Scraped from chapel / career development / campus rec / university events. Toggles filter this page only.';
-  document.getElementById('month').style.display = view === 'month' ? '' : 'none';
-  document.getElementById('list').style.display = view === 'list' ? '' : 'none';
+  for (const v of ['month','week','list'])
+    document.getElementById(v).style.display = view === v ? '' : 'none';
   document.getElementById('bMonth').className = view === 'month' ? 'on' : '';
+  document.getElementById('bWeek').className = view === 'week' ? 'on' : '';
   document.getElementById('bList').className = view === 'list' ? 'on' : '';
-  view === 'month' ? renderMonth(ev) : renderList(ev);
+  if (view === 'month') renderMonth(ev);
+  else if (view === 'week') renderWeek(ev);
+  else renderList(ev);
 }
 function renderMonth(ev){
   const y = cursor.getFullYear(), m = cursor.getMonth();
@@ -539,24 +594,97 @@ function renderMonth(ev){
   const today = new Date(); let html = '';
   for (let i = 0; i < 42; i++){
     const d = new Date(start); d.setDate(start.getDate() + i);
-    const dayEv = ev.filter(e => {
-      const a = new Date(e.d.getFullYear(), e.d.getMonth(), e.d.getDate());
-      const b = new Date(e.e2.getFullYear(), e.e2.getMonth(), e.e2.getDate());
-      const t = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-      return t >= a && t <= (e.allday ? new Date(b - 86400000) : b);
-    }).sort((a,b) => a.d - b.d);
+    const dayEv = ev.filter(e => overlapsDay(e, d)).sort((a,b) => a.d - b.d);
     const cls = 'day' + (d.getMonth() !== m ? ' out' : '') + (sameDay(d, today) ? ' today' : '');
     html += `<div class="${cls}"><div class="dnum"><span>${d.getDate()}</span></div>`;
     dayEv.slice(0,4).forEach(e => {
-      const col = SRC[e.source] ? SRC[e.source].color : '#888';
-      html += `<a class="ev${e.allday?' all':''}" style="--dot:${col}" href="${e.url}" target="_blank"
-        title="${e.title.replace(/"/g,'&quot;')}${e.location ? ' — ' + e.location : ''}">
-        <span class="tm">${e.allday ? 'all day' : fmtT(e.d)}</span>${e.title.slice(0,58)}</a>`;
+      html += `<a class="ev${e.allday?' all':''}" style="--dot:${col(e)}" href="${e.url}" target="_blank"
+        title="${esc(e.title)}${e.location ? ' · ' + esc(e.location) : ''}">
+        <span class="tm">${e.allday ? 'all day' : fmtT(e.d)}</span>${esc(e.title.slice(0,58))}</a>`;
     });
     if (dayEv.length > 4) html += `<div class="tm" style="color:var(--muted);font-size:10.5px">+${dayEv.length-4} more</div>`;
     html += '</div>';
   }
   document.getElementById('grid').innerHTML = html;
+}
+function renderWeek(ev){
+  const MAXLANES = 3;
+  const ws = new Date(cursor); ws.setDate(ws.getDate() - ws.getDay()); ws.setHours(0,0,0,0);
+  const days = []; for (let i = 0; i < 7; i++){ const d = new Date(ws); d.setDate(ws.getDate() + i); days.push(d); }
+  const we = new Date(days[6]); we.setHours(23,59,59,999);
+  document.getElementById('wtitle').textContent =
+    days[0].toLocaleDateString([], {month:'long', day:'numeric'}) + ' to ' +
+    days[6].toLocaleDateString([], {month:'long', day:'numeric', year:'numeric'});
+
+  const week = ev.filter(e => e.d <= we && e.e2 >= days[0]);
+  const ad = week.filter(e => e.allday);
+  const timed = week.filter(e => !e.allday);
+  const today = new Date();
+
+  // hour window: fit the week's events, but keep a sane minimum span
+  let h0 = 9, h1 = 20;
+  timed.forEach(e => {
+    h0 = Math.min(h0, Math.floor(e.d.getHours() + e.d.getMinutes() / 60));
+    const endH = sameDay(e.d, e.e2) ? e.e2.getHours() + e.e2.getMinutes() / 60 : 24;
+    h1 = Math.max(h1, Math.ceil(endH));
+  });
+  h0 = Math.max(0, Math.min(h0, 8));
+  h1 = Math.min(24, Math.max(h1, 18));
+  const PX = 42, H = (h1 - h0) * PX;
+
+  // pass 1: place each day's timed events into lanes, capped so columns stay readable
+  const perDay = days.map(d => {
+    const items = timed.filter(e => sameDay(e.d, d)).sort((a,b) => a.d - b.d);
+    const laneEnds = [];
+    const all = items.map(e => {
+      const s = e.d.getHours() + e.d.getMinutes() / 60;
+      const en = Math.max(s + 0.25, sameDay(e.d, e.e2) ? e.e2.getHours() + e.e2.getMinutes() / 60 : 24);
+      let lane = laneEnds.findIndex(t => t <= s);
+      if (lane === -1){ lane = laneEnds.length; laneEnds.push(en); } else laneEnds[lane] = en;
+      return {e, s, en, lane};
+    });
+    const visible = all.filter(p => p.lane < MAXLANES);
+    const hidden = all.filter(p => p.lane >= MAXLANES);
+    const lanes = Math.max(1, Math.min(MAXLANES, laneEnds.length));
+    return {d, visible, hidden, lanes};
+  });
+
+  // pass 2: render
+  document.getElementById('wkHead').innerHTML = '<div>Time</div>' + perDay.map(({d, hidden}) =>
+    `<div class="${sameDay(d, today) ? 'today' : ''}">${d.toLocaleDateString([], {weekday:'short'})}
+      <b>${d.getDate()}</b>${hidden.length
+        ? `<span class="more" title="${esc(hidden.slice(0,8).map(h => h.e.title).join(' | '))}">+${hidden.length}</span>`
+        : ''}</div>`).join('');
+
+  document.getElementById('wkAllday').innerHTML = '<div class="lab">all day</div>' + days.map(d => {
+    const items = ad.filter(e => overlapsDay(e, d)).sort((a,b) => a.d - b.d);
+    return '<div class="cell">' + items.map(e =>
+      `<a class="wkad" style="--dot:${col(e)}" href="${e.url}" target="_blank"
+        title="${esc(e.title)}${e.location ? ' · ' + esc(e.location) : ''}">${esc(e.title.slice(0,30))}</a>`
+    ).join('') + '</div>';
+  }).join('');
+
+  let gut = '';
+  for (let h = h0; h <= h1; h++) gut += `<div class="wkhr" style="top:${(h - h0) * PX}px">${fmtHour(h)}</div>`;
+  let lines = '';
+  for (let h = h0 + 1; h < h1; h++) lines += `<div class="wkline" style="top:${(h - h0) * PX}px"></div>`;
+
+  document.getElementById('wkScroll').innerHTML =
+    `<div class="wkgut" style="height:${H}px">${gut}</div>` +
+    perDay.map(({visible, lanes}) => {
+      const w = 100 / lanes;
+      const blocks = visible.map(p => {
+        const top = (p.s - h0) * PX, hh = Math.max(22, (Math.min(p.en, h1) - p.s) * PX - 3);
+        const det = [p.e.location, p.e.audience].filter(Boolean).join(' · ');
+        const span = (lanes === 1 && sameDay(p.e.d, p.e.e2)) ? ' to ' + fmtT(p.e.e2) : '';
+        return `<a class="wkev" href="${p.e.url}" target="_blank" style="--dot:${col(p.e)};top:${top}px;height:${hh}px;
+          left:calc(${p.lane * w}% + 2px);width:calc(${w}% - 4px)" title="${esc(p.e.title)}${det ? ' · ' + esc(det) : ''}">
+          <span class="t">${fmtT(p.e.d)}${span}</span>
+          <b>${esc(p.e.title.slice(0,70))}</b>
+          ${hh >= 46 && p.e.location ? `<span class="t">${esc(p.e.location.slice(0,40))}</span>` : ''}</a>`;
+      }).join('');
+      return `<div class="wkday" style="height:${H}px">${lines}${blocks}</div>`;
+    }).join('');
 }
 function renderList(ev){
   const groups = {};
@@ -588,7 +716,11 @@ document.getElementById('prev').onclick = () => { cursor.setMonth(cursor.getMont
 document.getElementById('next').onclick = () => { cursor.setMonth(cursor.getMonth() + 1); render(); };
 document.getElementById('today').onclick = () => { cursor = new Date(); render(); };
 document.getElementById('bMonth').onclick = () => { view = 'month'; render(); };
+document.getElementById('bWeek').onclick = () => { view = 'week'; render(); };
 document.getElementById('bList').onclick = () => { view = 'list'; render(); };
+document.getElementById('wprev').onclick = () => { cursor.setDate(cursor.getDate() - 7); render(); };
+document.getElementById('wnext').onclick = () => { cursor.setDate(cursor.getDate() + 7); render(); };
+document.getElementById('wtoday').onclick = () => { cursor = new Date(); render(); };
 render();
 </script>
 </body>

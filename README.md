@@ -44,8 +44,10 @@ events in place rather than duplicating them.
 
 ## Layout
 
-- `index.html` — self-contained calendar page (month grid + list, per-source toggles, no
-  external dependencies); built from the same data as the feeds.
+- `index.html` — self-contained calendar page with three views (month grid, week grid,
+  list) and per-source toggles, no external dependencies; built from the same data as the
+  feeds. Deep-link with `?view=week` or `?view=list`, and `?date=YYYY-MM-DD` to open a
+  given week or month.
 - `*.ics` — the feeds above.
 - `scraper/princeton_events.py` — the generator: scrapes each source, parses the listings,
   and writes the `.ics` files and page.

@@ -5,26 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:3a7c5fa642493ee0b39ad6e70d71de17
-DTSTAMP:20260920T030448Z
-DTSTART:20260920T150000Z
-DTEND:20260920T160000Z
-SUMMARY:Sunday Worship Service
-LOCATION:Chapel
-DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
- d by the dean of religious life and of the chapel\, that draws students\
- , faculty\, staff\, and community members together to hear God’s word\
- , sing praises\, and pray for the University and the world. For those un
- able to attend in person\, this service will be live streamed on the ORL
-  YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
- du/events/sunday-worship-service-42
-URL:https://chapel.princeton.edu/events/sunday-worship-service-42
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:9faec71a2b1ed3222fff535cffc39b78
 DTSTAMP:20260920T025617Z
 DTSTART:20260924T000000Z
@@ -214,6 +194,32 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
  du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:37dd0ce807b9eec61d2340e1ba8863a7
+DTSTAMP:20260920T195023Z
+DTSTART:20261015T163000Z
+DTEND:20261015T170000Z
+SUMMARY:After Noon Concert Series
+LOCATION:Chapel
+DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
+  Princeton Community to enjoy performances at the Princeton University C
+ hapel by various local\, national\, and international organists. These h
+ alf-hour concerts showcase the flexibility of the magnificent Skinner/Ma
+ nder Chapel organ. Each visiting organist rehearses and performs\, bring
+ ing forth a different voice and character from the organ. Additionally\,
+  several times each semester\, the concert is broadcast LIVE\, as it hap
+ pens\, on the local classical music radio station\, WWFM (89.1)\, and av
+ ailable to the world at www.wwfm.org(Link is external) (http://www.wwfm.
+ org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
+ utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
+ inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
+ hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
+ s://chapel.princeton.edu/events/after-noon-concert-series-9
+URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

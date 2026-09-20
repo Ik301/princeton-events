@@ -5,23 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:37ee272bcd95d4c37c59c991ee04edaa
-DTSTAMP:20260920T025617Z
-DTSTART:20260919T050000Z
-DTEND:20260919T060000Z
-SUMMARY:So You Think You Can Sing: Karaoke Competition
-LOCATION:Frist Campus Center\, Easel 100 Main East\, Frist Campus Center\
- , Easel A Level
-DESCRIPTION:A low-stakes\, high-fun karaoke event with free food and priz
- es!\nAudience: Students\nhttps://www.princeton.edu/events/2026/so-you-th
- ink-you-can-sing-karaoke-competition
-URL:https://www.princeton.edu/events/2026/so-you-think-you-can-sing-karao
- ke-competition
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:f75529d260a29a1d852bfa0760faccfd
 DTSTAMP:20260920T025617Z
 DTSTART;VALUE=DATE:20260920
