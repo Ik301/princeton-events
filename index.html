@@ -107,7 +107,8 @@ DATA.sources.forEach(s => {
 });
 const dows = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 document.getElementById('dows').innerHTML = dows.map(d => `<div class="dow">${d}</div>`).join('');
-let view = 'month', cursor = new Date(Date.now());
+let view = new URLSearchParams(location.search).get('view') === 'list' ? 'list' : 'month';
+let cursor = new Date(Date.now());
 const fmtT = d => d.toLocaleTimeString([], {hour:'numeric', minute:'2-digit'}).replace(':00','');
 const sameDay = (a,b) => a.toDateString() === b.toDateString();
 const vis = () => EV.filter(e => on.has(e.source));
