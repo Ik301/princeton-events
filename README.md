@@ -19,6 +19,17 @@ Subscribe to any of these by URL (Google Calendar → Other calendars → **+** 
 
 Each feed is a separate subscription, so you can show or hide sources independently.
 
+## What's in each entry
+
+- **Location** in the event's location field (venue, building, room).
+- **Description** with the event's own blurb, plus `Audience:` (who it's open to) and
+  `Register:` (a direct registration link where one exists, e.g. Handshake).
+- **URL** pointing at the event's page on the Princeton site, and the same link in the
+  description so it's reachable from any calendar client.
+
+Details are pulled from each event's own page, so a listing that says only "Recruiting
+101, Sep 22" arrives with its room, audience and sign-up link.
+
 ## Sources
 
 - https://chapel.princeton.edu/events

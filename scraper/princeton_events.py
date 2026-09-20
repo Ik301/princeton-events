@@ -644,7 +644,12 @@ def _subheader(page: str, name: str) -> str:
 
 def _aud_ok(s: str) -> bool:
     """Audience values are short labels; reject dates/times that some pages list nearby."""
-    return bool(s) and len(s) < 60 and not re.search(r"\d{4}|\d{1,2}:\d{2}|\b(am|pm)\b", s, re.I)
+    if not s or len(s) > 60:
+        return False
+    return not re.search(
+        r"\d{4}|\d{1,2}:\d{2}|\b(am|pm)\b"
+        r"|^(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\b",
+        s, re.I)
 
 
 def _clean_audience(s: str) -> str:

@@ -68,7 +68,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:3a7c5fa642493ee0b39ad6e70d71de17
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260920T150000Z
 DTEND:20260920T160000Z
 SUMMARY:Sunday Worship Service
@@ -79,8 +79,8 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  , sing praises\, and pray for the University and the world. For those un
  able to attend in person\, this service will be live streamed on the ORL
   YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nAudience: Aug 30\, Sep 6\n
- https://chapel.princeton.edu/events/sunday-worship-service-42
+ .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
+ du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -739,7 +739,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:ff609cc7beecceb5c6346d9d8ca8de08
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260922T180000Z
 DTEND:20260922T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -756,11 +756,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -1180,7 +1180,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:6f58f7fab39f58b84d6b722914969760
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260923T180000Z
 DTEND:20260923T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -1197,11 +1197,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -1491,7 +1491,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:200fda0f3b67215a6d571e91e773d289
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260924T000000Z
 DTEND:20260924T020000Z
 SUMMARY:PCA Chats at Frist Late Meal
@@ -1504,10 +1504,10 @@ DESCRIPTION:Do you have questions about resumes\, cover letters\, LinkedI
  . This program is open to all Princeton University undergraduates regard
  less of identity. Email [careerdevelopment@princeton.edu](mailto:careerd
  evelopment@princeton.edu) to request accommodations at least two weeks p
- rior to the program.\nAudience: Sep 16\nRegister: https://princeton.join
- handshake.com/stu/events?collection=ALL&eventFormat=HYBRID&sort=RELEVANC
- E&date=ALL&keyword=frist%20late%20meal\nhttps://careerdevelopment.prince
- ton.edu/events/pca-chats-frist-late-meal-0
+ rior to the program.\nRegister: https://princeton.joinhandshake.com/stu/
+ events?collection=ALL&eventFormat=HYBRID&sort=RELEVANCE&date=ALL&keyword
+ =frist%20late%20meal\nhttps://careerdevelopment.princeton.edu/events/pca
+ -chats-frist-late-meal-0
 URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist-late-m
  eal-0
 STATUS:CONFIRMED
@@ -1650,7 +1650,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:8b495c586756df820621a3c21581754a
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260924T163000Z
 DTEND:20260924T170000Z
 SUMMARY:After Noon Concert Series
@@ -1667,9 +1667,8 @@ DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
  org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
  utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
  inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
- hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nAudi
- ence: Sep 3\, Sep 10\nhttps://chapel.princeton.edu/events/after-noon-con
- cert-series-9
+ hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
+ s://chapel.princeton.edu/events/after-noon-concert-series-9
 URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1760,7 +1759,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:440a8ab213c767772dbd1f1522e789ee
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260924T180000Z
 DTEND:20260924T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -1777,11 +1776,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -2237,7 +2236,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:0300565df2798271753f8f082c26d4df
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260925T180000Z
 DTEND:20260925T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -2254,11 +2253,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -2740,7 +2739,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:32578d97cc313014539407255d3864ed
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260927T150000Z
 DTEND:20260927T160000Z
 SUMMARY:Sunday Worship Service
@@ -2751,8 +2750,8 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  , sing praises\, and pray for the University and the world. For those un
  able to attend in person\, this service will be live streamed on the ORL
   YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nAudience: Aug 30\, Sep 6\n
- https://chapel.princeton.edu/events/sunday-worship-service-42
+ .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
+ du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2970,7 +2969,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:81682ab1efbfe71f467ec3835a69c674
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260928T180000Z
 DTEND:20260928T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -2987,11 +2986,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -3243,7 +3242,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:8b70631fba44c863f7f07e4c3fbae6c3
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260929T180000Z
 DTEND:20260929T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -3260,11 +3259,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -3661,7 +3660,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:a494874f8cea3f419b2a49c42996add3
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20260930T180000Z
 DTEND:20260930T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -3678,11 +3677,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -3839,7 +3838,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:c512edb8ea3626c453fc37a481194115
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261001T000000Z
 DTEND:20261001T020000Z
 SUMMARY:PCA Chats at Frist Late Meal
@@ -3852,10 +3851,10 @@ DESCRIPTION:Do you have questions about resumes\, cover letters\, LinkedI
  . This program is open to all Princeton University undergraduates regard
  less of identity. Email [careerdevelopment@princeton.edu](mailto:careerd
  evelopment@princeton.edu) to request accommodations at least two weeks p
- rior to the program.\nAudience: Sep 16\nRegister: https://princeton.join
- handshake.com/stu/events?collection=ALL&eventFormat=HYBRID&sort=RELEVANC
- E&date=ALL&keyword=frist%20late%20meal\nhttps://careerdevelopment.prince
- ton.edu/events/pca-chats-frist-late-meal-0
+ rior to the program.\nRegister: https://princeton.joinhandshake.com/stu/
+ events?collection=ALL&eventFormat=HYBRID&sort=RELEVANCE&date=ALL&keyword
+ =frist%20late%20meal\nhttps://careerdevelopment.princeton.edu/events/pca
+ -chats-frist-late-meal-0
 URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist-late-m
  eal-0
 STATUS:CONFIRMED
@@ -3955,7 +3954,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:821a70097997ab894bd8e0c70274ffac
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261001T163000Z
 DTEND:20261001T170000Z
 SUMMARY:After Noon Concert Series
@@ -3972,9 +3971,8 @@ DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
  org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
  utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
  inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
- hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nAudi
- ence: Sep 3\, Sep 10\nhttps://chapel.princeton.edu/events/after-noon-con
- cert-series-9
+ hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
+ s://chapel.princeton.edu/events/after-noon-concert-series-9
 URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -4026,7 +4024,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:35376e88c8846e705a20c4ef12f58149
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261001T180000Z
 DTEND:20261001T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -4043,11 +4041,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -4456,7 +4454,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:0e4008468dd9844086317e7a0da08709
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261002T180000Z
 DTEND:20261002T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -4473,11 +4471,11 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  an help you - Starting to explore career options - Resume and cover lett
  er reviews - Preparing for career fairs - Job/internship/fellowship appl
  ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nAudience: Aug 31\, S
- ep 1\nRegister: https://princeton.joinhandshake.com/stu/events?collectio
- n=ALL&eventFormat=IN_PERSON&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Ad
- vising%20for%20Undergraduate%20Students\nhttps://careerdevelopment.princ
- eton.edu/events/drop-advising-undergraduate-students-28
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -4510,7 +4508,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:c8be8eded0705ac2b60b3ae2f3a26dbf
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261002T193000Z
 DTEND:20261002T213000Z
 SUMMARY:PCA Chats at Frist
@@ -4524,10 +4522,10 @@ DESCRIPTION:Do you have questions about resumes\, cover letters\, LinkedI
   open to all Princeton University undergraduates regardless of identity.
   Email [careerdevelopment@princeton.edu](mailto:careerdevelopment@prince
  ton.edu) to request accommodations at least two weeks prior to the progr
- am.\nAudience: Sep 18\nRegister: https://princeton.joinhandshake.com/stu
- /events?collection=ALL&eventFormat=HYBRID&sort=RELEVANCE&date=ALL&keywor
- d=%22PCA%20Chats%20at%20Frist%22\nhttps://careerdevelopment.princeton.ed
- u/events/pca-chats-frist
+ am.\nRegister: https://princeton.joinhandshake.com/stu/events?collection
+ =ALL&eventFormat=HYBRID&sort=RELEVANCE&date=ALL&keyword=%22PCA%20Chats%2
+ 0at%20Frist%22\nhttps://careerdevelopment.princeton.edu/events/pca-chats
+ -frist
 URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -4981,7 +4979,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:7e75a6179b8cc0d47d4ed398a4e890e1
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261004T150000Z
 DTEND:20261004T160000Z
 SUMMARY:Sunday Worship Service
@@ -4992,8 +4990,8 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  , sing praises\, and pray for the University and the world. For those un
  able to attend in person\, this service will be live streamed on the ORL
   YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nAudience: Aug 30\, Sep 6\n
- https://chapel.princeton.edu/events/sunday-worship-service-42
+ .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
+ du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -5659,7 +5657,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:fecf8ac290b0945ae5c1795307c67e85
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261008T163000Z
 DTEND:20261008T170000Z
 SUMMARY:After Noon Concert Series
@@ -5676,9 +5674,8 @@ DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
  org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
  utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
  inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
- hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nAudi
- ence: Sep 3\, Sep 10\nhttps://chapel.princeton.edu/events/after-noon-con
- cert-series-9
+ hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
+ s://chapel.princeton.edu/events/after-noon-concert-series-9
 URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -5686,7 +5683,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:beea5329c8c5769540ffa096c699a77b
-DTSTAMP:20260920T025819Z
+DTSTAMP:20260920T030448Z
 DTSTART:20261011T150000Z
 DTEND:20261011T160000Z
 SUMMARY:Sunday Worship Service
@@ -5697,8 +5694,8 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  , sing praises\, and pray for the University and the world. For those un
  able to attend in person\, this service will be live streamed on the ORL
   YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nAudience: Aug 30\, Sep 6\n
- https://chapel.princeton.edu/events/sunday-worship-service-42
+ .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
+ du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
 STATUS:CONFIRMED
 TRANSP:OPAQUE
