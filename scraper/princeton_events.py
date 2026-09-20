@@ -23,6 +23,7 @@ Designed for a `no_agent` weekly cron job: prints NOTHING when nothing changed.
 """
 from __future__ import annotations
 
+import concurrent.futures
 import hashlib
 import html
 import json
@@ -108,7 +109,7 @@ def log(*a):
     print(*a, file=sys.stderr)
 
 
-def fetch_md(url: str) -> str:
+def fetch_md(url: str, save: bool = True) -> str:
     """Fetch via opencli's real browser (gets past Cloudflare)."""
     out = MDCACHE / (hashlib.sha1(url.encode()).hexdigest()[:10] + ".md")
     # IMPORTANT: keep the real environment (HOME etc.) -- opencli needs ~/.opencli and
@@ -127,7 +128,8 @@ def fetch_md(url: str) -> str:
         if "Just a moment" not in text and "Performing security verification" not in text \
                 and len(text) > 500:
             MDCACHE.mkdir(parents=True, exist_ok=True)
-            out.write_text(text, encoding="utf-8")
+            if save:
+                out.write_text(text, encoding="utf-8")
             return text
         last = (f"attempt {attempt}: cloudflare interstitial ({len(text)} bytes)"
                 + (f"; stderr={p.stderr.strip()[:160]}" if p is not None and p.stderr else ""))
@@ -340,13 +342,19 @@ def ics_for(ev: dict, uid: str, stamp: str) -> str:
     ]
     if ev.get("location"):
         body.append(fold(f"LOCATION:{esc(ev['location'])}"))
-    desc = ev.get("description", "")
+    parts = []
     if ev.get("category"):
-        desc = f"[{ev['category']}] {desc}".strip()
+        parts.append(f"[{ev['category']}]")
+    if ev.get("description"):
+        parts.append(ev["description"])
+    if ev.get("audience"):
+        parts.append(f"Audience: {ev['audience']}")
+    if ev.get("register"):
+        parts.append(f"Register: {ev['register']}")
     if ev.get("url"):
-        desc = f"{desc}\n{ev['url']}".strip()
-    if desc:
-        body.append(fold(f"DESCRIPTION:{esc(desc)}"))
+        parts.append(ev["url"])
+    if parts:
+        body.append(fold(f"DESCRIPTION:{esc(chr(10).join(parts))}"))
     if ev.get("url"):
         body.append(fold(f"URL:{ev['url']}"))
     body += ["STATUS:CONFIRMED", "TRANSP:OPAQUE", "END:VEVENT", "END:VCALENDAR", ""]
@@ -354,7 +362,6 @@ def ics_for(ev: dict, uid: str, stamp: str) -> str:
 
 
 STAMP_LINE = re.compile(r"^DTSTAMP:.*$", re.M)
-
 
 def _norm(text: str) -> str:
     """Normalize for comparison: ignore DTSTAMP (regenerated per run) and newlines."""
@@ -456,6 +463,10 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
   .list .meta{color:var(--muted);font-size:12px;margin-top:2px}
   .src{display:inline-block;font-size:10.5px;padding:1px 7px;border-radius:999px;margin-top:4px;
     border:1px solid var(--dot);color:var(--dot)}
+  .list .chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:4px}
+  .src.reg{text-decoration:none;border-color:var(--muted);color:var(--muted);cursor:pointer}
+  .src.reg:hover{border-color:var(--accent);color:var(--accent)}
+  .list .desc{color:var(--muted);font-size:12px;margin-top:4px}
   .empty{color:var(--muted);padding:28px 4px}
   footer{color:var(--muted);font-size:11.5px;padding:0 22px 26px}
   @media(max-width:760px){ .grid{grid-template-columns:repeat(2,1fr)} .dow{display:none}
@@ -555,11 +566,18 @@ function renderList(ev){
     const d = new Date(k);
     const rows = groups[k].sort((a,b) => a.d - b.d).map(e => {
       const col = SRC[e.source] ? SRC[e.source].color : '#888';
+      const lbl = SRC[e.source] ? SRC[e.source].label : e.source;
       const time = e.allday ? 'All day' : fmtT(e.d) + (e.end !== e.start ? ' – ' + fmtT(e.e2) : '');
+      const meta = [e.location, e.audience].filter(Boolean).join(' · ');
+      const desc = (e.description || '').slice(0, 190);
       return `<div class="row"><div class="time">${time}</div><div class="body">
         <a href="${e.url}" target="_blank">${e.title}</a>
-        ${e.location ? `<div class="meta">${e.location}</div>` : ''}
-        <span class="src" style="--dot:${col}">${SRC[e.source] ? SRC[e.source].label : e.source}</span>
+        ${meta ? `<div class="meta">${meta}</div>` : ''}
+        ${desc ? `<div class="desc">${desc}${(e.description || '').length > 190 ? '…' : ''}</div>` : ''}
+        <div class="chips"><span class="src" style="--dot:${col}">${lbl}</span>
+          <a class="src reg" href="${e.url}" target="_blank">event page</a>
+          ${e.register ? `<a class="src reg" href="${e.register}" target="_blank">register</a>` : ''}
+        </div>
       </div></div>`;
     }).join('');
     return `<div class="daygroup"><h3>${d.toLocaleDateString([], {weekday:'long', month:'long', day:'numeric'})}</h3>${rows}</div>`;
@@ -594,12 +612,177 @@ def write_page(events: list[dict], last_change: str) -> None:
                 "title": e["title"], "source": e["source"], "start": e["start"], "end": e["end"],
                 "allday": e["allday"], "location": e.get("location", ""),
                 "category": e.get("category", ""), "url": e["url"],
+                "register": e.get("register", ""), "audience": e.get("audience", ""),
+                "description": (e.get("description") or "")[:400],
             }
             for e in events
         ],
     }
     html = PAGE_TEMPLATE.replace("__PAYLOAD__", json.dumps(payload, ensure_ascii=False))
     (SITE / "index.html").write_text(html, encoding="utf-8")
+
+
+# ------------------------------------------------------------------ detail enrichment
+# Each event gets its own page fetched once (cached by URL, so only NEW events cost a
+# fetch) to fill in LOCATION, the real description, audience and any registration link.
+DETAIL_CACHE = OUT / "details.json"
+DETAIL_BUDGET = 40          # max browser fetches per run: opencli pages are slow
+DETAIL_MAX_AGE_DAYS = 90
+
+TAG = re.compile(r"<[^>]+>")
+
+
+def _txt(s: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(TAG.sub(" ", s or ""))).strip()
+
+
+def _subheader(page: str, name: str) -> str:
+    m = re.search(rf'<h3 class="subheader">{name}</h3>\s*([^<]*)', page)
+    return _txt(m.group(1)) if m else ""
+
+
+def _aud_ok(s: str) -> bool:
+    """Audience values are short labels; reject dates/times that some pages list nearby."""
+    return bool(s) and len(s) < 60 and not re.search(r"\d{4}|\d{1,2}:\d{2}|\b(am|pm)\b", s, re.I)
+
+
+def _clean_audience(s: str) -> str:
+    return ", ".join(p.strip() for p in (s or "").split(",") if _aud_ok(p.strip()))
+
+
+def _ul_after(page: str, name: str) -> list[str]:
+    m = re.search(rf'<h3 class="subheader">{name}</h3>\s*<ul[^>]*>(.*?)</ul>', page, re.S)
+    return [_txt(x) for x in re.findall(r"<li[^>]*>(.*?)</li>", m.group(1), re.S)] if m else []
+
+
+def detail_university(url: str) -> dict:
+    """www.princeton.edu event pages need no browser and carry the good fields."""
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"})
+    with urllib.request.urlopen(req, timeout=45) as r:
+        page = r.read().decode("utf-8", "replace")
+    body = re.search(r'field--name-field-event-details.*?field__item">(.*?)</div>', page, re.S)
+    reg = re.search(r'href="(https?://[^"]*(?:handshake|forms\.gle|zoom)[^"]*)"', page, re.I)
+    return {
+        "location": _subheader(page, "Location"),
+        "audience": ", ".join(_ul_after(page, "Audience")),
+        "description": _txt(body.group(1))[:900] if body else "",
+        "register": reg.group(1) if reg else "",
+        "at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+LINKY = re.compile(r"\[([^\]]+?)(?: Link is external[^\]]*)?\]\((https?://[^\s)]+)\)")
+
+
+def _md_text(s: str) -> str:
+    s = LINKY.sub(lambda m: f"{m.group(1).strip()} ({m.group(2)})", s)
+    s = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", s)
+    return re.sub(r"\s+", " ", s.replace("**", "")).strip(" ,")
+
+
+def parse_detail_md(text: str) -> dict:
+    """Department event pages (Cloudflare) fetched as markdown via the browser."""
+    lines = [l.rstrip() for l in text.splitlines()]
+    out = {"location": "", "audience": "", "description": "",
+           "register": "", "at": datetime.now(timezone.utc).isoformat()}
+    for i, line in enumerate(lines):
+        s, low = line.strip(), line.strip().lower()
+        if low == "location":
+            for j in range(i + 1, min(len(lines), i + 5)):
+                if lines[j].strip():
+                    loc = _md_text(lines[j]).replace("Link opens in new window", "")
+                    loc = re.sub(r"\s*\(https?://[^)]*\)\s*$", "", loc)  # drop the map link
+                    out["location"] = loc.strip(" ,")
+                    break
+        elif low == "audience":
+            aud = []
+            for j in range(i + 1, min(len(lines), i + 8)):
+                t = lines[j].strip()
+                if t.startswith("- "):
+                    v = _md_text(t[2:])
+                    if _aud_ok(v):
+                        aud.append(v)
+                elif aud:
+                    break
+            out["audience"] = ", ".join(aud)
+        elif low in ("event description", "details", "description"):
+            parts = []
+            for j in range(i + 1, min(len(lines), i + 40)):
+                t = lines[j].strip()
+                if re.match(r"^(share on|##|---|>\s|#\s)", t, re.I):
+                    break
+                if t:
+                    parts.append(_md_text(t))
+            if parts:
+                out["description"] = " ".join(parts)[:900]
+    m = re.search(r"\((https?://[^\s)]*(?:handshake|forms\.gle)[^\s)]*)\)", text, re.I)
+    if m:
+        out["register"] = m.group(1)
+    return out
+
+
+def enrich(events: list[dict], budget: int = DETAIL_BUDGET) -> tuple[int, int, list[str]]:
+    """Fill location/description/audience/register from each event's own page.
+
+    Two cost tiers: www.princeton.edu pages are plain HTTP (threaded, no budget), while
+    the Cloudflare department pages need the browser (one at a time, budgeted).
+    """
+    cache: dict = {}
+    if DETAIL_CACHE.exists():
+        try:
+            cache = json.loads(DETAIL_CACHE.read_text())
+        except ValueError:
+            cache = {}
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=DETAIL_MAX_AGE_DAYS)).isoformat()
+    live = {e["url"] for e in events if e.get("url")}
+    cache = {k: v for k, v in cache.items() if k in live and v.get("at", "") > cutoff}
+
+    fetches = browser_fetches = misses = 0
+    problems: list[str] = []
+    todo = [e for e in sorted(events, key=lambda e: e["start"])
+            if e.get("url") and (not e.get("location")
+                                 or len(e.get("description") or "") < 40)]
+    plain = [e for e in todo if e["source"] == "university" and e["url"] not in cache]
+    browser = [e for e in todo if e["source"] != "university" and e["url"] not in cache]
+
+    if plain:  # fast path: no browser, fetch concurrently
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+            futs = {pool.submit(detail_university, e["url"]): e for e in plain}
+            for fut in concurrent.futures.as_completed(futs):
+                ev = futs[fut]
+                try:
+                    cache[ev["url"]] = fut.result()
+                    fetches += 1
+                except Exception as e:  # noqa: BLE001
+                    problems.append(f"{ev['source']} detail "
+                                    f"({ev['url'].rsplit('/', 1)[-1][:36]}): {type(e).__name__}")
+
+    for ev in browser:  # slow path: one browser page at a time, budgeted
+        if browser_fetches >= budget:
+            misses += 1
+            continue
+        try:
+            cache[ev["url"]] = parse_detail_md(fetch_md(ev["url"], save=False))
+            fetches += 1
+            browser_fetches += 1
+        except Exception as e:  # noqa: BLE001
+            problems.append(f"{ev['source']} detail "
+                            f"({ev['url'].rsplit('/', 1)[-1][:36]}): {type(e).__name__}")
+
+    for ev in todo:
+        det = cache.get(ev["url"])
+        if not det:
+            continue
+        ev["location"] = ev.get("location") or det.get("location", "")
+        if len(det.get("description") or "") > len(ev.get("description") or ""):
+            ev["description"] = det["description"]
+        ev["audience"] = _clean_audience(det.get("audience", ""))
+        ev["register"] = det.get("register", "")
+    try:
+        DETAIL_CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
+    except OSError:
+        pass
+    return fetches, misses, problems
 
 
 def report_lines(changes: list[str], adds: dict[str, list[dict]], problems: list[str],
@@ -667,6 +850,12 @@ def main() -> int:
         all_events += uniq
         if not uniq:
             problems.append(f"{src['label']}: parsed 0 events (page layout may have changed)")
+
+    # pass 1b: pull location / description / audience / register from each event page
+    n_fetch, n_miss, det_problems = enrich(all_events)
+    problems += det_problems
+    log(f"detail enrichment: {n_fetch} page(s) fetched, {len(det_problems)} failed"
+        + (f", {n_miss} deferred (budget)" if n_miss else ""))
 
     # pass 2: per-event DTSTAMP. An event keeps its original stamp until its content
     # actually changes, so an unchanged week regenerates byte-identical files and feeds
