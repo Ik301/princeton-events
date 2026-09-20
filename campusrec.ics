@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hermes//princeton-events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Princeton Events (all)
+BEGIN:VEVENT
+UID:16062f7aec7fba06e6efd97c149343b3
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260919
+SUMMARY:Butler College Appreciation Week
+LOCATION:Class of 1986 Fitness & Wellness Center
+DESCRIPTION:[Engagement Activity] Butler College\, will your college rall
+ y at the Class of 1986 Fitness & Wellness Center? Undergraduate Students
+  of Butler College can show school spirit by checking-in at the Class of
+  1986 Fitness & Wellness Center for a chance to win Campus Rec Swag! Par
+ ticipants Must: Stop at the Front Desk of the Class of 1986 Fitness\nhtt
+ ps://campusrec.princeton.edu/events/butler-college-appreciation-week
+URL:https://campusrec.princeton.edu/events/butler-college-appreciation-we
+ ek
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4b64d8db1a2cc8899cdb3866befb959b
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260926
+SUMMARY:Forbes College Appreciation Week
+LOCATION:Class of 1986 Fitness & Wellness Center
+DESCRIPTION:[Engagement Activity] **Forbes College\, will your college ra
+ lly at the Class of 1986 Fitness & Wellness Center?** Undergraduate Stud
+ ents of Forbes College can show school spirit by checking-in at the Clas
+ s of 1986 Fitness & Wellness Center for a chance to win Campus Rec Swag!
+  Participants Must: Stop at the Front Desk of the Class\nhttps://campusr
+ ec.princeton.edu/events/forbes-college-appreciation-week
+URL:https://campusrec.princeton.edu/events/forbes-college-appreciation-we
+ ek
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:2f31c899dff5115aca34db5f8de546d5
+DTSTAMP:20260919T025754Z
+DTSTART:20260925T143000Z
+DTEND:20260925T193000Z
+SUMMARY:Rec Break 2026
+LOCATION:Dillon Gym
+DESCRIPTION:[Part of Community Care Day 2026] Take some time to relax\, u
+ nwind\, and have fun at our Rec Break\, part of Princeton's Community Ca
+ re Day 2026! Gentle Yoga: 10:30am - 11:30am Location: Studios AB\, 1986 
+ Fitness & Wellness Center Join Ruth for a 60-minute gentle flow to relax
+  and recenter yourself. [Pre… Link is external](https://my.princeton.e
+ du/vpcl/rsvp_boot?id=1982820)\nhttps://campusrec.princeton.edu/events/re
+ c-break-2026
+URL:https://campusrec.princeton.edu/events/rec-break-2026
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4af24c417814da7ed678a818dbda4c66
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261003
+SUMMARY:Fall Into Fitness Fest
+LOCATION:Class of 1986 Fitness & Wellness Center / Wilkinson Fitness Cent
+ er (Meadows Campus)
+DESCRIPTION:[Fitness Event] **Fall\, time of the year to test your mind a
+ nd strength to win Campus Rec Swag!** Gym members elbow plank as long as
+  possible and/or guess how many (items) are in a jar. Participants Must:
+  Stop at the Front Desk of the Class of 1986 Fitness & Wellness Center o
+ r Wilkinson Fitness Center (Meadows Campus)Scan the QR code\nhttps://cam
+ pusrec.princeton.edu/events/fall-fitness-fest
+URL:https://campusrec.princeton.edu/events/fall-fitness-fest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:83195c5fce208a95af69f00070aba64c
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261031
+SUMMARY:Halloween Pretzel Prediction
+LOCATION:Class of1986 Fitness & Wellness Center / Wilkinson Fitness Cente
+ r (Meadows Campus)
+DESCRIPTION:[Engagement Activity] **Guess how many pretzels are in the ja
+ r- is this a trick or a treat for Campus Rec Swag?** Gym Members\, guess
+  how many pretzels are in a jar at the Front Desk of the Class of 1986 F
+ itness & Wellness Center or the Wilkinson Fitness Center (Meadows Campus
+ ). Participants Must: Stop at the Front Desk of the Class of 1986\nhttps
+ ://campusrec.princeton.edu/events/halloween-pretzel-prediction-4
+URL:https://campusrec.princeton.edu/events/halloween-pretzel-prediction-4
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:7edd1d763120c0d962ceeed2450c719d
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261107
+SUMMARY:Mathey College Appreciation Week
+LOCATION:Class of 1986 Fitness & Wellness Center
+DESCRIPTION:[Engagement Activity] **Mathey College\, will your college ra
+ lly at the Class of 1986 Fitness & Wellness Center?** Undergraduate Stud
+ ents of Mathey College can show school spirit by checking-in at the Clas
+ s of 1986 Fitness & Wellness Center for a chance to win Campus Rec Swag!
+  Participants Must: Stop at the Front Desk of the Class\nhttps://campusr
+ ec.princeton.edu/events/mathey-college-appreciation-week
+URL:https://campusrec.princeton.edu/events/mathey-college-appreciation-we
+ ek
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4ab12bf88c9a0c345a1b19ff97bbb479
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261114
+SUMMARY:Pumpkin Puzzler
+LOCATION:Class of 1986 Fitness & Wellness Center / Wilkinson Fitness Cent
+ er (Meadows Campus)
+DESCRIPTION:[Engagement Activity] **Guess the weight of the pumpkin for C
+ ampus Rec Swag!** Gym Members guess the weight of a pumpkin. The person 
+ with the closest guess\, wins Campus Rec Swag. Participants Must: Stop a
+ t the Front Desk of the Class of 1986 Fitness & Wellness Center or Wilki
+ nson Fitness Center (Meadows Campus)Scan the Pumpkin Puzzler QR\nhttps:/
+ /campusrec.princeton.edu/events/pumpkin-puzzler-0
+URL:https://campusrec.princeton.edu/events/pumpkin-puzzler-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:35d6dd297fd132881c20e00586ed9cb8
+DTSTAMP:20260919T025754Z
+DTSTART:20261120T200000Z
+DTEND:20261120T220000Z
+SUMMARY:2026 Tiger Trot for Hunger: 5k Run/Walk
+LOCATION:Dillon Gym
+DESCRIPTION:The Tiger Trot for Hunger 5k Run/Walk is an annual event\, ho
+ sted by Princeton University Campus Recreation\, to benefit [Arm In Arm 
+ Link is external](https://arminarm.org/about/) - a local non-profit orga
+ nization that helps Mercer County citizens in need of food\, housing\, a
+ nd job support.\nhttps://campusrec.princeton.edu/events/2026-tiger-trot-
+ hunger-5k-runwalk
+URL:https://campusrec.princeton.edu/events/2026-tiger-trot-hunger-5k-runw
+ alk
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:ce77411e4d64df89b07e1df69354c42f
+DTSTAMP:20260919T025754Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261205
+SUMMARY:Winter Fitness Fest
+LOCATION:Class of 1986 Fitness & Wellness Center / Wilkinson Fitness Cent
+ er (Meadows Campus)
+DESCRIPTION:[Fitness Event] **Winter\, it's the most wonderful time of th
+ e year to test your mind and speed to win Campus Rec Swag!** Gym members
+  have the option to ski 100 meters on the SkiErg fitness activity and/or
+  guess how many candy canes are in a jar. Participants Must: Stop at the
+  Front Desk of the Class of 1986 Fitness & Wellness Center or\nhttps://c
+ ampusrec.princeton.edu/events/winter-fitness-fest-3
+URL:https://campusrec.princeton.edu/events/winter-fitness-fest-3
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+END:VCALENDAR

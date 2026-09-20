@@ -1,0 +1,684 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hermes//princeton-events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Princeton Events (all)
+BEGIN:VEVENT
+UID:a69ed62db44160b4750d66e8194dab3a
+DTSTAMP:20260919T025754Z
+DTSTART:20260918T163000Z
+DTEND:20260918T170000Z
+SUMMARY:Career Essentials: Building a Resume
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/career-essenti
+ als-building-resume
+URL:https://careerdevelopment.princeton.edu/events/career-essentials-buil
+ ding-resume
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:e02aa717bb3a8e325060bab169952198
+DTSTAMP:20260919T025754Z
+DTSTART:20260918T180000Z
+DTEND:20260918T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:b170a219f005bd3261fadee9bbc42bc5
+DTSTAMP:20260919T025754Z
+DTSTART:20260918T190000Z
+DTEND:20260918T220000Z
+SUMMARY:Princeton Pre-Law Consortium
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/princeton-pre-
+ law-consortium
+URL:https://careerdevelopment.princeton.edu/events/princeton-pre-law-cons
+ ortium
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:75b42c49289a95940682fddd11477a26
+DTSTAMP:20260919T025754Z
+DTSTART:20260918T193000Z
+DTEND:20260918T213000Z
+SUMMARY:PCA Chats at Frist
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/pca-chats-fris
+ t
+URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a42d5198f1e00f710cd89cb730a5d4a5
+DTSTAMP:20260919T025754Z
+DTSTART:20260921T180000Z
+DTEND:20260921T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+LOCATION:Center for Career Development
+DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
+  that do not require an appointment. In-person drop-ins for the fall sem
+ ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:809076835bab8ec32a0b2c12a18d2096
+DTSTAMP:20260919T025754Z
+DTSTART:20260921T220000Z
+DTEND:20260922T003000Z
+SUMMARY:Jane Street Guts++ at Princeton
+LOCATION:Friend Center 006
+DESCRIPTION:“Guts” was originally created as and remains a contest ro
+ und of HMMT\, a math competition for high schoolers organized entirely b
+ y Harvard and MIT students. There's a JS spin on it to create Guts++ - a
+  fast-paced team game including a mix of math\, puzzles\, random trivia\
+ , clever game theory and meta-level considerations.\nhttps://careerdevel
+ opment.princeton.edu/events/jane-street-guts-princeton
+URL:https://careerdevelopment.princeton.edu/events/jane-street-guts-princ
+ eton
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:f301ca7643c829c35af0ee10690fb619
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T140000Z
+DTEND:20260922T190000Z
+SUMMARY:Lord Abbett Coffee Chats
+LOCATION:Center for Career Development
+DESCRIPTION:Chuck Rozakis '03 from Lord\, Abbett & Co.is available to mee
+ t with all interested Princeton students. As 20-year veteran of the fina
+ nce industry and an out bisexual man\, Chuck Rozakis ’03 discusses the
+  ins and outs of being an openly queer person in the workplace and how t
+ hey have changed over the course of his two-decade career\nhttps://caree
+ rdevelopment.princeton.edu/events/lord-abbett-coffee-chats
+URL:https://careerdevelopment.princeton.edu/events/lord-abbett-coffee-cha
+ ts
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a2032ffac09273cb9b9d3e1f1c69244d
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T140000Z
+DTEND:20260922T190000Z
+SUMMARY:SRI International Coffee Chats - Sophomores\, Juniors\, Seniors\,
+  Ph.D.
+LOCATION:Center for Career Development
+DESCRIPTION:Sophomores\, juniors\, seniors and Ph.D.s\, meet with a repre
+ sentative from SRI international.\nhttps://careerdevelopment.princeton.e
+ du/events/sri-international-coffee-chats-sophomores-juniors-seniors-phd
+URL:https://careerdevelopment.princeton.edu/events/sri-international-coff
+ ee-chats-sophomores-juniors-seniors-phd
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:7f634ddd7b27474bd8e8d913e5d48655
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T143000Z
+DTEND:20260922T201000Z
+SUMMARY:Teach for America Coffee Chats - Seniors
+LOCATION:Center for Career Development
+DESCRIPTION:Teach For America (TFA) is a national organization dedicated 
+ to expanding educational equity. They recruit and develop diverse leader
+ s who commit to teaching in under-resourced schools across the country f
+ or two years.\nhttps://careerdevelopment.princeton.edu/events/teach-amer
+ ica-coffee-chats-seniors
+URL:https://careerdevelopment.princeton.edu/events/teach-america-coffee-c
+ hats-seniors
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:0516a042e09fab9adf953d8a6fa9d8d6
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T150000Z
+DTEND:20260922T170000Z
+SUMMARY:Cubist Systematic Strategies Coffee Chats - Ph.D.
+LOCATION:Center for Career Development
+DESCRIPTION:Calling all Ph.D.s - stop by between 11 a.m. to 1p.m. to lear
+ n more about internship and full-time opportunities at Cubist.\nhttps://
+ careerdevelopment.princeton.edu/events/cubist-systematic-strategies-coff
+ ee-chats-phd
+URL:https://careerdevelopment.princeton.edu/events/cubist-systematic-stra
+ tegies-coffee-chats-phd
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4eb4dd90a4eb3b1379c67a195cded737
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T150000Z
+DTEND:20260922T200000Z
+SUMMARY:Princeton Satellite Systems Coffee Chats - Juniors\, Masters\, Ph
+ .D.
+LOCATION:Center for Career Development
+DESCRIPTION:Mike Paluszek\, President of Princeton Satellite Systems\, wi
+ ll be available to talk about careers in Aerospace and Energy\, academic
+ s for undergraduates and graduate students and anything else students wo
+ uld like to discuss. Mike has an undergraduate degree in electrical engi
+ neering from MIT and his engineers and master’s degrees in\nhttps://ca
+ reerdevelopment.princeton.edu/events/princeton-satellite-systems-coffee-
+ chats-juniors-masters-phd
+URL:https://careerdevelopment.princeton.edu/events/princeton-satellite-sy
+ stems-coffee-chats-juniors-masters-phd
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:83103a861f1524d818bf94ae3b77d2c3
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T160000Z
+DTEND:20260922T170000Z
+SUMMARY:Beyond Academia Job Search Series: Navigating the Non-Academic Jo
+ b Market
+DESCRIPTION:Learn the considerations and strategies for finding opportuni
+ ties outside academia. Graduate Students [Career & Major Exploration](ht
+ tps://careerdevelopment.princeton.edu/event-category/career-major-explor
+ ation) [Grad & Law School](https://careerdevelopment.princeton.edu/event
+ -category/grad-law-school) [Skill-building](https://careerdevelopment.pr
+ inceton.edu/event-category/skill-building) Sep 22\nhttps://careerdevelop
+ ment.princeton.edu/events/beyond-academia-job-search-series-navigating-n
+ on-academic-job-market
+URL:https://careerdevelopment.princeton.edu/events/beyond-academia-job-se
+ arch-series-navigating-non-academic-job-market
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:1d349872fa1255430d0085fea4a37c40
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T160000Z
+DTEND:20260922T180000Z
+SUMMARY:Davis International Center + Center for Career Development Joint 
+ Advising
+LOCATION:Rockefeller College\, Common Room
+DESCRIPTION:Staff members from the Davis International Center and Center 
+ for Career Development will answer questions about career development\, 
+ immigration and the intersection of the two topics. Co-sponsored by the 
+ Davis International Center. This program is open to all Princeton\nhttps
+ ://careerdevelopment.princeton.edu/events/davis-international-center-cen
+ ter-career-development-joint-advising
+URL:https://careerdevelopment.princeton.edu/events/davis-international-ce
+ nter-center-career-development-joint-advising
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4c4c20aae91f04a257697eea8f77cf31
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T170000Z
+DTEND:20260922T200000Z
+SUMMARY:Endeavor Global Coffee Chats - Juniors & Seniors
+LOCATION:Center for Career Development
+DESCRIPTION:Endeavor’s Entrepreneur Selection team is visiting campus. 
+ They are kicking off the recruiting cycle for both full-time and summer 
+ internship roles within the Endeavor team (summer 2027 start dates)\, an
+ d are excited to meet with students interested in international markets\
+ , entrepreneurship\, venture capital and impact.\nhttps://careerdevelopm
+ ent.princeton.edu/events/endeavor-global-coffee-chats-juniors-seniors
+URL:https://careerdevelopment.princeton.edu/events/endeavor-global-coffee
+ -chats-juniors-seniors
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:ff609cc7beecceb5c6346d9d8ca8de08
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T180000Z
+DTEND:20260922T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:9a2356ea2afdb9c725cb7948c34e72ef
+DTSTAMP:20260919T025754Z
+DTSTART:20260922T203000Z
+DTEND:20260922T220000Z
+SUMMARY:Arts at Work: Princeton Alumni in the Arts Panel
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/arts-work-prin
+ ceton-alumni-arts-panel
+URL:https://careerdevelopment.princeton.edu/events/arts-work-princeton-al
+ umni-arts-panel
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a8fd53ac2e7abc0770adb6bb53d8eecf
+DTSTAMP:20260919T025754Z
+DTSTART:20260923T163000Z
+DTEND:20260923T170000Z
+SUMMARY:Career Essentials: Writing a Cover Letter
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/career-essenti
+ als-writing-cover-letter
+URL:https://careerdevelopment.princeton.edu/events/career-essentials-writ
+ ing-cover-letter
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:6f58f7fab39f58b84d6b722914969760
+DTSTAMP:20260919T025754Z
+DTSTART:20260923T180000Z
+DTEND:20260923T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:6f1d4ffc4af4fd3b8943b99ff963c0ca
+DTSTAMP:20260919T025754Z
+DTSTART:20260923T203000Z
+DTEND:20260923T213000Z
+SUMMARY:Yale Law School Visit
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/yale-law-schoo
+ l-visit
+URL:https://careerdevelopment.princeton.edu/events/yale-law-school-visit
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:032f7b70b87e8a96f004f01faefccfd5
+DTSTAMP:20260919T025754Z
+DTSTART:20260923T213000Z
+DTEND:20260923T230000Z
+SUMMARY:2028 Summer Analyst Intro to Evercore
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/2028-summer-an
+ alyst-intro-evercore
+URL:https://careerdevelopment.princeton.edu/events/2028-summer-analyst-in
+ tro-evercore
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:200fda0f3b67215a6d571e91e773d289
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T000000Z
+DTEND:20260924T020000Z
+SUMMARY:PCA Chats at Frist Late Meal
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/pca-chats-fris
+ t-late-meal-0
+URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist-late-m
+ eal-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:69da1e4c05fdd7fec8b7339bda59dc35
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T160000Z
+DTEND:20260924T170000Z
+SUMMARY:Start Your Career in Hong Kong: Talent Schemes for Future Grads
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/start-your-car
+ eer-hong-kong-talent-schemes-future-grads
+URL:https://careerdevelopment.princeton.edu/events/start-your-career-hong
+ -kong-talent-schemes-future-grads
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a7fc3bfba31aa3a25adc7ec843e84169
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T163000Z
+DTEND:20260924T173000Z
+SUMMARY:Marketing Your Study Abroad Experience
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/marketing-your
+ -study-abroad-experience
+URL:https://careerdevelopment.princeton.edu/events/marketing-your-study-a
+ broad-experience
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:440a8ab213c767772dbd1f1522e789ee
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T180000Z
+DTEND:20260924T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:795c158720dafd35a2721ef1ff4e9b83
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T190000Z
+DTEND:20260924T200000Z
+SUMMARY:Graduate Students Individual Development Planning Small Group Mee
+ tings
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/graduate-stude
+ nts-individual-development-planning-small-group-meetings
+URL:https://careerdevelopment.princeton.edu/events/graduate-students-indi
+ vidual-development-planning-small-group-meetings
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:b0d7f12d45e1dec0f7350bb46615a4fb
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T200000Z
+DTEND:20260924T220000Z
+SUMMARY:Barclays Info Session & Networking at Nassau Club
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/barclays-info-
+ session-networking-nassau-club
+URL:https://careerdevelopment.princeton.edu/events/barclays-info-session-
+ networking-nassau-club
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:ea1c1d3f3a284960668aca9faa069f6e
+DTSTAMP:20260919T025754Z
+DTSTART:20260924T213000Z
+DTEND:20260924T223000Z
+SUMMARY:PDT Partners Info Session - Tech Internships in Quant Finance
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/pdt-partners-i
+ nfo-session-tech-internships-quant-finance-0
+URL:https://careerdevelopment.princeton.edu/events/pdt-partners-info-sess
+ ion-tech-internships-quant-finance-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:24ff4e3a8169059fb634234cd8ef7fb5
+DTSTAMP:20260919T025754Z
+DTSTART:20260925T163000Z
+DTEND:20260925T171500Z
+SUMMARY:Career Essentials: Interview with Confidence
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/career-essenti
+ als-interview-confidence
+URL:https://careerdevelopment.princeton.edu/events/career-essentials-inte
+ rview-confidence
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:0300565df2798271753f8f082c26d4df
+DTSTAMP:20260919T025754Z
+DTSTART:20260925T180000Z
+DTEND:20260925T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:d6fad6fd081a9f7ff0ec6bccdb0b9eab
+DTSTAMP:20260919T025754Z
+DTSTART:20260928T140000Z
+DTEND:20260928T190000Z
+SUMMARY:Penguin Random House Virtual Coffee Chats - Juniors & Seniors
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/penguin-random
+ -house-virtual-coffee-chats-juniors-seniors
+URL:https://careerdevelopment.princeton.edu/events/penguin-random-house-v
+ irtual-coffee-chats-juniors-seniors
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:fb6cc2b539b29fc156bf09641f9b4acc
+DTSTAMP:20260919T025754Z
+DTSTART:20260928T163000Z
+DTEND:20260928T170000Z
+SUMMARY:Career Essentials: How to Use LinkedIn
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/career-essenti
+ als-how-use-linkedin
+URL:https://careerdevelopment.princeton.edu/events/career-essentials-how-
+ use-linkedin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:81682ab1efbfe71f467ec3835a69c674
+DTSTAMP:20260919T025754Z
+DTSTART:20260928T180000Z
+DTEND:20260928T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:8b70631fba44c863f7f07e4c3fbae6c3
+DTSTAMP:20260919T025754Z
+DTSTART:20260929T180000Z
+DTEND:20260929T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:e81c0061cdee07c8cc34a62489d6dd57
+DTSTAMP:20260919T025754Z
+DTSTART:20260929T203000Z
+DTEND:20260929T213000Z
+SUMMARY:Graduate School Application Essay Workshop
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/graduate-schoo
+ l-application-essay-workshop
+URL:https://careerdevelopment.princeton.edu/events/graduate-school-applic
+ ation-essay-workshop
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:6c440bf22c12fbac33c1599c2b116f6f
+DTSTAMP:20260919T025754Z
+DTSTART:20260929T204500Z
+DTEND:20260929T223000Z
+SUMMARY:Arts at Work: Feeding the Arts with Jared Harbour '22
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/arts-work-feed
+ ing-arts-jared-harbour-22
+URL:https://careerdevelopment.princeton.edu/events/arts-work-feeding-arts
+ -jared-harbour-22
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:d4cf3fcaaae818a0fc16c2d76fd6d24e
+DTSTAMP:20260919T025754Z
+DTSTART:20260929T223000Z
+DTEND:20260930T000000Z
+SUMMARY:Bain Undergraduate Intro to Consulting
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/bain-undergrad
+ uate-intro-consulting
+URL:https://careerdevelopment.princeton.edu/events/bain-undergraduate-int
+ ro-consulting
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a494874f8cea3f419b2a49c42996add3
+DTSTAMP:20260919T025754Z
+DTSTART:20260930T180000Z
+DTEND:20260930T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a71dcb3d1805a8bf1af44e8346c2c874
+DTSTAMP:20260919T025754Z
+DTSTART:20260930T210000Z
+DTEND:20260930T221500Z
+SUMMARY:Crafting Your Applications for Public Service & Nonprofit Careers
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/crafting-your-
+ applications-public-service-nonprofit-careers
+URL:https://careerdevelopment.princeton.edu/events/crafting-your-applicat
+ ions-public-service-nonprofit-careers
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:75f6357f302812e979754f262843e648
+DTSTAMP:20260919T025754Z
+DTSTART:20260930T220000Z
+DTEND:20260930T230000Z
+SUMMARY:Audax Private Equity Info Session
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/audax-private-
+ equity-info-session
+URL:https://careerdevelopment.princeton.edu/events/audax-private-equity-i
+ nfo-session
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:c512edb8ea3626c453fc37a481194115
+DTSTAMP:20260919T025754Z
+DTSTART:20261001T000000Z
+DTEND:20261001T020000Z
+SUMMARY:PCA Chats at Frist Late Meal
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/pca-chats-fris
+ t-late-meal-0
+URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist-late-m
+ eal-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:35376e88c8846e705a20c4ef12f58149
+DTSTAMP:20260919T025754Z
+DTSTART:20261001T180000Z
+DTEND:20261001T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:8a6515009033e1153bf36a3474c6c400
+DTSTAMP:20260919T025754Z
+DTSTART:20261001T190000Z
+DTEND:20261001T200000Z
+SUMMARY:Georgetown Law School Virtual Info Session
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/georgetown-law
+ -school-virtual-info-session
+URL:https://careerdevelopment.princeton.edu/events/georgetown-law-school-
+ virtual-info-session
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:04288388dd6c577936aeec2a9ae8ebcb
+DTSTAMP:20260919T025754Z
+DTSTART:20261002T170000Z
+DTEND:20261002T183000Z
+SUMMARY:Inside Look at Investment Banking Recruiting
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/inside-look-in
+ vestment-banking-recruiting
+URL:https://careerdevelopment.princeton.edu/events/inside-look-investment
+ -banking-recruiting
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:0e4008468dd9844086317e7a0da08709
+DTSTAMP:20260919T025754Z
+DTSTART:20261002T180000Z
+DTEND:20261002T200000Z
+SUMMARY:Drop-in Advising for Undergraduate Students
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/drop-advising-
+ undergraduate-students-28
+URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
+ duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:c8be8eded0705ac2b60b3ae2f3a26dbf
+DTSTAMP:20260919T025754Z
+DTSTART:20261002T193000Z
+DTEND:20261002T213000Z
+SUMMARY:PCA Chats at Frist
+DESCRIPTION:https://careerdevelopment.princeton.edu/events/pca-chats-fris
+ t
+URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+END:VCALENDAR
