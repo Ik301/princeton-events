@@ -383,12 +383,14 @@ def write_cal(dirpath: Path, pairs: list[tuple[str, dict, str]]) -> tuple[int, i
     return written, deleted
 
 
-def combined_feed(events: list[dict], stamp: str) -> str:
+def combined_feed(events: list[dict], stamps: dict[str, list[str]]) -> str:
     head = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//hermes//princeton-events//EN",
             "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Princeton Events (all)"]
     body = []
     for ev in events:
-        one = ics_for(ev, uid_for(ev), stamp).splitlines()
+        uid = uid_for(ev)
+        stamp = (stamps.get(uid) or [None, "19700101T000000Z"])[1]
+        one = ics_for(ev, uid, stamp).splitlines()
         body += [l for l in one if l not in ("BEGIN:VCALENDAR", "VERSION:2.0",
                  "PRODID:-//hermes//princeton-events//EN", "CALSCALE:GREGORIAN",
                  "METHOD:PUBLISH") and l != ""]
@@ -575,10 +577,17 @@ render();
 """
 
 
-def write_page(events: list[dict], now: datetime) -> None:
+def write_page(events: list[dict], last_change: str) -> None:
+    # the page's "refreshed" label reflects when the EVENT DATA last changed, so an
+    # unchanged week produces a byte-identical page instead of a new timestamp
+    try:
+        when = datetime.strptime(last_change, "%Y%m%dT%H%M%SZ").replace(
+            tzinfo=timezone.utc).astimezone(TZ)
+    except (ValueError, TypeError):
+        when = datetime.now(TZ)
     payload = {
-        "generated": now.isoformat(),
-        "generated_label": now.strftime("%b %-d, %-I:%M %p"),
+        "generated": when.isoformat(),
+        "generated_label": when.strftime("%b %-d, %-I:%M %p"),
         "sources": [{k: s[k] for k in ("key", "label", "color")} for s in SOURCES],
         "events": [
             {
@@ -627,8 +636,8 @@ def main() -> int:
     all_events: list[dict] = []
     problems: list[str] = []
     per_source: dict[str, list[dict]] = {}
-    written_total = deleted_total = 0
 
+    # pass 1: fetch + parse every source (nothing is written yet)
     for src in SOURCES:
         try:
             if src["kind"] == "md":
@@ -658,15 +667,41 @@ def main() -> int:
         all_events += uniq
         if not uniq:
             problems.append(f"{src['label']}: parsed 0 events (page layout may have changed)")
+
+    # pass 2: per-event DTSTAMP. An event keeps its original stamp until its content
+    # actually changes, so an unchanged week regenerates byte-identical files and feeds
+    # (no churn in synced calendars, no pointless commits in the published repo).
+    prev_stamps = prev.get("stamps") or {}
+    stamps: dict[str, list[str]] = {}
+    data_changed = False
+    for ev in all_events:
+        h = hashlib.sha1(ics_for(ev, ev["uid"], "X").encode()).hexdigest()
+        old = prev_stamps.get(ev["uid"])
+        if old and len(old) == 2 and old[0] == h:
+            stamps[ev["uid"]] = [h, old[1]]
+        else:
+            stamps[ev["uid"]] = [h, stamp]
+            data_changed = True
+    last_change = (stamp if (data_changed or not prev.get("last_change"))
+                   else prev["last_change"])
+
+    # pass 3: write everything
+    written_total = deleted_total = 0
+    for src in SOURCES:
+        uniq = per_source.get(src["key"])
+        if uniq is None:
+            continue
         w, d = write_cal(HOME / ".calendars" / src["cal"],
-                         [(e["uid"], e, ics_for(e, e["uid"], stamp)) for e in uniq])
+                         [(e["uid"], e, ics_for(e, e["uid"], stamps[e["uid"]][1]))
+                          for e in uniq])
         written_total += w
         deleted_total += d
-        (SITE / f"{src['key']}.ics").write_text(combined_feed(uniq, stamp), encoding="utf-8")
+        (SITE / f"{src['key']}.ics").write_text(
+            combined_feed(uniq, stamps), encoding="utf-8")
 
     all_events.sort(key=lambda e: e["start"])
-    (SITE / "all.ics").write_text(combined_feed(all_events, stamp), encoding="utf-8")
-    write_page(all_events, now)
+    (SITE / "all.ics").write_text(combined_feed(all_events, stamps), encoding="utf-8")
+    write_page(all_events, last_change)
 
     # change detection: per-source fingerprint of (uid, title, start, end)
     fp = {k: hashlib.sha1(json.dumps(
@@ -687,7 +722,8 @@ def main() -> int:
             gone = len([1 for x in oldset if x not in newset])
             changes.append(f"{src['label']}: +{len(added)} new, -{gone} gone")
             adds[k] = added
-    state = {"last_run": now.isoformat(), "fp": fp,
+    state = {"last_run": now.isoformat(), "fp": fp, "last_change": last_change,
+             "stamps": stamps,
              "items": {k: [[e["uid"], e["title"], e["start"], e["end"]] for e in v]
                        for k, v in per_source.items()}}
     STATE.write_text(json.dumps(state, indent=1), encoding="utf-8")
