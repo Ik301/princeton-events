@@ -5,46 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:4b64d8db1a2cc8899cdb3866befb959b
-DTSTAMP:20260920T025617Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260926
-SUMMARY:Forbes College Appreciation Week
-LOCATION:Class of 1986 Fitness & Wellness Center
-DESCRIPTION:[Engagement Activity]\n**Forbes College\, will your college r
- ally at the Class of 1986 Fitness & Wellness Center?** Undergraduate Stu
- dents of Forbes College can show school spirit by checking-in at the Cla
- ss of 1986 Fitness & Wellness Center for a chance to win Campus Rec Swag
- ! Participants Must: Stop at the Front Desk of the Class\nhttps://campus
- rec.princeton.edu/events/forbes-college-appreciation-week
-URL:https://campusrec.princeton.edu/events/forbes-college-appreciation-we
- ek
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:2f31c899dff5115aca34db5f8de546d5
-DTSTAMP:20260920T025617Z
-DTSTART:20260925T143000Z
-DTEND:20260925T193000Z
-SUMMARY:Rec Break 2026
-LOCATION:Dillon Gym
-DESCRIPTION:[Part of Community Care Day 2026]\nTake some time to relax\, 
- unwind\, and have fun at our Rec Break\, part of Princeton's Community C
- are Day 2026! Gentle Yoga: 10:30am - 11:30am Location: Studios AB\, 1986
-  Fitness & Wellness Center Join Ruth for a 60-minute gentle flow to rela
- x and recenter yourself. [Pre… Link is external](https://my.princeton.
- edu/vpcl/rsvp_boot?id=1982820)\nhttps://campusrec.princeton.edu/events/r
- ec-break-2026
-URL:https://campusrec.princeton.edu/events/rec-break-2026
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:4af24c417814da7ed678a818dbda4c66
-DTSTAMP:20260920T025617Z
+DTSTAMP:20260928T103038Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261003
 SUMMARY:Fall Into Fitness Fest
@@ -52,10 +14,10 @@ LOCATION:Class of 1986 Fitness & Wellness Center / Wilkinson Fitness Cent
  er (Meadows Campus)
 DESCRIPTION:[Fitness Event]\n**Fall\, time of the year to test your mind 
  and strength to win Campus Rec Swag!** Gym members elbow plank as long a
- s possible and/or guess how many (items) are in a jar. Participants Must
- : Stop at the Front Desk of the Class of 1986 Fitness & Wellness Center 
- or Wilkinson Fitness Center (Meadows Campus)Scan the QR code\nhttps://ca
- mpusrec.princeton.edu/events/fall-fitness-fest
+ s possible and/or guess how many goldfish are in a jar. Participants Mus
+ t: Stop at the Front Desk of the Class of 1986 Fitness & Wellness Center
+  or Wilkinson Fitness Center (Meadows Campus)Scan the QR code\nhttps://c
+ ampusrec.princeton.edu/events/fall-fitness-fest
 URL:https://campusrec.princeton.edu/events/fall-fitness-fest
 STATUS:CONFIRMED
 TRANSP:OPAQUE
