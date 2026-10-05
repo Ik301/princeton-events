@@ -5,20 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:4af24c417814da7ed678a818dbda4c66
-DTSTAMP:20260928T103038Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261003
-SUMMARY:Fall Into Fitness Fest
-LOCATION:Class of 1986 Fitness & Wellness Center / Wilkinson Fitness Cent
- er (Meadows Campus)
-DESCRIPTION:[Fitness Event]\n**Fall\, time of the year to test your mind 
- and strength to win Campus Rec Swag!** Gym members elbow plank as long a
- s possible and/or guess how many goldfish are in a jar. Participants Mus
- t: Stop at the Front Desk of the Class of 1986 Fitness & Wellness Center
-  or Wilkinson Fitness Center (Meadows Campus)Scan the QR code\nhttps://c
- ampusrec.princeton.edu/events/fall-fitness-fest
-URL:https://campusrec.princeton.edu/events/fall-fitness-fest
+UID:b2e06355dc5eab3b935aed9daca52716
+DTSTAMP:20261005T103042Z
+DTSTART:20261010T160000Z
+DTEND:20261010T190000Z
+SUMMARY:Campus Rec Kickball Tournament
+LOCATION:Poe & Plummer Field
+DESCRIPTION:Join us for our Fall One-Day Intramural Kickball Tournament! 
+ Saturday\, October 10th | 12-3pmLocation: Poe & Plummer FieldsChick-fil-
+ a available for participating teams![https://www.imleagues.com/spa/sport
+ /2b4c7621cfbf48b7abac36d6d3feaff9… Link is external](https://www.imlea
+ gues.com/spa/sport/2b4c7621cfbf48b7abac36d6d3feaff9/home#sportimage)\nht
+ tps://campusrec.princeton.edu/events/campus-rec-kickball-tournament
+URL:https://campusrec.princeton.edu/events/campus-rec-kickball-tournament
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

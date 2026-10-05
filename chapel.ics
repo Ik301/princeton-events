@@ -5,77 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:821a70097997ab894bd8e0c70274ffac
-DTSTAMP:20260920T030448Z
-DTSTART:20261001T163000Z
-DTEND:20261001T170000Z
-SUMMARY:After Noon Concert Series
-LOCATION:Chapel
-DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
-  Princeton Community to enjoy performances at the Princeton University C
- hapel by various local\, national\, and international organists. These h
- alf-hour concerts showcase the flexibility of the magnificent Skinner/Ma
- nder Chapel organ. Each visiting organist rehearses and performs\, bring
- ing forth a different voice and character from the organ. Additionally\,
-  several times each semester\, the concert is broadcast LIVE\, as it hap
- pens\, on the local classical music radio station\, WWFM (89.1)\, and av
- ailable to the world at www.wwfm.org(Link is external) (http://www.wwfm.
- org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
- utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
- inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
- hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
- s://chapel.princeton.edu/events/after-noon-concert-series-9
-URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:73cb25200b33e1394fbe41f80d36c090
-DTSTAMP:20260920T025617Z
-DTSTART:20261001T233000Z
-DTEND:20261002T003000Z
-SUMMARY:The Christ Church Cathedral Choir
-DESCRIPTION:The Christ Church Cathedral Choir celebrates its 500th annive
- rsary with a program that showcases the rich musical legacy of a unique 
- foundation — one that is both Oxford’s cathedral and a college of th
- e University of Oxford. The program traces that history from John Tavern
- er\, appointed by Cardinal Wolsey in 1526 as the first Informator Choris
- tarum\, to more recently associated composers. A newly commissioned cant
- ata by Composer in Residence Nico Muhly explores how poetry\, art\, and 
- glass act as a membrane between the visible world and the divine. Direct
- or of Music\, Peter Holder\, directs and conducts the choir\, and overse
- es the musical development of the choristers\, organ scholars\, and acad
- emic clerks. Previously he held the post of Sub-Organist of Westminster 
- Abbey and was organist for the State Funeral of Her Late Majesty Queen E
- lizabeth II and the Coronation of Their Majesties King Charl\nhttps://ch
- apel.princeton.edu/events/christ-church-cathedral-choir
-URL:https://chapel.princeton.edu/events/christ-church-cathedral-choir
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:7e75a6179b8cc0d47d4ed398a4e890e1
-DTSTAMP:20260920T030448Z
-DTSTART:20261004T150000Z
-DTEND:20261004T160000Z
-SUMMARY:Sunday Worship Service
-LOCATION:Chapel
-DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
- d by the dean of religious life and of the chapel\, that draws students\
- , faculty\, staff\, and community members together to hear God’s word\
- , sing praises\, and pray for the University and the world. For those un
- able to attend in person\, this service will be live streamed on the ORL
-  YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
- du/events/sunday-worship-service-42
-URL:https://chapel.princeton.edu/events/sunday-worship-service-42
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:fecf8ac290b0945ae5c1795307c67e85
 DTSTAMP:20260920T030448Z
 DTSTART:20261008T163000Z
@@ -198,6 +127,67 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
  du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:7844567d04dabe3a5ddd27fcdf1aa939
+DTSTAMP:20261005T103042Z
+DTSTART:20261025T161500Z
+DTEND:20261025T180000Z
+SUMMARY:University Chapel: An Inside Look
+LOCATION:Chapel
+DESCRIPTION:Tour the nearly 100-year-old Princeton University Chapel\, de
+ signed by renowned Gothic Revival architect Ralph Adams Cram\, and explo
+ re its rich history\, stained-glass windows\, furnishings\, and memorial
+ s. Binoculars are welcome. Admission is free\, and each tour is limited 
+ to 24 participants. To reserve your spot or for more information\, conta
+ ct [steveyacik@optonline.net](mailto:steveyacik@optonline.net)\nhttps://
+ chapel.princeton.edu/events/university-chapel-inside-look-5
+URL:https://chapel.princeton.edu/events/university-chapel-inside-look-5
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:2e9ee1ad25280118e5308c63df2dbf95
+DTSTAMP:20261005T103042Z
+DTSTART:20261029T000000Z
+DTEND:20261029T010000Z
+SUMMARY:Jazz Vespers
+LOCATION:Chapel
+DESCRIPTION:An inclusive experience of poetry\, music\, and quiet centeri
+ ng\, featuring jazz saxophonist Audrey Welber\, pianist Adam Faulk\, and
+  members of the Chapel Choir.\nhttps://chapel.princeton.edu/events/jazz-
+ vespers-12
+URL:https://chapel.princeton.edu/events/jazz-vespers-12
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a2cecaee481b9f9e24758f81be2b0f0f
+DTSTAMP:20261005T103042Z
+DTSTART:20261029T163000Z
+DTEND:20261029T170000Z
+SUMMARY:After Noon Concert Series
+LOCATION:Chapel
+DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
+  Princeton Community to enjoy performances at the Princeton University C
+ hapel by various local\, national\, and international organists. These h
+ alf-hour concerts showcase the flexibility of the magnificent Skinner/Ma
+ nder Chapel organ. Each visiting organist rehearses and performs\, bring
+ ing forth a different voice and character from the organ. Additionally\,
+  several times each semester\, the concert is broadcast LIVE\, as it hap
+ pens\, on the local classical music radio station\, WWFM (89.1)\, and av
+ ailable to the world at www.wwfm.org(Link is external) (http://www.wwfm.
+ org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
+ utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
+ inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
+ hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
+ s://chapel.princeton.edu/events/after-noon-concert-series-9
+URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
