@@ -5,24 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:b2e06355dc5eab3b935aed9daca52716
-DTSTAMP:20261005T103042Z
-DTSTART:20261010T160000Z
-DTEND:20261010T190000Z
-SUMMARY:Campus Rec Kickball Tournament
-LOCATION:Poe & Plummer Field
-DESCRIPTION:Join us for our Fall One-Day Intramural Kickball Tournament! 
- Saturday\, October 10th | 12-3pmLocation: Poe & Plummer FieldsChick-fil-
- a available for participating teams![https://www.imleagues.com/spa/sport
- /2b4c7621cfbf48b7abac36d6d3feaff9… Link is external](https://www.imlea
- gues.com/spa/sport/2b4c7621cfbf48b7abac36d6d3feaff9/home#sportimage)\nht
- tps://campusrec.princeton.edu/events/campus-rec-kickball-tournament
-URL:https://campusrec.princeton.edu/events/campus-rec-kickball-tournament
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:83195c5fce208a95af69f00070aba64c
 DTSTAMP:20260920T025617Z
 DTSTART;VALUE=DATE:20261028
