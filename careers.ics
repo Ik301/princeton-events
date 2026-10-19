@@ -5,96 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:a9a1bc7a53c64d04e9a29e2d7e297ad6
-DTSTAMP:20261012T103037Z
-DTSTART:20261012T180000Z
-DTEND:20261012T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:c0f5304e8364fdb926a704bec7e3039c
-DTSTAMP:20261012T103037Z
-DTSTART:20261013T180000Z
-DTEND:20261013T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:8e3901b067920b78b9dbdbbb1cdb0b54
-DTSTAMP:20261012T103037Z
-DTSTART:20261014T180000Z
-DTEND:20261014T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:b8339bbdfe1ad3f326edc3e641d99167
-DTSTAMP:20261012T103037Z
-DTSTART:20261015T180000Z
-DTEND:20261015T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:5bbd9f7e2d027df02bff56530dc5aebd
-DTSTAMP:20261012T103037Z
-DTSTART:20261016T180000Z
-DTEND:20261016T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:6d0ca6b22b00e8a8c7c5afaf6f648b3f
 DTSTAMP:20261012T103037Z
 DTSTART:20261019T180000Z
@@ -207,7 +117,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:d3fbf2be264c9e269e0132d7ccd44adc
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261019T103037Z
 DTSTART:20261022T180000Z
 DTEND:20261022T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -215,20 +125,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -237,7 +135,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:6b9ab774be020d2e0526fa1dde97a789
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261019T103037Z
 DTSTART:20261023T180000Z
 DTEND:20261023T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -245,20 +143,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -267,9 +153,9 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:960c64676deb36ffb650310b4f536ae2
-DTSTAMP:20261005T103042Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTAMP:20261019T103037Z
+DTSTART:20261026T040000Z
+DTEND:20261027T040000Z
 SUMMARY:Princeton in Africa Fellowship - Application Deadline
 DESCRIPTION:Princeton in Africa matches talented and passionate college g
  raduates (and graduating students) with organizations working across Afr
@@ -292,7 +178,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:44efee1b1aaeb34df49ebbc5fa30ad57
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261019T103037Z
 DTSTART:20261026T180000Z
 DTEND:20261026T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -300,20 +186,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -322,7 +196,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:82dd4076c7349932d209fa8dcbddb62d
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261019T103037Z
 DTSTART:20261026T203000Z
 DTEND:20261026T213000Z
 SUMMARY:NYU Law School Visit
@@ -330,14 +204,8 @@ LOCATION:Frist Campus Center 302
 DESCRIPTION:Join a New York University School of Law representative who w
  ill share in-depth information about their school and what current and f
  uture applicants should consider when applying. This is an opportunity t
- o learn about NYU Law clinics\, curriculum and admission criteria. This 
- program is open to all Princeton University undergraduate and graduate s
- tudents regardless of identity. Email [careerdevelopment@princeton.edu](
- mailto:careerdevelopment@princeton.edu) to request accommodations at lea
- st two weeks prior to the program.\nAudience: Graduate Students\, Underg
- raduate Students\nRegister: https://princeton.joinhandshake.com/edu/even
- ts/2027722\nhttps://careerdevelopment.princeton.edu/events/nyu-law-schoo
- l-visit
+ o learn about NYU Law clinics\, curriculum and admission criteria.\nhttp
+ s://careerdevelopment.princeton.edu/events/nyu-law-school-visit
 URL:https://careerdevelopment.princeton.edu/events/nyu-law-school-visit
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -681,6 +549,47 @@ DESCRIPTION:Coffee chats are an opportunity to meet one-on-one with an em
  princeton.joinhandshake.com/edu/events/2009761/overview\nhttps://careerd
  evelopment.princeton.edu/events/phd-coffee-chat-day
 URL:https://careerdevelopment.princeton.edu/events/phd-coffee-chat-day
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:d3b7a016668af7ae4013ffc8b016a5e2
+DTSTAMP:20261019T103037Z
+DTSTART:20261029T160000Z
+DTEND:20261029T200000Z
+SUMMARY:Seven Research Coffee Chats - Ph.D.
+LOCATION:36 University Place\, Suite 300
+DESCRIPTION:Join Seven Research for Ph.D. coffee chats to learn more abou
+ t their work\, collaborative culture\, internship opportunities\, and ca
+ reer paths. Seven Research is a quantitative finance and technology comp
+ any focused on building systematic strategies across global markets. The
+ y combine rigorous research\, data-driven decision making\, and cutting-
+ edge technology to solve novel problems.\nRegister: https://princeton.jo
+ inhandshake.com/edu/jobs/11580719\nhttps://careerdevelopment.princeton.e
+ du/events/seven-research-coffee-chats-phd
+URL:https://careerdevelopment.princeton.edu/events/seven-research-coffee-
+ chats-phd
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:82eaeef6e06d585cbccbedf577cb350b
+DTSTAMP:20261019T103037Z
+DTSTART:20261029T160000Z
+DTEND:20261029T170000Z
+SUMMARY:Lunch and Learn with Visa (Resume Workshop)
+LOCATION:36 University Place\, Suite 200
+DESCRIPTION:During this event\, Visa employees will share practical resum
+ e tips and offer individualized guidance. Additionally\, the Visa team w
+ ill be hosting coffee chats after the presentation that will give studen
+ ts an opportunity to ask questions and gain insights into Visa\, their t
+ eams\, and the recruiting process.\nRegister: https://princeton.joinhand
+ shake.com/edu/events/2037033\nhttps://careerdevelopment.princeton.edu/ev
+ ents/lunch-and-learn-visa-resume-workshop
+URL:https://careerdevelopment.princeton.edu/events/lunch-and-learn-visa-r
+ esume-workshop
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

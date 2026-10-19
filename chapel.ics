@@ -5,67 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:4d68fdcd19b3eb355b94cb04316620a1
-DTSTAMP:20260928T103038Z
-DTSTART:20261014T213000Z
-DTEND:20261014T223000Z
-SUMMARY:Sound Journey with Ruth Cunningham
-LOCATION:Chapel
-DESCRIPTION:Sound healing practitioner Ruth Cunningham presents composed 
- and improvised music for meditation\, contemplation\, and prayer.\nhttps
- ://chapel.princeton.edu/events/sound-journey-ruth-cunningham-6
-URL:https://chapel.princeton.edu/events/sound-journey-ruth-cunningham-6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:37dd0ce807b9eec61d2340e1ba8863a7
-DTSTAMP:20260920T195023Z
-DTSTART:20261015T163000Z
-DTEND:20261015T170000Z
-SUMMARY:After Noon Concert Series
-LOCATION:Chapel
-DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
-  Princeton Community to enjoy performances at the Princeton University C
- hapel by various local\, national\, and international organists. These h
- alf-hour concerts showcase the flexibility of the magnificent Skinner/Ma
- nder Chapel organ. Each visiting organist rehearses and performs\, bring
- ing forth a different voice and character from the organ. Additionally\,
-  several times each semester\, the concert is broadcast LIVE\, as it hap
- pens\, on the local classical music radio station\, WWFM (89.1)\, and av
- ailable to the world at www.wwfm.org(Link is external) (http://www.wwfm.
- org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
- utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
- inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
- hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
- s://chapel.princeton.edu/events/after-noon-concert-series-9
-URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:86563bc67c7c5d5aa036e96eb9df92e3
-DTSTAMP:20260928T103038Z
-DTSTART:20261018T150000Z
-DTEND:20261018T160000Z
-SUMMARY:Sunday Worship Service
-LOCATION:Chapel
-DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
- d by the dean of religious life and of the chapel\, that draws students\
- , faculty\, staff\, and community members together to hear God’s word\
- , sing praises\, and pray for the University and the world. For those un
- able to attend in person\, this service will be live streamed on the ORL
-  YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
- du/events/sunday-worship-service-42
-URL:https://chapel.princeton.edu/events/sunday-worship-service-42
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:66d7dc3cfa2c6d1215b7b89f9fee4acc
 DTSTAMP:20260928T103038Z
 DTSTART:20261025T150000Z
@@ -198,6 +137,71 @@ DESCRIPTION:Sound healing practitioner Ruth Cunningham presents composed
  and improvised music for meditation\, contemplation\, and prayer.\nhttps
  ://chapel.princeton.edu/events/sound-journey-ruth-cunningham-6
 URL:https://chapel.princeton.edu/events/sound-journey-ruth-cunningham-6
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:e8c5fa8d909a0ca4ba33f1e1802ba305
+DTSTAMP:20261019T103037Z
+DTSTART:20261105T173000Z
+DTEND:20261105T180000Z
+SUMMARY:After Noon Concert Series
+LOCATION:Chapel
+DESCRIPTION:The After Noon Concert Series is a weekly opportunity for the
+  Princeton Community to enjoy performances at the Princeton University C
+ hapel by various local\, national\, and international organists. These h
+ alf-hour concerts showcase the flexibility of the magnificent Skinner/Ma
+ nder Chapel organ. Each visiting organist rehearses and performs\, bring
+ ing forth a different voice and character from the organ. Additionally\,
+  several times each semester\, the concert is broadcast LIVE\, as it hap
+ pens\, on the local classical music radio station\, WWFM (89.1)\, and av
+ ailable to the world at www.wwfm.org(Link is external) (http://www.wwfm.
+ org/). Questions? Contact Eric Plutz\, [eplutz@princeton.edu](mailto:epl
+ utz@princeton.edu) \\*September 3 – Eric Plutz Princeton University Pr
+ inceton\, NJ September 10 – John Linker Christ Church Transitional Cat
+ hedral Christchurch\, New Zealand September 17 – Sean Burns Firs\nhttp
+ s://chapel.princeton.edu/events/after-noon-concert-series-9
+URL:https://chapel.princeton.edu/events/after-noon-concert-series-9
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:54c2dc12db4c939cb6b7114dda400592
+DTSTAMP:20261019T103037Z
+DTSTART:20261108T000000Z
+DTEND:20261108T020000Z
+SUMMARY:Diwali at the Chapel
+LOCATION:Chapel
+DESCRIPTION:Join us for an enchanting evening of devotional music\, dance
+ \, sacred storytelling\, and spiritual reflection as we celebrate Diwali
+ \, the Hindu Festival of Lights. With special offerings from Bhajan Mand
+ ali featuring Mayuri Gandharvika\, Srikar\, & Friends. Questions? [vchan
+ der@princeton.edu](mailto:vchander@princeton.edu) For more information\,
+  visit diwali.princeton.edu\nhttps://chapel.princeton.edu/events/diwali-
+ chapel-6
+URL:https://chapel.princeton.edu/events/diwali-chapel-6
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:59047b6e39151ec7f69d57a5238c1498
+DTSTAMP:20261019T103037Z
+DTSTART:20261108T160000Z
+DTEND:20261108T170000Z
+SUMMARY:Sunday Worship Service
+LOCATION:Chapel
+DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
+ d by the dean of religious life and of the chapel\, that draws students\
+ , faculty\, staff\, and community members together to hear God’s word\
+ , sing praises\, and pray for the University and the world. For those un
+ able to attend in person\, this service will be live streamed on the ORL
+  YouTube page available through this link(Link is external) (https://www
+ .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
+ du/events/sunday-worship-service-42
+URL:https://chapel.princeton.edu/events/sunday-worship-service-42
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
