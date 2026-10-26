@@ -81,6 +81,32 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:de1b08ad9325f980a9c554a96701c69c
+DTSTAMP:20261026T103034Z
+DTSTART:20261201T050000Z
+DTEND:20261202T050000Z
+SUMMARY:2026 Giving Tuesday
+DESCRIPTION:[in conjunction with Tiger Athletics Giving Day (TAGD)]\nCamp
+ us Recreation is excited to encourage our Sport Club Friends Groups and 
+ TeamRec Staff to consider donating on National Giving Tuesday – Tuesda
+ y\, December 1\, 2026. NOTE: These efforts are separate from any challen
+ ge through varsity Athletics and winners will be announced in December. 
+ Please note that progress and results for these efforts will NOT be part
+  of the official TAGD leaderboard that will be visible that day. The mon
+ ey raised on this day will support students who are creating community o
+ n our campus through their sport club team or their role within Campus R
+ ecreation. Our club teams (https://campusrec.princeton.edu/sports/sport-
+ clubs) compete locally\, regionally\, and nationally\, and\, even more i
+ mportantly\, they create a place for connection through sport and friend
+ ships that will last a lifetime. Our TeamRec staff (https://campusrec.pr
+ inceton.edu/about-us/student-employment) \nhttps://campusrec.princeton.e
+ du/events/2026-giving-tuesday
+URL:https://campusrec.princeton.edu/events/2026-giving-tuesday
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:ce77411e4d64df89b07e1df69354c42f
 DTSTAMP:20260920T025617Z
 DTSTART;VALUE=DATE:20261202

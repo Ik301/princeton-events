@@ -5,45 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:66d7dc3cfa2c6d1215b7b89f9fee4acc
-DTSTAMP:20260928T103038Z
-DTSTART:20261025T150000Z
-DTEND:20261025T160000Z
-SUMMARY:Sunday Worship Service
-LOCATION:Chapel
-DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
- d by the dean of religious life and of the chapel\, that draws students\
- , faculty\, staff\, and community members together to hear God’s word\
- , sing praises\, and pray for the University and the world. For those un
- able to attend in person\, this service will be live streamed on the ORL
-  YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
- du/events/sunday-worship-service-42
-URL:https://chapel.princeton.edu/events/sunday-worship-service-42
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:7844567d04dabe3a5ddd27fcdf1aa939
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T161500Z
-DTEND:20261025T180000Z
-SUMMARY:University Chapel: An Inside Look
-LOCATION:Chapel
-DESCRIPTION:Tour the nearly 100-year-old Princeton University Chapel\, de
- signed by renowned Gothic Revival architect Ralph Adams Cram\, and explo
- re its rich history\, stained-glass windows\, furnishings\, and memorial
- s. Binoculars are welcome. Admission is free\, and each tour is limited 
- to 24 participants. To reserve your spot or for more information\, conta
- ct [steveyacik@optonline.net](mailto:steveyacik@optonline.net)\nhttps://
- chapel.princeton.edu/events/university-chapel-inside-look-5
-URL:https://chapel.princeton.edu/events/university-chapel-inside-look-5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:2e9ee1ad25280118e5308c63df2dbf95
 DTSTAMP:20261005T103042Z
 DTSTART:20261029T000000Z
@@ -202,6 +163,36 @@ DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
  .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
  du/events/sunday-worship-service-42
 URL:https://chapel.princeton.edu/events/sunday-worship-service-42
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4c1fa6fc800609c660d8f55323e4658b
+DTSTAMP:20261026T103034Z
+DTSTART:20261111T140000Z
+DTEND:20261111T150000Z
+SUMMARY:Veterans Day Service
+LOCATION:Chapel
+DESCRIPTION:An interfaith service honoring all who served.\nhttps://chape
+ l.princeton.edu/events/veterans-day-service-5
+URL:https://chapel.princeton.edu/events/veterans-day-service-5
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:59ee7aeb5e7edd68c8e7a3c1a78beee5
+DTSTAMP:20261026T103034Z
+DTSTART:20261112T010000Z
+DTEND:20261112T020000Z
+SUMMARY:Jazz Vespers
+LOCATION:Chapel
+DESCRIPTION:An inclusive experience of poetry\, music\, and quiet centeri
+ ng\, featuring jazz saxophonist Audrey Welber\, pianist Adam Faulk\, and
+  members of the Chapel Choir.\nhttps://chapel.princeton.edu/events/jazz-
+ vespers-12
+URL:https://chapel.princeton.edu/events/jazz-vespers-12
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

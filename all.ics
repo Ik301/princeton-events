@@ -5,654 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:fd0bf9239e37e45e8f40da618b80a857
-DTSTAMP:20261005T103042Z
-DTSTART:20261019T120000Z
-DTEND:20261019T130000Z
-SUMMARY:Women's Tennis - ITA Regionals
-DESCRIPTION:Women's Tennis - ITA Regionals\nhttps://www.princeton.edu/eve
- nts/2026/womens-tennis-ita-regionals-3
-URL:https://www.princeton.edu/events/2026/womens-tennis-ita-regionals-3
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:af99f5e6ac6066665cd223e1022590fa
-DTSTAMP:20261019T103037Z
-DTSTART:20261019T130000Z
-DTEND:20261019T140000Z
-SUMMARY:AI for Alignment + Safety (AIAS) Launch
-DESCRIPTION:Join us for the launch of Princeton AI Alignment + Safety\, a
-  new research initiative dedicated to developing the scientific foundati
- ons needed to make increasingly capable artificial intelligence safe and
-  beneficial to humanity. As AI systems advance toward and beyond human-l
- evel capabilities\, ensuring that they remain aligned with human values 
- and societal well-being presents fundamental scientific and technical ch
- allenges. Princeton AI Alignment + Safety brings together research acros
- s machine learning\, theoretical computer science\, game theory\, optimi
- zation\, control\, and economics to addres\nhttps://www.princeton.edu/ev
- ents/2026/ai-alignment-safety-aias-launch
-URL:https://www.princeton.edu/events/2026/ai-alignment-safety-aias-launch
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:6d0ca6b22b00e8a8c7c5afaf6f648b3f
-DTSTAMP:20261012T103037Z
-DTSTART:20261019T180000Z
-DTEND:20261019T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:6bfaa876be18f537b58bab73d0be733e
-DTSTAMP:20261005T103042Z
-DTSTART:20261019T203000Z
-DTEND:20261019T213000Z
-SUMMARY:Civic Leadership Council (Pace) Weekly Meeting
-DESCRIPTION:Weekly meeting for the Civic Leadership Council (Pace Center)
- \nhttps://www.princeton.edu/events/2026/civic-leadership-council-pace-we
- ekly-meeting-5
-URL:https://www.princeton.edu/events/2026/civic-leadership-council-pace-w
- eekly-meeting-5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:45b91810c43dba6cdc512456106846ab
-DTSTAMP:20261005T103042Z
-DTSTART:20261020T120000Z
-DTEND:20261020T130000Z
-SUMMARY:Women's Tennis - ITA Regionals
-DESCRIPTION:Women's Tennis - ITA Regionals\nhttps://www.princeton.edu/eve
- nts/2026/womens-tennis-ita-regionals-4
-URL:https://www.princeton.edu/events/2026/womens-tennis-ita-regionals-4
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:2ee0522b52f569260bbbcd97fc2a9acb
-DTSTAMP:20261005T103042Z
-DTSTART:20261020T160000Z
-DTEND:20261020T170000Z
-SUMMARY:Beyond Academia Job Search Series: Careers in Research (Hum/SocSc
- i)
-DESCRIPTION:Learn how to find job opportunities\, translate your academic
-  experience into broader contexts\, and navigate the transition from aca
- demia to research-focused careers in the humanities and social sciences 
- that exist beyond the academy. All graduate students are encouraged to s
- chedule an appointment (https://princeton.joinhandshake.com/edu/appointm
- ents/new) with a career adviser to discuss their interests and individua
- l job search plans. This event is part of the Beyond Academia Job Search
-  series. All sessions are 12-1 p.m. - CVs & Resumes - Wednesday\, Sept. 
- 9 - Navigating the Non-Academic Job Market - Thursday\, Sept. 24 - How t
- o “Do” Networking - Tuesday\, Oct. - Humanities and Social Science R
- esearch Careers Outside Academia - Tuesday\, Oct. 20 - STEM Research Car
- eers Outside Academia - Thursday\, Oct. 22 This program is open to all P
- rinceton University graduate students regardless of identi\nRegister: ht
- tps://princeton.joinhandshake.com/edu/events/1979105\nhttps://careerdeve
- lopment.princeton.edu/events/beyond-academia-job-search-series-careers-r
- esearch-humsocsci
-URL:https://careerdevelopment.princeton.edu/events/beyond-academia-job-se
- arch-series-careers-research-humsocsci
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:4f010f67830fa4937ec7886792f5400c
-DTSTAMP:20261012T103037Z
-DTSTART:20261020T180000Z
-DTEND:20261020T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:e8318df95013666f23f3b891ec5f9fab
-DTSTAMP:20261005T103042Z
-DTSTART:20261020T190000Z
-DTEND:20261020T200000Z
-SUMMARY:McGraw Undergraduate Learning Program - Learning Concierge
-DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of 
- Frist Campus Center for all of your learning-related questions and needs
- . Grow with McGraw - even if you're managing your workload effectively\,
-  you always have room for growth to make your learning *efficient* too.\
- nhttps://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-pro
- gram-learning-concierge-11
-URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
- rogram-learning-concierge-11
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:a895d04c50f35e507eeebdef49aa518b
-DTSTAMP:20261005T103042Z
-DTSTART:20261020T230000Z
-DTEND:20261021T000000Z
-SUMMARY:LDSSA Institute Class
-DESCRIPTION:The Princeton LDSSA hosts weekly religion classes. All are we
- lcome to come and learn about the Savior Jesus Christ and His gospel.\nh
- ttps://www.princeton.edu/events/2026/ldssa-institute-class
-URL:https://www.princeton.edu/events/2026/ldssa-institute-class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:f2ae1de54b4834b99ab6a8898994d831
-DTSTAMP:20261005T103042Z
-DTSTART:20261021T160000Z
-DTEND:20261021T170000Z
-SUMMARY:Celebrate Princeton Innovation 2026
-DESCRIPTION:Join us for an inspiring evening that showcases the bold idea
- s\, groundbreaking research\, and emerging technologies developed across
-  Princeton University. This in-person event brings together faculty rese
- archers\, inventors\, entrepreneurs\, investors\, government representat
- ives\, industry leaders\, and members of the broader innovation communit
- y to celebrate discovery\, collaboration\, and impact.\nhttps://www.prin
- ceton.edu/events/2026/celebrate-princeton-innovation-2026
-URL:https://www.princeton.edu/events/2026/celebrate-princeton-innovation-
- 2026
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:ae482e77852d480dd02e2184d5cc2da4
-DTSTAMP:20261012T103037Z
-DTSTART:20261021T180000Z
-DTEND:20261021T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:0e3f116c12ff8d5f5405228e13379cf7
-DTSTAMP:20261005T103042Z
-DTSTART:20261021T190000Z
-DTEND:20261021T200000Z
-SUMMARY:McGraw Undergraduate Learning Program - Learning Concierge
-DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of 
- Frist Campus Center for all of your learning-related questions and needs
- . Grow with McGraw - even if you're managing your workload effectively\,
-  you always have room for growth to make your learning *efficient* too.\
- nhttps://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-pro
- gram-learning-concierge-12
-URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
- rogram-learning-concierge-12
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:41cfe615f055cb087c14f1617f0e1044
-DTSTAMP:20261005T103042Z
-DTSTART:20261021T203000Z
-DTEND:20261021T213000Z
-SUMMARY:InterVarsity Small Group
-DESCRIPTION:Boba Chats is a safe space to explore faith in Jesus no matte
- r your faith background. We will be studying through 1 John!\nhttps://ww
- w.princeton.edu/events/2026/intervarsity-small-group-3
-URL:https://www.princeton.edu/events/2026/intervarsity-small-group-3
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:eb8310d91094d2941132f927f4c7d43c
-DTSTAMP:20261005T103042Z
-DTSTART:20261021T210000Z
-DTEND:20261021T220000Z
-SUMMARY:YDSA Weekly Meeting
-DESCRIPTION:Pull up to a meeting if you're interested in organizing commu
- nity support programs\, spreading socialist ideas\, and building grassro
- ots power to win a better world for the 99%!\nhttps://www.princeton.edu/
- events/2026/ydsa-weekly-meeting-13
-URL:https://www.princeton.edu/events/2026/ydsa-weekly-meeting-13
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:492b59d8842a0963e4c4261bdac3132d
-DTSTAMP:20261005T103042Z
-DTSTART:20261022T150000Z
-DTEND:20261022T160000Z
-SUMMARY:Research Data Stewardship Series: Documentation and Metadata
-DESCRIPTION:Have you ever returned to a research project at a later date 
- and can’t seem to remember certain details that would allow you to reu
- se or replicate your own data? Need others to understand and use your da
- ta? Data documentation and metadata are practices you can put into place
-  to help others\, including future you! This workshop will cover the fun
- damentals of data documentation (including standardized metadata)\, expl
- ain the principles behind the recommended practices\, and prepare you to
-  streamline your own processes of data documentation. The Research Data 
- Stewardship series consists of four lect\nhttps://www.princeton.edu/even
- ts/2026/research-data-stewardship-series-documentation-and-metadata-0
-URL:https://www.princeton.edu/events/2026/research-data-stewardship-serie
- s-documentation-and-metadata-0
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:5a2a74a49ff450fbd176d4012d7c5507
-DTSTAMP:20261005T103042Z
-DTSTART:20261022T160000Z
-DTEND:20261022T170000Z
-SUMMARY:Beyond Academia Job Search Series: Careers in Research (STEM)
-DESCRIPTION:Learn how to find job opportunities\, translate your academic
-  experience into broader contexts\, and navigate the transition from aca
- demia to research-focused careers in engineering and the natural science
- s that exist beyond the academy. All graduate students are encouraged to
-  schedule an appointment (https://princeton.joinhandshake.com/edu/appoin
- tments/new) with a career adviser to discuss their interests and individ
- ual job search plans. This event is part of the Beyond Academia Job Sear
- ch series. All sessions are 12-1 p.m. - CVs & Resumes - Wednesday\, Sept
- . 9 - Navigating the Non-Academic Job Market - Thursday\, Sept. 24 - How
-  to “Do” Networking - Tuesday\, Oct. - Humanities and Social Science
-  Research Careers Outside Academia - Tuesday\, Oct. 20 - STEM Research C
- areers Outside Academia - Thursday\, Oct. 22 This program is open to all
-  Princeton University graduate students regardless of iden\nRegister: ht
- tps://princeton.joinhandshake.com/edu/events/1979115\nhttps://careerdeve
- lopment.princeton.edu/events/beyond-academia-job-search-series-careers-r
- esearch-stem
-URL:https://careerdevelopment.princeton.edu/events/beyond-academia-job-se
- arch-series-careers-research-stem
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:d3fbf2be264c9e269e0132d7ccd44adc
-DTSTAMP:20261019T103037Z
-DTSTART:20261022T180000Z
-DTEND:20261022T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:8e7b395df17530b38439e86a008d7d3a
-DTSTAMP:20261005T103042Z
-DTSTART:20261023T120000Z
-DTEND:20261023T130000Z
-SUMMARY:Ivy League Men's Tennis Championships
-DESCRIPTION:Ivy League Men's Tennis Championships\nhttps://www.princeton.
- edu/events/2026/ivy-league-mens-tennis-championships
-URL:https://www.princeton.edu/events/2026/ivy-league-mens-tennis-champion
- ships
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:e28ee6336ed87110a18d9846b63ffe39
-DTSTAMP:20261019T103037Z
-DTSTART:20261023T150000Z
-DTEND:20261023T160000Z
-SUMMARY:Industrial Outreach Seminar
-DESCRIPTION:PCCM hosts an Industrial and Government Lab Seminar Series th
- at provides an opportunity for students and postdocs to meet with indust
- ry and government lab leaders who discuss their fields and the intersect
- ion of science\, industry\, and government research.\nhttps://www.prince
- ton.edu/events/2026/industrial-outreach-seminar
-URL:https://www.princeton.edu/events/2026/industrial-outreach-seminar
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:6fe0a0a757e9bf872c2f453d18c6ed8b
-DTSTAMP:20261005T103042Z
-DTSTART:20261023T163000Z
-DTEND:20261023T173000Z
-SUMMARY:Muslim Life Program Friday Jummah Congregational Prayer
-DESCRIPTION:Princeton Muslim Life Program Friday Jummah Prayer\nhttps://w
- ww.princeton.edu/events/2026/muslim-life-program-friday-jummah-congregat
- ional-prayer-28
-URL:https://www.princeton.edu/events/2026/muslim-life-program-friday-jumm
- ah-congregational-prayer-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:6b9ab774be020d2e0526fa1dde97a789
-DTSTAMP:20261019T103037Z
-DTSTART:20261023T180000Z
-DTEND:20261023T200000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:4ea2658298dd3c2b4962b1da94ec01bf
-DTSTAMP:20261005T103042Z
-DTSTART:20261023T200000Z
-DTEND:20261023T210000Z
-SUMMARY:Field Hockey vs Brown
-DESCRIPTION:Field Hockey vs Brown\nhttps://www.princeton.edu/events/2026/
- field-hockey-vs-brown
-URL:https://www.princeton.edu/events/2026/field-hockey-vs-brown
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:8fe6b3a8f8e53133669a6debf7ef5660
-DTSTAMP:20261005T103042Z
-DTSTART:20261023T210000Z
-DTEND:20261023T220000Z
-SUMMARY:Competitive Programming Club
-DESCRIPTION:Come do Competitive Programming at Princeton! Improve your co
- ding abilities. Increase your knowledge of algorithms and data structure
- s. Learn problem solving skills.\nhttps://www.princeton.edu/events/2026/
- competitive-programming-club-5
-URL:https://www.princeton.edu/events/2026/competitive-programming-club-5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:b499ab5a3e31c5c15599ead4c3eef6eb
-DTSTAMP:20261005T103042Z
-DTSTART:20261024T120000Z
-DTEND:20261024T130000Z
-SUMMARY:Ivy League Men's Tennis Championships
-DESCRIPTION:Ivy League Men's Tennis Championships\nhttps://www.princeton.
- edu/events/2026/ivy-league-mens-tennis-championships-0
-URL:https://www.princeton.edu/events/2026/ivy-league-mens-tennis-champion
- ships-0
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:d4addfcce58093ccf9ff8802d083fad0
-DTSTAMP:20261005T103042Z
-DTSTART:20261024T130000Z
-DTEND:20261024T140000Z
-SUMMARY:Museum for All Ball
-DESCRIPTION:The Museum for All Ball is our annual celebration for local a
- rts and culture lovers! Join us at the Museum for an evening of art\, da
- ncing\, food\, and fashion. By supporting the ball\, you further our mis
- sion of providing access to world-class art for all.\nhttps://www.prince
- ton.edu/events/2026/museum-all-ball-0
-URL:https://www.princeton.edu/events/2026/museum-all-ball-0
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:9e4a6561192e63356f07e458884eee67
-DTSTAMP:20261005T103042Z
-DTSTART:20261024T200000Z
-DTEND:20261024T210000Z
-SUMMARY:Tango Practica
-DESCRIPTION:Come practice tango skills either basics or advanced in a fri
- endly and informal environment!\nhttps://www.princeton.edu/events/2026/t
- ango-practica-18
-URL:https://www.princeton.edu/events/2026/tango-practica-18
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:821edbe0c71dc3e058ea03d1bd11270c
-DTSTAMP:20261005T103042Z
-DTSTART:20261024T223000Z
-DTEND:20261024T233000Z
-SUMMARY:Opening Night World Premiere of L’Hôtel Ritz de Paris
-DESCRIPTION:LCA Resident Music Director and Composer Vince di Mura presen
- ts the world premiere of his new mega opus L'Hotel Ritz de Paris with th
- e Capital Philharmonic of New Jersey (CPNJ)\, where he is composer-in-re
- sidence.Step inside the legendary Hôtel Ritz Paris and hear the drama\,
-  glamour\, courage\, and resistance of World War II at the Capital Philh
- armonic’s Opening Night event! L’Hôtel Ritz de Paris blends orchest
- ral composition with a live Cuban music ensemble\, solo violin\, cabaret
-  and Latin influences through symphonic storytelling. The evening also o
- pens with Harmony Villa\, a new work that celebr\nhttps://www.princeton.
- edu/events/2026/opening-night-world-premiere-lhotel-ritz-de-paris
-URL:https://www.princeton.edu/events/2026/opening-night-world-premiere-lh
- otel-ritz-de-paris
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:222894ef2b2229c3545c3297bff1bcfa
-DTSTAMP:20261005T103042Z
-DTSTART:20261024T230000Z
-DTEND:20261025T000000Z
-SUMMARY:Magic: The Gathering Club Meeting
-DESCRIPTION:Princeton Magic: The Gathering Club meets every Saturday at 7
- PM in JRR A98 for a night of Commander games\, free draft\, and good com
- pany. Whether you've never touched a Magic card or you've got a stack of
-  decks at home\, there's a place for you at the table — we've got begi
- nner kits with ready-to-play Standard decks and members happy to walk yo
- u through your first game step by step. New this semester\, we're puttin
- g extra focus on welcoming beginners: no experience\, no cards\, and no 
- prior knowledge needed\, just come with curiosity. Come for the free pac
- ks\, stay for the friendly competition and th\nhttps://www.princeton.edu
- /events/2026/magic-gathering-club-meeting-6
-URL:https://www.princeton.edu/events/2026/magic-gathering-club-meeting-6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:2b8e7a9d1d1ef8d184ad8f7ea72ea8a0
-DTSTAMP:20261019T103037Z
-DTSTART:20261024T230000Z
-DTEND:20261025T000000Z
-SUMMARY:Museum for All Ball
-DESCRIPTION:The Museum for All Ball is our annual celebration for local a
- rts and culture lovers! Join us at the Museum for an evening of art\, da
- ncing\, food\, and fashion. By supporting the ball\, you further our mis
- sion of providing access to world-class art for all.\nhttps://www.prince
- ton.edu/events/2026/museum-all-ball
-URL:https://www.princeton.edu/events/2026/museum-all-ball
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:7973124a9d04f223cbe53aab81a00e27
-DTSTAMP:20261005T103042Z
-DTSTART:20261024T230000Z
-DTEND:20261025T000000Z
-SUMMARY:Museum for All Ball
-DESCRIPTION:The Museum for All Ball is our annual celebration for local a
- rts and culture lovers! Join us at the Museum for an evening of art\, da
- ncing\, food\, and fashion. By supporting the ball\, you further our mis
- sion of providing access to world-class art for all.\nhttps://www.prince
- ton.edu/events/2026/museum-all-ball-1
-URL:https://www.princeton.edu/events/2026/museum-all-ball-1
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:9919c81f2a772e8baf81482ccf40490a
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T010000Z
-DTEND:20261025T020000Z
-SUMMARY:Liars' Club meeting
-DESCRIPTION:Play social deduction games (Coup\, Secret Hitler\, One Night
-  Ultimate Werewolf\, Avalon) Feel free to join or leave at any time\; ga
- mes take around 15 minutes\, so you won't be waiting long.\nhttps://www.
- princeton.edu/events/2026/liars-club-meeting-6
-URL:https://www.princeton.edu/events/2026/liars-club-meeting-6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:711141f4ffc715cd04abaf335bf21ecb
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T120000Z
-DTEND:20261025T130000Z
-SUMMARY:Ivy League Men's Tennis Championships
-DESCRIPTION:Ivy League Men's Tennis Championships\nhttps://www.princeton.
- edu/events/2026/ivy-league-mens-tennis-championships-1
-URL:https://www.princeton.edu/events/2026/ivy-league-mens-tennis-champion
- ships-1
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:66d7dc3cfa2c6d1215b7b89f9fee4acc
-DTSTAMP:20260928T103038Z
-DTSTART:20261025T150000Z
-DTEND:20261025T160000Z
-SUMMARY:Sunday Worship Service
-LOCATION:Chapel
-DESCRIPTION:Join us each Sunday for worship in the University Chapel\, le
- d by the dean of religious life and of the chapel\, that draws students\
- , faculty\, staff\, and community members together to hear God’s word\
- , sing praises\, and pray for the University and the world. For those un
- able to attend in person\, this service will be live streamed on the ORL
-  YouTube page available through this link(Link is external) (https://www
- .youtube.com/officeofreligiouslifeprinceton)\nhttps://chapel.princeton.e
- du/events/sunday-worship-service-42
-URL:https://chapel.princeton.edu/events/sunday-worship-service-42
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:5e297ddcdd509683b41aa76d7b8f036b
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T150000Z
-DTEND:20261025T160000Z
-SUMMARY:Worship Service in the University Chapel
-DESCRIPTION:An ecumenical Worship Service that draws students\, faculty\,
-  staff\, and community members together to hear God's word\, sing praise
- s\, and pray for the University and the world.\nhttps://www.princeton.ed
- u/events/2026/worship-service-university-chapel-7
-URL:https://www.princeton.edu/events/2026/worship-service-university-chap
- el-7
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:19e25a12c8d4966a729c7ddf92721709
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T160000Z
-DTEND:20261025T170000Z
-SUMMARY:Field Hockey vs St. Joe's
-DESCRIPTION:Field Hockey vs St. Joe's\nhttps://www.princeton.edu/events/2
- 026/field-hockey-vs-st-joes
-URL:https://www.princeton.edu/events/2026/field-hockey-vs-st-joes
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:3f0be7ef9965cc1180776a912c7ec3fe
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T160000Z
-DTEND:20261025T170000Z
-SUMMARY:Women's Soccer vs Dartmouth
-DESCRIPTION:Women's Soccer vs Dartmouth\nhttps://www.princeton.edu/events
- /2026/womens-soccer-vs-dartmouth
-URL:https://www.princeton.edu/events/2026/womens-soccer-vs-dartmouth
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:7844567d04dabe3a5ddd27fcdf1aa939
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T161500Z
-DTEND:20261025T180000Z
-SUMMARY:University Chapel: An Inside Look
-LOCATION:Chapel
-DESCRIPTION:Tour the nearly 100-year-old Princeton University Chapel\, de
- signed by renowned Gothic Revival architect Ralph Adams Cram\, and explo
- re its rich history\, stained-glass windows\, furnishings\, and memorial
- s. Binoculars are welcome. Admission is free\, and each tour is limited 
- to 24 participants. To reserve your spot or for more information\, conta
- ct [steveyacik@optonline.net](mailto:steveyacik@optonline.net)\nhttps://
- chapel.princeton.edu/events/university-chapel-inside-look-5
-URL:https://chapel.princeton.edu/events/university-chapel-inside-look-5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:04e5e57c978bf4c0f16e0786824cf9e0
-DTSTAMP:20261005T103042Z
-DTSTART:20261025T180000Z
-DTEND:20261025T190000Z
-SUMMARY:Silent Book Club
-DESCRIPTION:Join this low-pressure reading community where members bring 
- their own books to read together in quiet companionship. Registration is
-  not required but you are welcome to register if you want to receive a r
- eminder. Join us at our other programs related to Princeton's 2026 Pre-R
- ead. See the full events list here.\nhttps://www.princeton.edu/events/20
- 26/silent-book-club-0
-URL:https://www.princeton.edu/events/2026/silent-book-club-0
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:960c64676deb36ffb650310b4f536ae2
 DTSTAMP:20261019T103037Z
 DTSTART:20261026T040000Z
@@ -759,22 +111,61 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:7a4ac464e2c28689c0651576576ab8bf
+DTSTAMP:20261026T103034Z
+DTSTART:20261026T204500Z
+DTEND:20261026T214500Z
+SUMMARY:Informational Meetings for Theater & Music Theater Juniors
+DESCRIPTION:Junior students must attend one of these informational meetin
+ gs (10/26 or 12/2) to participate in proposals or apply for senior year 
+ independent work in the Program in Theater & Music Theater. Sophomores a
+ re also invited to attend.Attend this meeting to learn more about theate
+ r program proposals and independent work and hear from other students ab
+ out what they are interested in exploring. The catch-up meeting\, if you
+  cannot make this one\, is December 2 from 12-1 p.m.Meeting DetailsOpen 
+ only to Princeton juniors (or sophomores) intending to minor in the Prog
+ ram in Theater & Music Theater.Direct\nhttps://www.princeton.edu/events/
+ 2026/informational-meetings-theater-music-theater-juniors
+URL:https://www.princeton.edu/events/2026/informational-meetings-theater-
+ music-theater-juniors
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:5157d545e29403e164e99e83ecea128d
+DTSTAMP:20261026T103034Z
+DTSTART:20261026T223000Z
+DTEND:20261026T233000Z
+SUMMARY:Women+ on the Edge of Democracy: New Play Readings
+DESCRIPTION:The Program in Theater and Music Theater presents a reading o
+ f new\, short plays by women playwrights as part of the nationwide initi
+ ative\, Women+ On the Edge of Democracy. A mix of professional and non-p
+ rofessional actors\, directors and producers will share readings of 10-m
+ inute plays by such women playwrights as Lynn Nottage\, Heidi Schreck\, 
+ and Lauren Gunderson\, among others. Organized by Lecturer in Theater Vi
+ via Font.The event organizers encourage audiences to wear their favorite
+  shirts\, hats\, or other apparel that promote democracy.SupportThe work
+  presented as part of this event was commis\nhttps://www.princeton.edu/e
+ vents/2026/women-edge-democracy-new-play-readings
+URL:https://www.princeton.edu/events/2026/women-edge-democracy-new-play-r
+ eadings
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:0235047e7b922a716f79af164a0f2d9d
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261026T230000Z
 DTEND:20261027T003000Z
 SUMMARY:UBS Investment Banking Information Session with Princeton Univers
  ity Alumni
 LOCATION:Lewis Library 138
 DESCRIPTION:Join UBS for an engaging conversation with Princeton Universi
- ty alumni from across the firm. Hear about their professional journeys\,
-  learn how they built their careers after Princeton and gain insights in
- to the opportunities\, experiences and relationships that have shaped th
- eir success. Students will receive practical advice on networking\, leve
- raging existing connections and expanding professional networks to suppo
- rt career goals.\nRegister: https://app.joinhandshake.com/edu/events/199
- 7039\nhttps://careerdevelopment.princeton.edu/events/ubs-investment-bank
- ing-information-session-princeton-university-alumni-0
+ ty alumni from across the firm.\nhttps://careerdevelopment.princeton.edu
+ /events/ubs-investment-banking-information-session-princeton-university-
+ alumni-0
 URL:https://careerdevelopment.princeton.edu/events/ubs-investment-banking
  -information-session-princeton-university-alumni-0
 STATUS:CONFIRMED
@@ -797,7 +188,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:cf902a66c385716f3426fc857b7baafa
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261027T130000Z
 DTEND:20261027T200000Z
 SUMMARY:HSBC Coffee Chats - Sophomores
@@ -805,11 +196,9 @@ LOCATION:36 University Place\, Suite 300
 DESCRIPTION:HSBC offers opportunities for students and graduates regardle
  ss of their degree discipline\, giving them the freedom to explore caree
  r paths that go way beyond banking\; from business analysts\, to relatio
- nship managers and cyber security experts to data analysts. Sophomores i
- nterested in sales and trading at HSBC are invited to sign up for a coff
- ee chat.\nRegister: https://princeton.joinhandshake.com/edu/jobs/1155609
- 2\nhttps://careerdevelopment.princeton.edu/events/hsbc-coffee-chats-soph
- omores-fall-2026
+ nship managers and cyber security experts to data analysts.\nhttps://car
+ eerdevelopment.princeton.edu/events/hsbc-coffee-chats-sophomores-fall-20
+ 26
 URL:https://careerdevelopment.princeton.edu/events/hsbc-coffee-chats-soph
  omores-fall-2026
 STATUS:CONFIRMED
@@ -876,7 +265,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:8ae593c78badb1ca64787572a582f912
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261027T180000Z
 DTEND:20261027T200000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -884,20 +273,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -940,22 +317,35 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:cdd19ec3ee6f0cb6f62fec9ce9293d6b
+DTSTAMP:20261026T103034Z
+DTSTART:20261027T203000Z
+DTEND:20261027T213000Z
+SUMMARY:Preparing for the Science & Technology Job Fair
+LOCATION:Frist Campus Center 302
+DESCRIPTION:The annual [Science and Technology Job Fair Link is external]
+ (https://app.joinhandshake.com/stu/career_fairs/65746) is one of the lar
+ gest recruiting events of the year. This program will cover how to: Find
+  employers with internships and jobs that interest you Research employer
+ s before the day of the fair&nbsp\nhttps://careerdevelopment.princeton.e
+ du/events/preparing-science-technology-job-fair
+URL:https://careerdevelopment.princeton.edu/events/preparing-science-tech
+ nology-job-fair
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:ed7541ff20560cd2d636170225f98626
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261027T203000Z
 DTEND:20261027T213000Z
 SUMMARY:Columbia Law School Info Session
 LOCATION:Robertson Hall 016
 DESCRIPTION:A Columbia Law School admissions representative will share ab
  out their school and what current and future applicants should consider 
- when applying. This is an opportunity to learn about their clinics\, cur
- riculum and admission criteria. This program is open to all Princeton Un
- iversity undergraduate and graduate students regardless of identity. Ema
- il [careerdevelopment@princeton.edu](mailto:careerdevelopment@princeton.
- edu) to request accommodations at least two weeks prior to the program.\
- nAudience: Graduate Students\, Undergraduate Students\nRegister: https:/
- /app.joinhandshake.com/edu/events/2011286\nhttps://careerdevelopment.pri
- nceton.edu/events/columbia-law-school-info-session-0
+ when applying.\nhttps://careerdevelopment.princeton.edu/events/columbia-
+ law-school-info-session-0
 URL:https://careerdevelopment.princeton.edu/events/columbia-law-school-in
  fo-session-0
 STATUS:CONFIRMED
@@ -963,26 +353,23 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:cdd19ec3ee6f0cb6f62fec9ce9293d6b
-DTSTAMP:20261005T103042Z
+UID:241dff767455c785c5fc85ab3a56831c
+DTSTAMP:20261026T103034Z
 DTSTART:20261027T203000Z
 DTEND:20261027T213000Z
-SUMMARY:Preparing for the Science & Technology Job Fair
-LOCATION:Frist Campus Center 302
-DESCRIPTION:The annual Science and Technology Job Fair (https://app.joinh
- andshake.com/stu/career_fairs/65746) is one of the largest recruiting ev
- ents of the year. This program will cover how to: - Find employers with 
- internships and jobs that interest you - Research employers before the d
- ay of the fair - Dress for success - Network with prospective employers 
- and Princeton alumni - Introduce yourself and follow-up with employers T
- his program is open to all Princeton University undergraduate and gradua
- te students regardless of identity. Email [careerdevelopment@princeton.e
- du](mailto:careerdevelopment@princeton.edu) to request accommodations at
-  least two weeks prior to the program.\nRegister: https://princeton.join
- handshake.com/edu/events/1979378\nhttps://careerdevelopment.princeton.ed
- u/events/preparing-science-technology-job-fair
-URL:https://careerdevelopment.princeton.edu/events/preparing-science-tech
- nology-job-fair
+SUMMARY:Repair the Future: Point of You and Perfect City
+DESCRIPTION:A conversation between the Swedish artists behind Point of Yo
+ u\, a participatory performance created in many communities that allows 
+ participants to reflect on freedom and social sustainability\, and Lewis
+  Center Lecturer in Theater Aaron Landsman\, founder of Perfect City\, a
+  multigenerational\, multiracial arts cohort based in New York City. Thi
+ s informal and rich conversation explores how theater offers tools to le
+ arn one anothers' histories and imagine new ways to be in community. The
+  guest will discuss how hand-drawn maps\, theatrical reenactment\, and n
+ ew dialogues help communities repair the f\nhttps://www.princeton.edu/ev
+ ents/2026/repair-future-point-you-and-perfect-city
+URL:https://www.princeton.edu/events/2026/repair-future-point-you-and-per
+ fect-city
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1011,19 +398,18 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:c4db2751cd42489aaabc7845f608f846
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261027T210000Z
 DTEND:20261027T220000Z
 SUMMARY:Accel-KKR Information Session
 LOCATION:Robertson Hall\, Bowl 1
-DESCRIPTION:Meet George Baughan (https://www.linkedin.com/in/george-baugh
- an-6b98a1153/) ’22\, and Aleha Amjad (https://www.linkedin.com/in/aleh
- aamjad/) '25 in Robertson Hall Room 001 to learn more about Accel-KKR (h
- ttps://www.accel-kkr.com/) and to get more information on the Summer 202
- 8 Internship Program. This event is geared toward students of any major 
- graduating in 2029 and 2030.\nRegister: https://app.joinhandshake.com/ed
- u/events/2015454\nhttps://careerdevelopment.princeton.edu/events/accel-k
- kr-information-session-0
+DESCRIPTION:Meet [George Baughan Link is external](https://www.linkedin.c
+ om/in/george-baughan-6b98a1153/) ’22\, and [Aleha Amjad Link is extern
+ al](https://www.linkedin.com/in/alehaamjad/) '25 in Robertson Hall Room 
+ 001 to learn more about [Accel-KKR Link is external](https://www.accel-k
+ kr.com/) and to get more information on the Summer 2028 Internship Progr
+ am.\nhttps://careerdevelopment.princeton.edu/events/accel-kkr-informatio
+ n-session-0
 URL:https://careerdevelopment.princeton.edu/events/accel-kkr-information-
  session-0
 STATUS:CONFIRMED
@@ -1054,24 +440,20 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:2e7faf2b3f89b55d550a6179adaba35e
-DTSTAMP:20261005T103042Z
+UID:7b90bc9d48b014562dbdc5802ffc497e
+DTSTAMP:20261026T103034Z
 DTSTART:20261027T220000Z
 DTEND:20261027T233000Z
-SUMMARY:Get to Know Sales and Trading
+SUMMARY:Jane Street: Get to Know Sales and Trading
 LOCATION:Friend Center 004
-DESCRIPTION:Join an information session about Jane Street's Sales and Tra
- ding (https://www.janestreet.com/join-jane-street/departments/?dept=inst
- itutional-sales-and-trading) Internship. Learn how the team supports ins
- titutional clients across asset classes — from daily inquiries to broa
- der market needs. Please note: Registration on Jane Street's form is req
- uired for the event. Registration will open two weeks prior to the event
- . Please check back at that time for a Google sign-up.\nAudience: Gradua
- te Students\, Undergraduate Students\nRegister: https://princeton.joinha
- ndshake.com/edu/events/2015278\nhttps://careerdevelopment.princeton.edu/
- events/get-know-sales-and-trading
-URL:https://careerdevelopment.princeton.edu/events/get-know-sales-and-tra
- ding
+DESCRIPTION:Join an information session about Jane Street's [Sales and Tr
+ ading Link is external](https://www.janestreet.com/join-jane-street/depa
+ rtments/?dept=institutional-sales-and-trading) Internship. Learn how the
+  team supports institutional clients across asset classes — from daily
+  inquiries to broader market needs.\nhttps://careerdevelopment.princeton
+ .edu/events/jane-street-get-know-sales-and-trading
+URL:https://careerdevelopment.princeton.edu/events/jane-street-get-know-s
+ ales-and-trading
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1142,6 +524,29 @@ DESCRIPTION:Please register via the Bain & Company Careers page (https://
  -princeton-undergraduate-life-bain-panel
 URL:https://careerdevelopment.princeton.edu/events/bain-x-princeton-under
  graduate-life-bain-panel
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:33c38c6e7a37698cc05e14d0c8007c31
+DTSTAMP:20261026T103034Z
+DTSTART:20261027T230000Z
+DTEND:20261028T000000Z
+SUMMARY:“Chip Chat” with Amira Adarkwah on Black Bodies and Performan
+ ce
+DESCRIPTION:Join us for conversation around the remedial force of Black t
+ heater against sites of systemic harm for the African diaspora. This eve
+ nt hopes to engage individuals of all backgrounds with works\, practices
+ \, and innovations by contemporary Black artists in American and French 
+ theater. Attendees will be invited to contribute to a collaborative docu
+ ment to be included in theater senior Amira Adarkwah's ongoing archival 
+ project. Snacks provided.About Amira's Independent ProjectThis creative 
+ research project considers the challenges Black women face and overcome 
+ in the rehearsal and production of ma\nhttps://www.princeton.edu/events/
+ 2026/chip-chat-amira-adarkwah-black-bodies-and-performance
+URL:https://www.princeton.edu/events/2026/chip-chat-amira-adarkwah-black-
+ bodies-and-performance
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1301,6 +706,36 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:b10f2669bf66d97ba05f1156380e3667
+DTSTAMP:20261026T103034Z
+DTSTART:20261028T160000Z
+DTEND:20261028T173000Z
+SUMMARY:Thornton Tomasetti x Guy Nordenson and Associates x ASCE Info Ses
+ sion
+LOCATION:Engineering QUAD E219
+DESCRIPTION:Thornton Tomasetti and Guy Nordenson and Associates - two wel
+ l-renowned firms in the field of civil engineering - are visiting the Pr
+ inceton University campus on Wednesday October 28 at 12 p.m. to hold an 
+ information session in collaboration with the Princeton ASCE student cha
+ pter. Engineers from both firms will share insights into their work\, hi
+ ghlighting notable projects\, their approaches to engineering and design
+  and their experiences working in the field. Students will learn about e
+ ach firm’s areas of expertise\, company culture\, and career paths\, w
+ hile also hearing about potential internship and full-time positions. Fo
+ llowing the presentations\, students are invited to engage in discussion
+ s with the representatives\, ask questions and learn more about the firm
+ s and the work they do. Thornton Tomasetti is a global engineering firm 
+ with expertise spanning forensics\, renewal\, protective d\nRegister: ht
+ tps://princeton.joinhandshake.com/edu/events/2049509/overview\nhttps://c
+ areerdevelopment.princeton.edu/events/thornton-tomasetti-x-guy-nordenson
+ -and-associates-x-asce-info-session
+URL:https://careerdevelopment.princeton.edu/events/thornton-tomasetti-x-g
+ uy-nordenson-and-associates-x-asce-info-session
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:2c3c518047b545d8a4ef192639321a15
 DTSTAMP:20261005T103042Z
 DTSTART:20261028T160000Z
@@ -1383,6 +818,29 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:02dcd9003b77203324636fe2f870e69f
+DTSTAMP:20261026T103034Z
+DTSTART:20261028T203000Z
+DTEND:20261028T213000Z
+SUMMARY:Charting Your Path in Education
+LOCATION:Julis Romo Rabinowitz Building - A01
+DESCRIPTION:Learn about the wide range of education careers that alumni h
+ ave pursued\, from teaching to policy\, nonprofit work and beyond. You w
+ ill learn about careers in education that may be a good fit for you as w
+ ell as relevant graduate programs. This program is for students consider
+ ing education as a primary focus or interested in exploring career optio
+ ns. It is co-sponsored by Princeton Education Society and Princeton Univ
+ ersity Center for Career Development\, and is open to all Princeton Univ
+ ersity undergraduates regardless of identity.\nRegister: https://app.joi
+ nhandshake.com/edu/events/2045564\nhttps://careerdevelopment.princeton.e
+ du/events/charting-your-path-education
+URL:https://careerdevelopment.princeton.edu/events/charting-your-path-edu
+ cation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:8af2d00c878235c346ffa91d2188b9d8
 DTSTAMP:20261005T103042Z
 DTSTART:20261028T203000Z
@@ -1459,6 +917,53 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:1fc1af689a2dbd865464346996dba826
+DTSTAMP:20261026T103034Z
+DTSTART:20261028T210000Z
+DTEND:20261028T220000Z
+SUMMARY:The Future of Investing is Bionic: Discussion with Bridgewater As
+ sociates
+LOCATION:Lewis Library 120
+DESCRIPTION:Join this conversation with Senior Investor Adam Zimbler. Bri
+ dgewater is on a mission to help the world's leading institutions solve 
+ their toughest investment challenges\, combining human judgment and crea
+ tivity with the power of AI. Adam leads work on the impact of artificial
+  intelligence on global economies and markets. Join this conversation to
+  hear from him on the most important questions he is tracking as an inve
+ stor. Will AI deliver on the promise of rapid productivity gains? Are we
+  heading toward a data center overbuild? What are the implications of th
+ e constant drumbeat of AI safety developments and the prospects for regu
+ lation? Join us at the Lewis Library in room 120 on October 28th from 5-
+ 6 p.m. Food will be provided. RSVP for our talk (https://www.gem.com/for
+ m?formID=bfef245d-2db9-4ca0-8449-94ae587e02ea) to let us know you are jo
+ ining.\nAudience: Graduate Students\nRegister: https://app.joinhandshake
+ .com/edu/events/2017971\nhttps://careerdevelopment.princeton.edu/events/
+ future-investing-bionic-discussion-bridgewater-associates
+URL:https://careerdevelopment.princeton.edu/events/future-investing-bioni
+ c-discussion-bridgewater-associates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:df46b11f8353e8724c25e13301fa5332
+DTSTAMP:20261005T103042Z
+DTSTART:20261028T210000Z
+DTEND:20261028T220000Z
+SUMMARY:Costume Support (Drop in!)
+DESCRIPTION:Do you need dedicated space and supplies to make your cool Ha
+ lloween costume? Stop by the PUL Makerspace on 10/28 from 5-8pm. We'll h
+ ave glue guns\, cardboard\, paints\, fabrics\, wire\, and other craft ma
+ terials available while supplies last. Makerspace staff will be availabl
+ e if you need help figuring out what materials and tools to use. Open to
+  current Princeton students and staff. Image Source\nhttps://www.princet
+ on.edu/events/2026/costume-support-drop
+URL:https://www.princeton.edu/events/2026/costume-support-drop
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:0195ab1ba2d734a4d0dc2f3250d0ad8a
 DTSTAMP:20261012T103037Z
 DTSTART:20261028T210000Z
@@ -1511,24 +1016,6 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:df46b11f8353e8724c25e13301fa5332
-DTSTAMP:20261005T103042Z
-DTSTART:20261028T210000Z
-DTEND:20261028T220000Z
-SUMMARY:Costume Support (Drop in!)
-DESCRIPTION:Do you need dedicated space and supplies to make your cool Ha
- lloween costume? Stop by the PUL Makerspace on 10/28 from 5-8pm. We'll h
- ave glue guns\, cardboard\, paints\, fabrics\, wire\, and other craft ma
- terials available while supplies last. Makerspace staff will be availabl
- e if you need help figuring out what materials and tools to use. Open to
-  current Princeton students and staff. Image Source\nhttps://www.princet
- on.edu/events/2026/costume-support-drop
-URL:https://www.princeton.edu/events/2026/costume-support-drop
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:a0f7209086d5d642bb60f651bd387f81
 DTSTAMP:20261005T103042Z
 DTSTART:20261028T223000Z
@@ -1548,6 +1035,28 @@ DESCRIPTION:The JPMorgan Markets and Investment Banking Recruitment Teams
  edu/events/jpmorganchase-markets-and-investment-banking
 URL:https://careerdevelopment.princeton.edu/events/jpmorganchase-markets-
  and-investment-banking
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:e3556123a7d3168edebd214241877510
+DTSTAMP:20261026T103034Z
+DTSTART:20261028T223000Z
+DTEND:20261028T233000Z
+SUMMARY:Dance Minor Social Hour and Information Session
+DESCRIPTION:All current Princeton students interested in the Dance minor 
+ are invited to a social hour and information session to meet dance facul
+ ty and current dance minors who will answer questions and share their in
+ sights and experiences. Pizza provided\; vegetarian/vegan and gluten-fre
+ e options will also be available.AdmissionOpen to all current Princeton 
+ students. RSVP kindly requested (so we can order the right amount of foo
+ d).RSVP for the Info SessionDirectionsGet directions to W331 Seminar Roo
+ m\, located on the third level of the Wallace Dance Building at the Lewi
+ s Arts complex. Accessibility The Sem\nhttps://www.princeton.edu/events/
+ 2026/dance-minor-social-hour-and-information-session
+URL:https://www.princeton.edu/events/2026/dance-minor-social-hour-and-inf
+ ormation-session
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1633,6 +1142,21 @@ DESCRIPTION:An inclusive experience of poetry\, music\, and quiet centeri
   members of the Chapel Choir.\nhttps://www.princeton.edu/events/2026/jaz
  z-vespers-0
 URL:https://www.princeton.edu/events/2026/jazz-vespers-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:bbe00c842d7995268dc9fb1f26ad7d92
+DTSTAMP:20261026T103034Z
+DTSTART:20261029T123000Z
+DTEND:20261029T133000Z
+SUMMARY:Andlinger Center for Energy and the Environment Annual Meeting
+DESCRIPTION:Energy Security in an Era of Recurring Geopolitical Shocks\nh
+ ttps://www.princeton.edu/events/2026/andlinger-center-energy-and-environ
+ ment-annual-meeting
+URL:https://www.princeton.edu/events/2026/andlinger-center-energy-and-env
+ ironment-annual-meeting
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1822,6 +1346,26 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:cb5de92d606fff3072ebea312df85ae0
+DTSTAMP:20261026T103034Z
+DTSTART:20261029T164500Z
+DTEND:20261029T190000Z
+SUMMARY:STEM Tabling
+LOCATION:Friend Center\, Upper Atrium
+DESCRIPTION:From career exploration to making decisions on internship/job
+  offers and everything in between\, stop by the table to chat and learn 
+ how the Center for Career Development can support you. This program is o
+ pen to all Princeton University undergraduates regardless of identity. E
+ mail careerdevelopment@princeton.edu to request accommodations at least 
+ two weeks prior to the program.\nRegister: https://princeton.joinhandsha
+ ke.com/stu/events/2047932\nhttps://careerdevelopment.princeton.edu/event
+ s/stem-tabling-10
+URL:https://careerdevelopment.princeton.edu/events/stem-tabling-10
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:bdf8b10f4b9b6ab37c2c65f42feac6d8
 DTSTAMP:20261005T103042Z
 DTSTART:20261029T180000Z
@@ -1871,6 +1415,32 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:b597557a22bf3a4a6b815e48fd9867c1
+DTSTAMP:20261026T103034Z
+DTSTART:20261029T203000Z
+DTEND:20261029T213000Z
+SUMMARY:Two Sigma: Quant Research Ph.D. Info Session
+LOCATION:Frist Campus Center Class of 1952 Room
+DESCRIPTION:Meet members of the Two Sigma Quant Research team. Alumni Qua
+ nt Researchers will be there to discuss their transition from academia i
+ nto financial sciences. Learn about the Internship and Early Careers pro
+ gram for Quant Research and what to expect during the application and in
+ terview process. Students will have the opportunity to discuss their res
+ earch interests\, challenges and how to apply research experience at Two
+  Sigma. This event is ideal for any Ph.D. student interested in Two Sigm
+ a. External registration is required due to limited space capacity\, ple
+ ase use the registration link to sign up (https://careers.twosigma.com/e
+ vents/EventDetail?jobId=14366). Clicking "Apply" just notifies our team 
+ about your event registration.\nRegister: https://app.joinhandshake.com/
+ edu/events/2048738\nhttps://careerdevelopment.princeton.edu/events/two-s
+ igma-quant-research-phd-info-session
+URL:https://careerdevelopment.princeton.edu/events/two-sigma-quant-resear
+ ch-phd-info-session
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:64b7071f565ad181db2900671859f6c7
 DTSTAMP:20261019T103037Z
 DTSTART:20261029T203000Z
@@ -1881,6 +1451,28 @@ DESCRIPTION:Join the Princeton Birding Society to learn about migration a
  s/2026/birding-society-migration-meeting
 URL:https://www.princeton.edu/events/2026/birding-society-migration-meeti
  ng
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:30bf9aa396a44cb0222564e7b2239b3f
+DTSTAMP:20261012T103037Z
+DTSTART:20261029T203000Z
+DTEND:20261029T213000Z
+SUMMARY:Musicology Colloquium with Lydia Goehr
+DESCRIPTION:The Musicology Colloquium presents a talk by Lydia Goehr.Abst
+ ract From extended metaphors\, we get the wit of extension: e-wit. Exten
+ sion cords\, like extended chords\, may be elastic or exact in reaching 
+ a breaking point. Extended tonalities\, extended techniques\, and extend
+ ed play: each stretches a norm without quite breaking it – until it do
+ es. This lecture seeks the e-wit on display in the Metropolitan Museum's
+  currently running exhibition: “Musical Bodies” (2026). Comprising 1
+ 30 pieces\, the bodies affirm a great accumulation of cultural capital. 
+ The advertising says that the musical bodies ha\nhttps://www.princeton.e
+ du/events/2026/musicology-colloquium-lydia-goehr
+URL:https://www.princeton.edu/events/2026/musicology-colloquium-lydia-goe
+ hr
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1910,27 +1502,6 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:613d492110f62729da4cd3e49196238a
-DTSTAMP:20261012T103037Z
-DTSTART:20261029T203000Z
-DTEND:20261029T213000Z
-SUMMARY:Staying Alive in Hitler’s Berlin
-DESCRIPTION:Hitler never trusted Berliners\, and many Berliners never tru
- sted him. Berlin was the cosmopolitan metropolis which the Nazis liked t
- o hate. Too many free spirits\, too many sexual deviants\, and too many 
- Jews. When the Third Reich was finally defeated in May 1945\, the city w
- as in ruins. Bleiben Sie übrig\, ‘stay alive’\, is how Berliners sa
- id goodbye to each once British and American bombers attacked the city d
- ay and night. By that stage\, in 1943\, most Jews of Berlin had already 
- been deported to the death camps. If my book about daily life in Hitler
- ’s capital during the war has a running theme\, it\nhttps://www.prince
- ton.edu/events/2026/staying-alive-hitlers-berlin
-URL:https://www.princeton.edu/events/2026/staying-alive-hitlers-berlin
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:398d08821546a65f2b5c66d37612bc39
 DTSTAMP:20261012T103037Z
 DTSTART:20261029T203000Z
@@ -1953,23 +1524,22 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:30bf9aa396a44cb0222564e7b2239b3f
+UID:613d492110f62729da4cd3e49196238a
 DTSTAMP:20261012T103037Z
 DTSTART:20261029T203000Z
 DTEND:20261029T213000Z
-SUMMARY:Musicology Colloquium with Lydia Goehr
-DESCRIPTION:The Musicology Colloquium presents a talk by Lydia Goehr.Abst
- ract From extended metaphors\, we get the wit of extension: e-wit. Exten
- sion cords\, like extended chords\, may be elastic or exact in reaching 
- a breaking point. Extended tonalities\, extended techniques\, and extend
- ed play: each stretches a norm without quite breaking it – until it do
- es. This lecture seeks the e-wit on display in the Metropolitan Museum's
-  currently running exhibition: “Musical Bodies” (2026). Comprising 1
- 30 pieces\, the bodies affirm a great accumulation of cultural capital. 
- The advertising says that the musical bodies ha\nhttps://www.princeton.e
- du/events/2026/musicology-colloquium-lydia-goehr
-URL:https://www.princeton.edu/events/2026/musicology-colloquium-lydia-goe
- hr
+SUMMARY:Staying Alive in Hitler’s Berlin
+DESCRIPTION:Hitler never trusted Berliners\, and many Berliners never tru
+ sted him. Berlin was the cosmopolitan metropolis which the Nazis liked t
+ o hate. Too many free spirits\, too many sexual deviants\, and too many 
+ Jews. When the Third Reich was finally defeated in May 1945\, the city w
+ as in ruins. Bleiben Sie übrig\, ‘stay alive’\, is how Berliners sa
+ id goodbye to each once British and American bombers attacked the city d
+ ay and night. By that stage\, in 1943\, most Jews of Berlin had already 
+ been deported to the death camps. If my book about daily life in Hitler
+ ’s capital during the war has a running theme\, it\nhttps://www.prince
+ ton.edu/events/2026/staying-alive-hitlers-berlin
+URL:https://www.princeton.edu/events/2026/staying-alive-hitlers-berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -2112,9 +1682,9 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:3535c1530a786c4765ded6612fba29e4
-DTSTAMP:20261005T103042Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261030T140000Z
-DTEND:20261030T190000Z
+DTEND:20261030T183000Z
 SUMMARY:Science & Technology Job Fair
 LOCATION:Dillon Gym
 DESCRIPTION:The Science and Technology Job Fair brings together Princeton
@@ -2779,6 +2349,28 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:6cca4ee2f1687eccbe96f675d5eb8053
+DTSTAMP:20261026T103034Z
+DTSTART:20261102T214500Z
+DTEND:20261102T224500Z
+SUMMARY:Reading of Slouching by Ava Adelaja ’27
+DESCRIPTION:Princeton students read Act I of Slouching\, a new play in de
+ velopment by theater senior Ava Adelaja. Following the casual reading\, 
+ there will be an informal conversation and an opportunity for audience f
+ eedback. A reading of Acts II & III will be held in December.The Program
+  in Theater & Music Theater will present Slouching from April 2-4\, 2026
+ \, at Berlind Theatre\, McCarter Theatre Center as part of the program's
+  2026-27 season.About SlouchingSoso\, a twenty-something\, wannabe\, Lon
+ don-based journalist/Nigerian immigrant living paycheck to paycheck\, sp
+ ins out of control when her mother\, Remi Joy\nhttps://www.princeton.edu
+ /events/2026/reading-slouching-ava-adelaja-27
+URL:https://www.princeton.edu/events/2026/reading-slouching-ava-adelaja-2
+ 7
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:6baed34ac59baf5586d4ff8c8b0eab87
 DTSTAMP:20261012T103037Z
 DTSTART:20261103T004500Z
@@ -2849,6 +2441,25 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:779658b141fb227859f970fa016a7103
+DTSTAMP:20261012T103037Z
+DTSTART:20261103T213000Z
+DTEND:20261103T223000Z
+SUMMARY:Summer Study Abroad Info Session
+DESCRIPTION:Join this virtual study abroad info session to learn more abo
+ ut summer opportunities! Learn about: Which Princeton faculty-led progra
+ ms will be offered in 2027 and their deadlines How to find and apply for
+  a non-Princeton summer course abroad and receive transfer credit How to
+  apply to the Dean's Fund to help offset the costs of studying abroad du
+ ring summer\nhttps://www.princeton.edu/events/2026/summer-study-abroad-i
+ nfo-session
+URL:https://www.princeton.edu/events/2026/summer-study-abroad-info-sessio
+ n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:e7ce1c2c51361c12986a6cafa870f0e8
 DTSTAMP:20261012T103037Z
 DTSTART:20261103T213000Z
@@ -2864,25 +2475,6 @@ DESCRIPTION:Kevin van Bladel’s new book Ancient Persian: A Linguistic H
  -history-discussion
 URL:https://www.princeton.edu/events/2026/ancient-persian-and-linguistic-
  history-discussion
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:779658b141fb227859f970fa016a7103
-DTSTAMP:20261012T103037Z
-DTSTART:20261103T213000Z
-DTEND:20261103T223000Z
-SUMMARY:Summer Study Abroad Info Session
-DESCRIPTION:Join this virtual study abroad info session to learn more abo
- ut summer opportunities! Learn about: Which Princeton faculty-led progra
- ms will be offered in 2027 and their deadlines How to find and apply for
-  a non-Princeton summer course abroad and receive transfer credit How to
-  apply to the Dean's Fund to help offset the costs of studying abroad du
- ring summer\nhttps://www.princeton.edu/events/2026/summer-study-abroad-i
- nfo-session
-URL:https://www.princeton.edu/events/2026/summer-study-abroad-info-sessio
- n
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -2999,6 +2591,24 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:c2533ea3878b7083ac28681700f459be
+DTSTAMP:20261012T103037Z
+DTSTART:20261104T200000Z
+DTEND:20261104T210000Z
+SUMMARY:McGraw Undergraduate Learning Program - Learning Concierge
+DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of 
+ Frist Campus Center for all of your learning-related questions and needs
+ . Grow with McGraw - even if you're managing your workload effectively\,
+  you always have room for growth to make your learning *efficient* too.\
+ nhttps://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-pro
+ gram-learning-concierge-16
+URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
+ rogram-learning-concierge-16
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:30e6a5a351ca12dde09d1e78be442e66
 DTSTAMP:20261012T103037Z
 DTSTART:20261104T200000Z
@@ -3014,19 +2624,15 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:c2533ea3878b7083ac28681700f459be
+UID:a63e1aeb171e01041925c3758e481c42
 DTSTAMP:20261012T103037Z
-DTSTART:20261104T200000Z
-DTEND:20261104T210000Z
-SUMMARY:McGraw Undergraduate Learning Program - Learning Concierge
-DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of 
- Frist Campus Center for all of your learning-related questions and needs
- . Grow with McGraw - even if you're managing your workload effectively\,
-  you always have room for growth to make your learning *efficient* too.\
- nhttps://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-pro
- gram-learning-concierge-16
-URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
- rogram-learning-concierge-16
+DTSTART:20261104T213000Z
+DTEND:20261104T223000Z
+SUMMARY:InterVarsity Small Group
+DESCRIPTION:Boba Chats is a safe space to explore faith in Jesus no matte
+ r your faith background. We will be studying through 1 John!\nhttps://ww
+ w.princeton.edu/events/2026/intervarsity-small-group-5
+URL:https://www.princeton.edu/events/2026/intervarsity-small-group-5
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3056,35 +2662,6 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:a63e1aeb171e01041925c3758e481c42
-DTSTAMP:20261012T103037Z
-DTSTART:20261104T213000Z
-DTEND:20261104T223000Z
-SUMMARY:InterVarsity Small Group
-DESCRIPTION:Boba Chats is a safe space to explore faith in Jesus no matte
- r your faith background. We will be studying through 1 John!\nhttps://ww
- w.princeton.edu/events/2026/intervarsity-small-group-5
-URL:https://www.princeton.edu/events/2026/intervarsity-small-group-5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:04e0058cb0c85aeb080026089573b5da
-DTSTAMP:20261012T103037Z
-DTSTART:20261104T220000Z
-DTEND:20261104T230000Z
-SUMMARY:YDSA Weekly Meeting
-DESCRIPTION:Pull up to a meeting if you're interested in organizing commu
- nity support programs\, spreading socialist ideas\, and building grassro
- ots power to win a better world for the 99%!\nhttps://www.princeton.edu/
- events/2026/ydsa-weekly-meeting-15
-URL:https://www.princeton.edu/events/2026/ydsa-weekly-meeting-15
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:70372a7e2b02ea14c5e87c0befcf33ee
 DTSTAMP:20261012T103037Z
 DTSTART:20261104T220000Z
@@ -3101,6 +2678,21 @@ DESCRIPTION:150 Years of Princeton Paleontology brings real fossils from
  fossils-150-years-princeton-paleontology
 URL:https://www.princeton.edu/events/2026/other-23-tree-life-invertebrate
  -and-plant-fossils-150-years-princeton-paleontology
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:04e0058cb0c85aeb080026089573b5da
+DTSTAMP:20261012T103037Z
+DTSTART:20261104T220000Z
+DTEND:20261104T230000Z
+SUMMARY:YDSA Weekly Meeting
+DESCRIPTION:Pull up to a meeting if you're interested in organizing commu
+ nity support programs\, spreading socialist ideas\, and building grassro
+ ots power to win a better world for the 99%!\nhttps://www.princeton.edu/
+ events/2026/ydsa-weekly-meeting-15
+URL:https://www.princeton.edu/events/2026/ydsa-weekly-meeting-15
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3136,20 +2728,20 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:77ce1a487d29d6f9b4eb7e54b565ab29
-DTSTAMP:20261012T103037Z
+DTSTAMP:20261026T103034Z
 DTSTART:20261105T000000Z
 DTEND:20261105T010000Z
 SUMMARY:Film Screening: Throne of Blood
 DESCRIPTION:Director Akira Kurosawa’s retelling of William Shakespeare
  ’s "Macbeth" in feudal Japan. Returning to their lord’s castle\, sam
- urai warriors Washizu (Toshirô Mifune) and Miki (Minoru Chiaki) are way
- laid by a spirit who predicts their futures. When the first part of the 
- spirit’s prophecy comes true\, Washizu’s scheming wife\, Asaji (Isuz
- u Yamada)\, presses him to speed up the rest of the spirit’s prophecy 
- by murdering his lord and usurping his place. Not rated\; 1 hour\, 50 mi
- nutes. $13.75 ($8.50 for members). Introduced by Kit Brooks\, curator of
-  Asian Art\, Princeton University Art Museum. This film s\nhttps://www.p
- rinceton.edu/events/2026/film-screening-throne-blood
+ urai warriors Washizu (Toshiro Mifune) and Miki (Minoru Chiaki) are wayl
+ aid by a spirit who predicts their futures. When the first part of the s
+ pirit’s prophecy comes true\, Washizu’s scheming wife\, Asaji (Isuzu
+  Yamada)\, presses him to speed up the rest of the spirit’s prophecy b
+ y murdering his lord and usurping his place. Not rated\; 1 hour\, 50 min
+ utes. $13.75 ($8.50 for members). Introduced by Kit Brooks\, curator of 
+ Asian Art\, Princeton University Art Museum. This film s\nhttps://www.pr
+ inceton.edu/events/2026/film-screening-throne-blood
 URL:https://www.princeton.edu/events/2026/film-screening-throne-blood
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -3547,22 +3139,6 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:c36c9ee6b96bbabd8aae092d6132896d
-DTSTAMP:20261019T103037Z
-DTSTART:20261107T180000Z
-DTEND:20261107T190000Z
-SUMMARY:World of Materials Science Day
-DESCRIPTION:family-oriented free multilingual program\, PCCM invites the 
- public to explore materials science with Princeton University researcher
- s. With many table-top activities\, participants of all ages interact wi
- th scientists and engineers who study and manipulate materials.\nhttps:/
- /www.princeton.edu/events/2026/world-materials-science-day
-URL:https://www.princeton.edu/events/2026/world-materials-science-day
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:0fd9735f7a512b17682eaa902fe79afd
 DTSTAMP:20261019T103037Z
 DTSTART:20261107T180000Z
@@ -3585,15 +3161,17 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:8a4d82767fd5febc7eae3f0cda53ad9b
+UID:c36c9ee6b96bbabd8aae092d6132896d
 DTSTAMP:20261019T103037Z
-DTSTART:20261107T190000Z
-DTEND:20261107T200000Z
-SUMMARY:Baha'i Devotional Gathering
-DESCRIPTION:Devotional focusing on unity and including readings from many
-  faiths.\nhttps://www.princeton.edu/events/2026/bahai-devotional-gatheri
- ng-2
-URL:https://www.princeton.edu/events/2026/bahai-devotional-gathering-2
+DTSTART:20261107T180000Z
+DTEND:20261107T190000Z
+SUMMARY:World of Materials Science Day
+DESCRIPTION:family-oriented free multilingual program\, PCCM invites the 
+ public to explore materials science with Princeton University researcher
+ s. With many table-top activities\, participants of all ages interact wi
+ th scientists and engineers who study and manipulate materials.\nhttps:/
+ /www.princeton.edu/events/2026/world-materials-science-day
+URL:https://www.princeton.edu/events/2026/world-materials-science-day
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3616,6 +3194,20 @@ DESCRIPTION:Infusing a classical oratorio with blues\, gospel\, jazz and
  s/2026/oratorio-living-things-heather-christian-0
 URL:https://www.princeton.edu/events/2026/oratorio-living-things-heather-
  christian-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:8a4d82767fd5febc7eae3f0cda53ad9b
+DTSTAMP:20261019T103037Z
+DTSTART:20261107T190000Z
+DTEND:20261107T200000Z
+SUMMARY:Baha'i Devotional Gathering
+DESCRIPTION:Devotional focusing on unity and including readings from many
+  faiths.\nhttps://www.princeton.edu/events/2026/bahai-devotional-gatheri
+ ng-2
+URL:https://www.princeton.edu/events/2026/bahai-devotional-gathering-2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3706,6 +3298,22 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:b8a3218f8ee1ce3d1378c5df2ebb314b
+DTSTAMP:20261026T103034Z
+DTSTART:20261108T000000Z
+DTEND:20261108T010000Z
+SUMMARY:Diwali at the Chapel
+DESCRIPTION:Join us for an enchanting evening of devotional music\, dance
+ \, sacred storytelling\, and spiritual reflection as we celebrate Diwali
+ \, the Hindu Festival of Lights. With special offerings from Bhajan Mand
+ ali featuring Mayuri Gandharvika\, Srikar\, & Friends.\nhttps://www.prin
+ ceton.edu/events/2026/diwali-chapel
+URL:https://www.princeton.edu/events/2026/diwali-chapel
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:780c3efa2865f6d4ee46858d9dd76889
 DTSTAMP:20261019T103037Z
 DTSTART:20261108T000000Z
@@ -3722,28 +3330,6 @@ DESCRIPTION:Princeton Magic: The Gathering Club meets every Saturday at 7
  ks\, stay for the friendly competition and th\nhttps://www.princeton.edu
  /events/2026/magic-gathering-club-meeting-8
 URL:https://www.princeton.edu/events/2026/magic-gathering-club-meeting-8
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:abd522a7b0fbefb6b89181fe84e6f41a
-DTSTAMP:20261019T103037Z
-DTSTART:20261108T010000Z
-DTEND:20261108T020000Z
-SUMMARY:Jazz at Princeton presents: Jazz Small Groups I and Faculty Group
-DESCRIPTION:Jazz at Princeton presents performances by small jazz groups 
- I and faculty members\, including repertoire selections that are a mixtu
- re of classic jazz repertoire and contemporary compositions. Link to Liv
- estreamTicketsGeneral: $16 | Student: $6 | Princeton University Student:
-  Free through Passport to the Arts.The prices listed are inclusive of al
- l processing fees.Faculty and Staff: In addition to two (2) free tickets
- \, all university Faculty and Staff can also purchase additional tickets
-  at a price point of $6 per ticket.TICKETSArtistsSmall Group I:Miles Oka
- zaki\, DirectorTheodore Peebles '28 - \nhttps://www.princeton.edu/events
- /2026/jazz-princeton-presents-jazz-small-groups-i-and-faculty-group
-URL:https://www.princeton.edu/events/2026/jazz-princeton-presents-jazz-sm
- all-groups-i-and-faculty-group
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3766,6 +3352,28 @@ DESCRIPTION:Infusing a classical oratorio with blues\, gospel\, jazz and
  s/2026/oratorio-living-things-heather-christian-1
 URL:https://www.princeton.edu/events/2026/oratorio-living-things-heather-
  christian-1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:abd522a7b0fbefb6b89181fe84e6f41a
+DTSTAMP:20261019T103037Z
+DTSTART:20261108T010000Z
+DTEND:20261108T020000Z
+SUMMARY:Jazz at Princeton presents: Jazz Small Groups I and Faculty Group
+DESCRIPTION:Jazz at Princeton presents performances by small jazz groups 
+ I and faculty members\, including repertoire selections that are a mixtu
+ re of classic jazz repertoire and contemporary compositions. Link to Liv
+ estreamTicketsGeneral: $16 | Student: $6 | Princeton University Student:
+  Free through Passport to the Arts.The prices listed are inclusive of al
+ l processing fees.Faculty and Staff: In addition to two (2) free tickets
+ \, all university Faculty and Staff can also purchase additional tickets
+  at a price point of $6 per ticket.TICKETSArtistsSmall Group I:Miles Oka
+ zaki\, DirectorTheodore Peebles '28 - \nhttps://www.princeton.edu/events
+ /2026/jazz-princeton-presents-jazz-small-groups-i-and-faculty-group
+URL:https://www.princeton.edu/events/2026/jazz-princeton-presents-jazz-sm
+ all-groups-i-and-faculty-group
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3902,16 +3510,22 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:aeb739ba841f974d15f1915edd69148e
-DTSTAMP:20261019T103037Z
+UID:2a09f2a0cd3c3105a6c4ac12160578d7
+DTSTAMP:20261026T103034Z
 DTSTART:20261109T213000Z
 DTEND:20261109T223000Z
-SUMMARY:Civic Leadership Council (Pace) Weekly Meeting
-DESCRIPTION:Weekly meeting for the Civic Leadership Council (Pace Center)
- \nhttps://www.princeton.edu/events/2026/civic-leadership-council-pace-we
- ekly-meeting-8
-URL:https://www.princeton.edu/events/2026/civic-leadership-council-pace-w
- eekly-meeting-8
+SUMMARY:Megan O'Rourke Book Talk
+DESCRIPTION:Join us for a conversation on public scholarship with Meghan 
+ O’Rourke\, editor of The Yale Review and author of The Invisible Kingd
+ om: Reimagining Chronic Illness\, a 2022 National Book Award Finalist fo
+ r Nonfiction. O’Rourke will discuss the health humanities\, writing fo
+ r audiences beyond the academy\, and the making of her latest project\, 
+ an anthology of poetry about illness and recovery. She will take your qu
+ estions about the behind-the-scenes of these innovative projects\, about
+  publishing with trade presses and magazines\, and about editing The Yal
+ e Review\, a flagship magazine of public schola\nhttps://www.princeton.e
+ du/events/2026/megan-orourke-book-talk
+URL:https://www.princeton.edu/events/2026/megan-orourke-book-talk
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -3927,6 +3541,21 @@ DESCRIPTION:Undergraduates can join to learn all about studying abroad in
  ceton.edu/events/2026/lse-summer-study-abroad-info-session
 URL:https://www.princeton.edu/events/2026/lse-summer-study-abroad-info-se
  ssion
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:aeb739ba841f974d15f1915edd69148e
+DTSTAMP:20261019T103037Z
+DTSTART:20261109T213000Z
+DTEND:20261109T223000Z
+SUMMARY:Civic Leadership Council (Pace) Weekly Meeting
+DESCRIPTION:Weekly meeting for the Civic Leadership Council (Pace Center)
+ \nhttps://www.princeton.edu/events/2026/civic-leadership-council-pace-we
+ ekly-meeting-8
+URL:https://www.princeton.edu/events/2026/civic-leadership-council-pace-w
+ eekly-meeting-8
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -4024,6 +3653,24 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:181c00dbdf7b25c81758e83a6f3e7c63
+DTSTAMP:20261019T103037Z
+DTSTART:20261110T200000Z
+DTEND:20261110T210000Z
+SUMMARY:McGraw Undergraduate Learning Program - Learning Concierge
+DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of 
+ Frist Campus Center for all of your learning-related questions and needs
+ . Grow with McGraw - even if you're managing your workload effectively\,
+  you always have room for growth to make your learning *efficient* too.\
+ nhttps://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-pro
+ gram-learning-concierge-17
+URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
+ rogram-learning-concierge-17
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:a5e414ef83abe85b9d4aa44044e3af29
 DTSTAMP:20261019T103037Z
 DTSTART:20261110T200000Z
@@ -4042,19 +3689,23 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:181c00dbdf7b25c81758e83a6f3e7c63
-DTSTAMP:20261019T103037Z
-DTSTART:20261110T200000Z
-DTEND:20261110T210000Z
-SUMMARY:McGraw Undergraduate Learning Program - Learning Concierge
-DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of 
- Frist Campus Center for all of your learning-related questions and needs
- . Grow with McGraw - even if you're managing your workload effectively\,
-  you always have room for growth to make your learning *efficient* too.\
- nhttps://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-pro
- gram-learning-concierge-17
-URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
- rogram-learning-concierge-17
+UID:0d8b9217e1283353334f1d11d07cf2f4
+DTSTAMP:20261026T103034Z
+DTSTART:20261110T213000Z
+DTEND:20261110T223000Z
+SUMMARY:Princeton University Public Lectures: Valeria Luiselli
+DESCRIPTION:Valeria Luiselli is an acclaimed Mexican author and essayist 
+ whose work spans fiction\, nonfiction\, and soundscapes. Born in Mexico 
+ City and raised in South Korea\, South Africa\, and India\, she is the a
+ uthor of the essay collections Tell Me How It Ends and Sidewalks\; the s
+ onic essay Echoes From the Borderlands\; and the novels Faces in the Cro
+ wd\, The Story of My Teeth\, Lost Children Archive\, and Beginning Middl
+ e End. Luiselli is a recipient of the 2019 MacArthur Fellowship and has 
+ been honored with the Dublin Literary Award\, two Los Angeles Times Book
+  Prizes\, the Carnegie Medal\, and an American B\nhttps://www.princeton.
+ edu/events/2026/princeton-university-public-lectures-valeria-luiselli
+URL:https://www.princeton.edu/events/2026/princeton-university-public-lec
+ tures-valeria-luiselli
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -4165,6 +3816,20 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:4c1fa6fc800609c660d8f55323e4658b
+DTSTAMP:20261026T103034Z
+DTSTART:20261111T140000Z
+DTEND:20261111T150000Z
+SUMMARY:Veterans Day Service
+LOCATION:Chapel
+DESCRIPTION:An interfaith service honoring all who served.\nhttps://chape
+ l.princeton.edu/events/veterans-day-service-5
+URL:https://chapel.princeton.edu/events/veterans-day-service-5
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:881a184768942af31f26bd05291ee73f
 DTSTAMP:20261019T103037Z
 DTSTART:20261111T140000Z
@@ -4245,6 +3910,21 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:942aa513c6bdffa94c71dd00cdeeec2e
+DTSTAMP:20261019T103037Z
+DTSTART:20261111T200000Z
+DTEND:20261111T210000Z
+SUMMARY:Pace Center Summer Internships Drop-in
+DESCRIPTION:Meet Pace Center staff to learn about all the summer service 
+ internship opportunities available to you!\nhttps://www.princeton.edu/ev
+ ents/2026/pace-center-summer-internships-drop-5
+URL:https://www.princeton.edu/events/2026/pace-center-summer-internships-
+ drop-5
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:36780725f8885427593e4fbba33efe0f
 DTSTAMP:20261019T103037Z
 DTSTART:20261111T200000Z
@@ -4258,21 +3938,6 @@ DESCRIPTION:Stop by McGraw's Learning Concierge Desk in the 100-level of
  gram-learning-concierge-18
 URL:https://www.princeton.edu/events/2026/mcgraw-undergraduate-learning-p
  rogram-learning-concierge-18
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:942aa513c6bdffa94c71dd00cdeeec2e
-DTSTAMP:20261019T103037Z
-DTSTART:20261111T200000Z
-DTEND:20261111T210000Z
-SUMMARY:Pace Center Summer Internships Drop-in
-DESCRIPTION:Meet Pace Center staff to learn about all the summer service 
- internship opportunities available to you!\nhttps://www.princeton.edu/ev
- ents/2026/pace-center-summer-internships-drop-5
-URL:https://www.princeton.edu/events/2026/pace-center-summer-internships-
- drop-5
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -4342,16 +4007,17 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
-UID:f189cb5e1b54e2a4712cc8a147ac2249
-DTSTAMP:20261019T103037Z
+UID:59ee7aeb5e7edd68c8e7a3c1a78beee5
+DTSTAMP:20261026T103034Z
 DTSTART:20261112T010000Z
 DTEND:20261112T020000Z
-SUMMARY:Princeton Christian Fellowship Bible studies
-DESCRIPTION:Princeton Christian Fellowship small group Bible study soph/j
- unior men\nhttps://www.princeton.edu/events/2026/princeton-christian-fel
- lowship-bible-studies-13
-URL:https://www.princeton.edu/events/2026/princeton-christian-fellowship-
- bible-studies-13
+SUMMARY:Jazz Vespers
+LOCATION:Chapel
+DESCRIPTION:An inclusive experience of poetry\, music\, and quiet centeri
+ ng\, featuring jazz saxophonist Audrey Welber\, pianist Adam Faulk\, and
+  members of the Chapel Choir.\nhttps://chapel.princeton.edu/events/jazz-
+ vespers-12
+URL:https://chapel.princeton.edu/events/jazz-vespers-12
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -4367,6 +4033,21 @@ DESCRIPTION:An inclusive experience of poetry\, music\, and quiet centeri
   members of the Chapel Choir.\nhttps://www.princeton.edu/events/2026/jaz
  z-vespers-1
 URL:https://www.princeton.edu/events/2026/jazz-vespers-1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:f189cb5e1b54e2a4712cc8a147ac2249
+DTSTAMP:20261019T103037Z
+DTSTART:20261112T010000Z
+DTEND:20261112T020000Z
+SUMMARY:Princeton Christian Fellowship Bible studies
+DESCRIPTION:Princeton Christian Fellowship small group Bible study soph/j
+ unior men\nhttps://www.princeton.edu/events/2026/princeton-christian-fel
+ lowship-bible-studies-13
+URL:https://www.princeton.edu/events/2026/princeton-christian-fellowship-
+ bible-studies-13
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -4463,6 +4144,381 @@ TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
+UID:da82203080bca09ccfd527f80b63ed25
+DTSTAMP:20261026T103034Z
+DTSTART:20261112T193000Z
+DTEND:20261112T203000Z
+SUMMARY:Pivot Like a Pro: Unleash the Power of PivotTables
+DESCRIPTION:PivotTables are a powerful tool to calculate\, summarize\, an
+ d analyze data that lets you see comparisons\, patterns\, and trends in 
+ your data. This session will introduce participants PivotTables and thei
+ r functionality. We will also discuss creating PivotCharts\, a graphical
+  representation of a data summary displayed in a PivotTable.\nhttps://ww
+ w.princeton.edu/events/2026/pivot-pro-unleash-power-pivottables-0
+URL:https://www.princeton.edu/events/2026/pivot-pro-unleash-power-pivotta
+ bles-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:0766341285f68d79aa3b040bb46d04f7
+DTSTAMP:20261026T103034Z
+DTSTART:20261112T213000Z
+DTEND:20261112T223000Z
+SUMMARY:CITP Special Event: Book Talk with Beth Noveck
+DESCRIPTION:Democracy is in retreat at home and abroad. Our institutions 
+ are more fragile than ever. At this delicate moment\, artificial intelli
+ gence has burst onto the scene—a powerful technology that holds as muc
+ h potential to bolster democracy as to harm it. Yet we no longer treat d
+ emocracy as a design challenge we can solve. We have built extraordinary
+  tools without yet using them where they are needed most: to forge insti
+ tutions that listen more closely\, decide more wisely\, and act more eff
+ ectively. We stand at an inflection point. Will AI tighten the grip of p
+ ower—or help rebuild public institutions\nhttps://www.princeton.edu/ev
+ ents/2026/citp-special-event-book-talk-beth-noveck
+URL:https://www.princeton.edu/events/2026/citp-special-event-book-talk-be
+ th-noveck
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:dbf78799820bd3b2d0a7567431e1b9c2
+DTSTAMP:20261026T103034Z
+DTSTART:20261112T213000Z
+DTEND:20261112T223000Z
+SUMMARY:Vaults of Trade: Medieval Architectures of Exchange between Sea a
+ nd City
+DESCRIPTION:Lecture\nhttps://www.princeton.edu/events/2026/vaults-trade-m
+ edieval-architectures-exchange-between-sea-and-city
+URL:https://www.princeton.edu/events/2026/vaults-trade-medieval-architect
+ ures-exchange-between-sea-and-city
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:eaf35f778c0d020bc28bafc6e9fea279
+DTSTAMP:20261026T103034Z
+DTSTART:20261112T220000Z
+DTEND:20261112T230000Z
+SUMMARY:Friends of PUL Small Talk: Tsundoku: What isn't in "The Art of Ja
+ panese Publishing" Exhibition
+DESCRIPTION:Join us on Thursday\, November 12 for a Friends Small Talk an
+ d showcase featuring Nicole Fabricand-Person '76\, *01. You may have hea
+ rd of the Japanese term\, “tsundoku” that has become fashionable in 
+ English to describe the phenomenon of purchasing books and letting them 
+ pile up without being read. Taking liberty with the term\, this Small Ta
+ lk will introduce some of the wonderful books in the Marquand Library Co
+ llection that either had to be cut from the exhibition or were purchased
+  too late to be included—they were therefore purchased\, but “unread
+ ” by our visitors. Program timeline: 5:00pm-5:30\nhttps://www.princeto
+ n.edu/events/2026/friends-pul-small-talk-tsundoku-what-isnt-art-japanese
+ -publishing-exhibition
+URL:https://www.princeton.edu/events/2026/friends-pul-small-talk-tsundoku
+ -what-isnt-art-japanese-publishing-exhibition
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:e6c326a41fe69f80961738ac26b257d2
+DTSTAMP:20261026T103034Z
+DTSTART:20261112T230000Z
+DTEND:20261113T000000Z
+SUMMARY:CITP Special Event: Book Talk with Beth Noveck
+DESCRIPTION:Democracy is in retreat at home and abroad. Our institutions 
+ are more fragile than ever. At this delicate moment\, artificial intelli
+ gence has burst onto the scene—a powerful technology that holds as muc
+ h potential to bolster democracy as to harm it. Yet we no longer treat d
+ emocracy as a design challenge we can solve. We have built extraordinary
+  tools without yet using them where they are needed most: to forge insti
+ tutions that listen more closely\, decide more wisely\, and act more eff
+ ectively. We stand at an inflection point. Will AI tighten the grip of p
+ ower—or help rebuild public institutions\nhttps://www.princeton.edu/ev
+ ents/2026/citp-special-event-book-talk-beth-noveck-0
+URL:https://www.princeton.edu/events/2026/citp-special-event-book-talk-be
+ th-noveck-0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:7261e17a306ccd49846206ee0335017a
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T003000Z
+DTEND:20261113T013000Z
+SUMMARY:Nemanja Radulović\, Violin\; Double Sens Ensemble (Princeton Uni
+ versity Concerts)
+DESCRIPTION:Serbian-French violinist Nemanja Radulović is as close to a 
+ rock star as classical music gets—fearless\, electrifying\, and utterl
+ y captivating. He makes his long-awaited Princeton debut with his sparkl
+ ing Double Sens Chamber Orchestra\, an ensemble he founded with his clos
+ est Serbian and French friends. Crowned “International Revelation of t
+ he Year” at the Victoires de la Musique and winner of the 2024 OPUS KL
+ ASSIK Award\, Radulović is celebrated for his fiery virtuosity\, sponta
+ neous energy\, and infectious joy on stage. He brings us a program of hi
+ s own arrangements for chamber orchestra\, giving \nhttps://www.princeto
+ n.edu/events/2026/nemanja-radulovic-violin-double-sens-ensemble-princeto
+ n-university-concerts
+URL:https://www.princeton.edu/events/2026/nemanja-radulovic-violin-double
+ -sens-ensemble-princeton-university-concerts
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:b2f49982506136af911efbb1e4cd9eba
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T150000Z
+DTEND:20261113T160000Z
+SUMMARY:Site: Exhibition by Carlos Agredano
+DESCRIPTION:Recent 2025-26 Hodder Fellow Carlos Agredano showcases new wo
+ rk in the exhibition\, Site\, in the Hurley Gallery at the Lewis Arts co
+ mplex.Site follows the history of the chemical industry in twentieth-cen
+ tury New Jersey\, whose factories supplied pesticides\, plastics\, and m
+ unitions to American border enforcement and the United States military. 
+ Networks of industrial firms ran from Perth Amboy\, Princeton\, Los Alam
+ os\, Bien Hoa\, to Basrah\, and their inventions left behind a toxic leg
+ acy both at home and abroad. In response to the negative environmental i
+ mpact caused by the chemical industry\, Congre\nhttps://www.princeton.ed
+ u/events/2026/site-exhibition-carlos-agredano-2
+URL:https://www.princeton.edu/events/2026/site-exhibition-carlos-agredano
+ -2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:7a739ec12861333105d9f4663086a432
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T160000Z
+DTEND:20261113T170000Z
+SUMMARY:The Aging Prison Population: Causes\, Consequences and Solutions
+DESCRIPTION:A discussion of the causes\, consequences\, and solutions to 
+ the aging prison population\nhttps://www.princeton.edu/events/2026/aging
+ -prison-population-causes-consequences-and-solutions
+URL:https://www.princeton.edu/events/2026/aging-prison-population-causes-
+ consequences-and-solutions
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:a1e7ab25f40bc4a0bb26b2a05f576bda
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T170000Z
+DTEND:20261113T180000Z
+SUMMARY:30 Minutes Towards Better Bibliographies and Footnotes! (online)
+DESCRIPTION:This 30-minute virtual workshop will focus on Zotero\, but wi
+ ll also briefly introduce you to other similar tools\, including Mendele
+ y\, Endnote and Scrivener. You will learn how to set up an account\, imp
+ ort citations from library databases and web pages\, and deploy the refe
+ rences into a Word of Google document. Please watch this five minute vid
+ eo before the workshop.\nhttps://www.princeton.edu/events/2026/30-minute
+ s-towards-better-bibliographies-and-footnotes-online-6
+URL:https://www.princeton.edu/events/2026/30-minutes-towards-better-bibli
+ ographies-and-footnotes-online-6
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4eea605baac25edb45d688c0b385fc23
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T190000Z
+DTEND:20261113T200000Z
+SUMMARY:Japanese Woodblock Printing
+DESCRIPTION:This workshop will provide an overview of the materials\, too
+ ls\, and practices of historical Japanese woodblock printing. Participan
+ ts will also learn about modern-day technologies (e.g.\, 3D printing and
+  laser cutting) used to replicate select historical woodblock prints hel
+ d by the Marquand Library and featured in the current Milberg Gallery ex
+ hibition\, “The Art of Japanese Publishing.” After a brief introduct
+ ion to the exhibition and a demonstration of the technique\, multiple bl
+ ocks will be available for participants to make their own woodblock prin
+ ts. Instructors: Ariel Ackerly and Molly Dot\nhttps://www.princeton.edu/
+ events/2026/japanese-woodblock-printing
+URL:https://www.princeton.edu/events/2026/japanese-woodblock-printing
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:4b8fff61a8e28c192cff026a9266e135
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T190000Z
+DTEND:20261113T200000Z
+SUMMARY:Pop-Up Talk: Curator Kit Brooks
+DESCRIPTION:Short talks and Q&As on Museum topics This month\, Kit Brooks
+ \, the Museum's curator of Asian art\, will discuss the special exhibiti
+ on "Takeda Hideo’s Genpei: Defying Authority\," which features a serie
+ s of silkscreen prints that cynically reinterprets Japan’s Genpei War 
+ (1180–85) within the context of twentieth-century social upheavals. Af
+ ter the talk\, head upstairs to the Allen Adler and Frances Beatty Adler
+  Gallery for an informal conversation with the curator.\nhttps://www.pri
+ nceton.edu/events/2026/pop-talk-curator-kit-brooks
+URL:https://www.princeton.edu/events/2026/pop-talk-curator-kit-brooks
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:519907f044340d8df0240a3b911afaf3
+DTSTAMP:20261026T103034Z
+DTSTART:20261113T213000Z
+DTEND:20261113T223000Z
+SUMMARY:Fund for Irish Studies: Lecture by Peter Kelly — “Seamus Hean
+ ey and the Classics”
+DESCRIPTION:Princeton Assistant Professor of Classics Peter Kelly present
+ s a lecture on “Seamus Heaney and the Classics\,” sharing material f
+ rom his current book project on connections between the poetry of Seamus
+  Heaney\, Michael Longley and Derek Mahon and the Greco-Roman classics. 
+ For these Northern Irish writers\, the translation and reception of Lati
+ n literature became a means of operating inside\, outside\, and across p
+ olitical and cultural divides\, Kelly explains\, and opened up a space f
+ or meaningfully reflecting on the fractured and bifurcated nature of pla
+ ce in Northern Ireland. Kelly argues that Hean\nhttps://www.princeton.ed
+ u/events/2026/fund-irish-studies-lecture-peter-kelly-seamus-heaney-and-c
+ lassics
+URL:https://www.princeton.edu/events/2026/fund-irish-studies-lecture-pete
+ r-kelly-seamus-heaney-and-classics
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:aa7e925beec512f99f74b15170a1cfa0
+DTSTAMP:20261026T103034Z
+DTSTART:20261114T000000Z
+DTEND:20261114T010000Z
+SUMMARY:Men's Ice Hockey vs Harvard
+DESCRIPTION:Men's Ice Hockey vs Harvard\nhttps://www.princeton.edu/events
+ /2026/mens-ice-hockey-vs-harvard
+URL:https://www.princeton.edu/events/2026/mens-ice-hockey-vs-harvard
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:767c4faeebe2f04f74bf26cf40e53b3d
+DTSTAMP:20261026T103034Z
+DTSTART:20261114T010000Z
+DTEND:20261114T020000Z
+SUMMARY:At the Wedding by Bryna Turner
+DESCRIPTION:Pixley Marquardt '27 co-directs and performs in At the Weddin
+ g. (Photo by Lucy Shea) In this raucous and bittersweet comedy\, Carlo f
+ inds herself at her ex-girlfriend’s wedding to… some guy. Determined
+  to cause a scene\, Carlo guides the audience through a series of cynica
+ lly hilarious exchanges with the many faces of the party. As she tries t
+ o rock the boat\, will she be able to see beyond her heartache and recog
+ nize the true character of the people around her? Or will she sink under
+  the weight of old habits\, resolute in her bitter perceptions of love?F
+ eaturing senior Pixley Marquardt and co-dir\nhttps://www.princeton.edu/e
+ vents/2026/wedding-bryna-turner
+URL:https://www.princeton.edu/events/2026/wedding-bryna-turner
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:c384441366b5522b240236f9655e6168
+DTSTAMP:20261026T103034Z
+DTSTART:20261114T130000Z
+DTEND:20261114T140000Z
+SUMMARY:M Volleyball Fall Classic
+DESCRIPTION:M Volleyball Fall Classic\nhttps://www.princeton.edu/events/2
+ 026/m-volleyball-fall-classic
+URL:https://www.princeton.edu/events/2026/m-volleyball-fall-classic
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:3ee5612bf4585267c270d2d15fd088c0
+DTSTAMP:20261026T103034Z
+DTSTART:20261114T150000Z
+DTEND:20261114T160000Z
+SUMMARY:Site: Exhibition by Carlos Agredano
+DESCRIPTION:Recent 2025-26 Hodder Fellow Carlos Agredano showcases new wo
+ rk in the exhibition\, Site\, in the Hurley Gallery at the Lewis Arts co
+ mplex.Site follows the history of the chemical industry in twentieth-cen
+ tury New Jersey\, whose factories supplied pesticides\, plastics\, and m
+ unitions to American border enforcement and the United States military. 
+ Networks of industrial firms ran from Perth Amboy\, Princeton\, Los Alam
+ os\, Bien Hoa\, to Basrah\, and their inventions left behind a toxic leg
+ acy both at home and abroad. In response to the negative environmental i
+ mpact caused by the chemical industry\, Congre\nhttps://www.princeton.ed
+ u/events/2026/site-exhibition-carlos-agredano-3
+URL:https://www.princeton.edu/events/2026/site-exhibition-carlos-agredano
+ -3
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:e2d05e757180a4114bb9aa45f41e63c0
+DTSTAMP:20261026T103034Z
+DTSTART:20261114T150000Z
+DTEND:20261114T160000Z
+SUMMARY:Wrestling vs UTC\, Duke\, & Ohio
+DESCRIPTION:Wrestling vs UTC\, Duke\, & Ohio\nhttps://www.princeton.edu/e
+ vents/2026/wrestling-vs-utc-duke-ohio
+URL:https://www.princeton.edu/events/2026/wrestling-vs-utc-duke-ohio
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:914d94b823e6f04809e3f496ebd09593
+DTSTAMP:20261026T103034Z
+DTSTART:20261114T210000Z
+DTEND:20261114T220000Z
+SUMMARY:Tango Practica
+DESCRIPTION:Come practice tango skills either basics or advanced in a fri
+ endly and informal environment!\nhttps://www.princeton.edu/events/2026/t
+ ango-practica-21
+URL:https://www.princeton.edu/events/2026/tango-practica-21
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:5925e8fc301b303063e6d01435551999
+DTSTAMP:20261026T103034Z
+DTSTART:20261115T000000Z
+DTEND:20261115T010000Z
+SUMMARY:Men's Ice Hockey vs Dartmouth
+DESCRIPTION:Men's Ice Hockey vs Dartmouth\nhttps://www.princeton.edu/even
+ ts/2026/mens-ice-hockey-vs-dartmouth
+URL:https://www.princeton.edu/events/2026/mens-ice-hockey-vs-dartmouth
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:81888db7f782689c528b36ce433df67a
+DTSTAMP:20261026T103034Z
+DTSTART:20261115T000000Z
+DTEND:20261115T010000Z
+SUMMARY:Magic: The Gathering Club Meeting
+DESCRIPTION:Princeton Magic: The Gathering Club meets every Saturday at 7
+ PM in JRR A98 for a night of Commander games\, free draft\, and good com
+ pany. Whether you've never touched a Magic card or you've got a stack of
+  decks at home\, there's a place for you at the table — we've got begi
+ nner kits with ready-to-play Standard decks and members happy to walk yo
+ u through your first game step by step. New this semester\, we're puttin
+ g extra focus on welcoming beginners: no experience\, no cards\, and no 
+ prior knowledge needed\, just come with curiosity. Come for the free pac
+ ks\, stay for the friendly competition and th\nhttps://www.princeton.edu
+ /events/2026/magic-gathering-club-meeting-9
+URL:https://www.princeton.edu/events/2026/magic-gathering-club-meeting-9
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
 UID:35d6dd297fd132881c20e00586ed9cb8
 DTSTAMP:20260920T025055Z
 DTSTART:20261120T200000Z
@@ -4477,6 +4533,32 @@ DESCRIPTION:The Tiger Trot for Hunger 5k Run/Walk is an annual event\, ho
  hunger-5k-runwalk
 URL:https://campusrec.princeton.edu/events/2026-tiger-trot-hunger-5k-runw
  alk
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:de1b08ad9325f980a9c554a96701c69c
+DTSTAMP:20261026T103034Z
+DTSTART:20261201T050000Z
+DTEND:20261202T050000Z
+SUMMARY:2026 Giving Tuesday
+DESCRIPTION:[in conjunction with Tiger Athletics Giving Day (TAGD)]\nCamp
+ us Recreation is excited to encourage our Sport Club Friends Groups and 
+ TeamRec Staff to consider donating on National Giving Tuesday – Tuesda
+ y\, December 1\, 2026. NOTE: These efforts are separate from any challen
+ ge through varsity Athletics and winners will be announced in December. 
+ Please note that progress and results for these efforts will NOT be part
+  of the official TAGD leaderboard that will be visible that day. The mon
+ ey raised on this day will support students who are creating community o
+ n our campus through their sport club team or their role within Campus R
+ ecreation. Our club teams (https://campusrec.princeton.edu/sports/sport-
+ clubs) compete locally\, regionally\, and nationally\, and\, even more i
+ mportantly\, they create a place for connection through sport and friend
+ ships that will last a lifetime. Our TeamRec staff (https://campusrec.pr
+ inceton.edu/about-us/student-employment) \nhttps://campusrec.princeton.e
+ du/events/2026-giving-tuesday
+URL:https://campusrec.princeton.edu/events/2026-giving-tuesday
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

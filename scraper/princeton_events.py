@@ -7,9 +7,10 @@ Sources (all public, no login):
   campusrec    campusrec.princeton.edu/events                   (Drupal, Cloudflare)
   university   www.princeton.edu/feed/events/                   (RSS, plain HTTP)
 
-The Cloudflare-fronted department sites block plain curl, so those are fetched with
-`opencli web read` (real Chrome) and parsed from the Markdown it emits. The university
-feed is plain RSS whose <pubDate> is the event START time.
+The Cloudflare-fronted department sites block plain curl, so those are fetched with the
+Camofox browser (`camofox` CLI, anti-detection Firefox) and converted in-page to Markdown
+(links as [text](url), headings, list items, bold, plus the raw FullCalendar grid
+anchors). The university feed is plain RSS whose <pubDate> is the event START time.
 
 Outputs:
   ~/.calendars/<cal>/<uid>.ics        one event per file, khal-readable
@@ -109,33 +110,91 @@ def log(*a):
     print(*a, file=sys.stderr)
 
 
-def fetch_md(url: str, save: bool = True) -> str:
-    """Fetch via opencli's real browser (gets past Cloudflare)."""
-    out = MDCACHE / (hashlib.sha1(url.encode()).hexdigest()[:10] + ".md")
-    # IMPORTANT: keep the real environment (HOME etc.) -- opencli needs ~/.opencli and
-    # its Chrome profile; a scrubbed env launches a profileless browser that CF blocks.
+CAMOFOX_SESSION = "princeton-events"     # one reused Camofox tab for the whole run
+
+# In-page DOM -> Markdown. Walks textContent rather than innerText so hidden tab panels
+# (the careers "Events List" tab) and CSS text-transform do not change the output.
+PAGE_MD_JS = r"""(() => {
+  const root = document.querySelector('main') || document.body;
+  if (!root) return '';
+  const SKIP = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'SVG', 'IMG', 'PICTURE', 'IFRAME',
+                        'TEMPLATE', 'BUTTON', 'SELECT', 'INPUT', 'TEXTAREA']);
+  const BLOCK = new Set(['ADDRESS', 'ARTICLE', 'ASIDE', 'BLOCKQUOTE', 'DD', 'DIV', 'DL', 'DT',
+                         'FIELDSET', 'FIGCAPTION', 'FIGURE', 'FOOTER', 'FORM', 'H1', 'H2', 'H3',
+                         'H4', 'H5', 'H6', 'HEADER', 'HR', 'LI', 'MAIN', 'NAV', 'OL', 'P', 'PRE',
+                         'SECTION', 'TABLE', 'TBODY', 'THEAD', 'TR', 'UL']);
+  const sp = s => s.replace(/\s+/g, ' ');
+  const out = [];
+  const walk = n => {
+    if (n.nodeType === 3) { out.push(sp(n.nodeValue)); return; }
+    if (n.nodeType !== 1) return;
+    const tag = n.tagName.toUpperCase();
+    if (SKIP.has(tag) || (tag === 'A' && n.classList.contains('fc-daygrid-event'))) return;
+    if (tag === 'BR') { out.push('\n'); return; }
+    if (tag === 'A' && /^https?:/.test(n.href || '')) {
+      const t = sp(n.textContent).trim();
+      if (t) out.push('[' + t + '](' + n.href + ')');
+      return;
+    }
+    const block = BLOCK.has(tag);
+    if (block) out.push('\n\n');
+    if (/^H[1-6]$/.test(tag)) out.push('#'.repeat(+tag[1]) + ' ');
+    if (tag === 'LI') out.push('- ');
+    if (tag === 'TD' || tag === 'TH') out.push(' ');
+    const bold = (tag === 'STRONG' || tag === 'B') && n.textContent.trim();
+    if (bold) out.push('**');
+    n.childNodes.forEach(walk);
+    if (bold) out.push('**');
+    if (block) out.push('\n\n');
+  };
+  walk(root);
+  const body = out.join('').split('\n').map(l => l.trim()).join('\n')
+    .replace(/\n{3,}/g, '\n\n').trim();
+  const grid = [...document.querySelectorAll('a.fc-daygrid-event')].map(a => a.outerHTML);
+  return '# ' + document.title + '\n> ' + location.href + '\n\n---\n\n' + body + '\n'
+    + (grid.length ? '\n' + grid.join('\n') + '\n' : '');
+})()"""
+
+
+def _camofox(*args: str, timeout: int = 180) -> subprocess.CompletedProcess:
     env = dict(os.environ)
     env["PATH"] = str(Path.home() / ".local/bin") + ":" + env.get("PATH", "/usr/bin:/bin")
-    cmd = ["opencli", "web", "read", "--url", url, "--stdout", "true",
-           "-f", "md", "--download-images", "false", "--wait", "5"]
+    return subprocess.run(["camofox", "-s", CAMOFOX_SESSION, *args], capture_output=True,
+                          text=True, timeout=timeout, env=env)
+
+
+def _cf_wall(text: str) -> bool:
+    return ("Just a moment" in text or "Performing security verification" in text
+            or len(text) <= 500)
+
+
+def fetch_md(url: str, save: bool = True) -> str:
+    """Fetch via the Camofox browser (gets past Cloudflare) as Markdown."""
+    out = MDCACHE / (hashlib.sha1(url.encode()).hexdigest()[:10] + ".md")
     last = ""
     for attempt in (1, 2, 3):
+        text, p = "", None
         try:
-            p = subprocess.run(cmd, capture_output=True, text=True, timeout=300, env=env)
-            text = p.stdout or ""
+            p = _camofox("open", url, "--wait", "5")
+            if p.returncode == 0:
+                for _ in range(8):      # the Cloudflare check can take a while to clear
+                    p = _camofox("eval", PAGE_MD_JS, timeout=120)
+                    text = (p.stdout or "") if p.returncode == 0 else ""
+                    if p.returncode != 0 or not _cf_wall(text):
+                        break
+                    time.sleep(5)
         except subprocess.TimeoutExpired:
             text, p = "", None
-        if "Just a moment" not in text and "Performing security verification" not in text \
-                and len(text) > 500:
+        if not _cf_wall(text):
             MDCACHE.mkdir(parents=True, exist_ok=True)
             if save:
                 out.write_text(text, encoding="utf-8")
             return text
-        last = (f"attempt {attempt}: cloudflare interstitial ({len(text)} bytes)"
+        last = (f"attempt {attempt}: cloudflare interstitial or empty page ({len(text)} bytes)"
                 + (f"; stderr={p.stderr.strip()[:160]}" if p is not None and p.stderr else ""))
         log("  ", last)
         time.sleep(10)
-    raise RuntimeError(f"opencli web read failed for {url}: {last}")
+    raise RuntimeError(f"camofox page read failed for {url}: {last}")
 
 
 def fetch_rss(url: str) -> str:
@@ -158,7 +217,7 @@ def mk_dt(y: int, mon: str, d: int, hh: int, mm: int) -> datetime:
 
 
 def parse_md(text: str, source: dict) -> list[dict]:
-    """Parse opencli markdown: title-link line, optional category, date line, body, Location."""
+    """Parse page markdown: title-link line, optional category, date line, body, Location."""
     lines = [l.rstrip() for l in text.splitlines()]
     events: list[dict] = []
     for i, line in enumerate(lines):
@@ -759,7 +818,7 @@ def write_page(events: list[dict], last_change: str) -> None:
 # Each event gets its own page fetched once (cached by URL, so only NEW events cost a
 # fetch) to fill in LOCATION, the real description, audience and any registration link.
 DETAIL_CACHE = OUT / "details.json"
-DETAIL_BUDGET = 40          # max browser fetches per run: opencli pages are slow
+DETAIL_BUDGET = 40          # max browser fetches per run: browser pages are slow
 DETAIL_MAX_AGE_DAYS = 90
 
 TAG = re.compile(r"<[^>]+>")
@@ -1071,4 +1130,10 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    finally:
+        try:
+            _camofox("close", timeout=60)
+        except Exception:  # noqa: BLE001
+            pass
