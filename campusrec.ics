@@ -5,25 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:83195c5fce208a95af69f00070aba64c
-DTSTAMP:20260920T025617Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261031
-SUMMARY:Halloween Pretzel Prediction
-LOCATION:Class of1986 Fitness & Wellness Center / Wilkinson Fitness Cente
- r (Meadows Campus)
-DESCRIPTION:[Engagement Activity]\n**Guess how many pretzels are in the j
- ar- is this a trick or a treat for Campus Rec Swag?** Gym Members\, gues
- s how many pretzels are in a jar at the Front Desk of the Class of 1986 
- Fitness & Wellness Center or the Wilkinson Fitness Center (Meadows Campu
- s). Participants Must: Stop at the Front Desk of the Class of 1986\nhttp
- s://campusrec.princeton.edu/events/halloween-pretzel-prediction-4
-URL:https://campusrec.princeton.edu/events/halloween-pretzel-prediction-4
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:7edd1d763120c0d962ceeed2450c719d
 DTSTAMP:20260920T025617Z
 DTSTART;VALUE=DATE:20261102
