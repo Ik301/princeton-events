@@ -1,13 +1,14 @@
-# Princeton Events — calendar feeds
+# Princeton Events (unofficial)
 
-Upcoming public Princeton University events, published as subscribable iCalendar (`.ics`)
-feeds plus a browsable calendar page. Regenerated automatically once a week.
+Princeton University's public event listings, republished as calendar feeds you can subscribe to and a calendar page you can browse. Refreshed every week. This is a student project, not a university service.
 
-**Browse:** https://ik301.github.io/princeton-events/
+Browse: https://ik301.github.io/princeton-events/
 
-## Feeds
+![Month view of the calendar page, with events from four sources color coded](docs/screenshots/month.png)
 
-Subscribe to any of these by URL (Google Calendar → Other calendars → **+** → *From URL*):
+## Subscribe
+
+Copy a feed URL into your calendar app as a subscription. In Google Calendar: Other calendars, then **+**, then From URL. In Apple Calendar: File, then New Calendar Subscription.
 
 | Feed | URL | Covers |
 |---|---|---|
@@ -21,14 +22,25 @@ Each feed is a separate subscription, so you can show or hide sources independen
 
 ## What's in each entry
 
-- **Location** in the event's location field (venue, building, room).
-- **Description** with the event's own blurb, plus `Audience:` (who it's open to) and
-  `Register:` (a direct registration link where one exists, e.g. Handshake).
-- **URL** pointing at the event's page on the Princeton site, and the same link in the
-  description so it's reachable from any calendar client.
+- Location: the venue, building and room.
+- Description: the event's own blurb, plus `Audience:` (who it's open to) and `Register:` (a direct registration link where one exists, such as Handshake).
+- URL: the event's page on the Princeton site, repeated in the description so every calendar client can reach it.
 
-Details are pulled from each event's own page, so a listing that says only "Recruiting
-101, Sep 22" arrives with its room, audience and sign-up link.
+Details come from each event's own page, so a listing that says only "Recruiting 101, Sep 22" arrives with its room, audience and sign-up link.
+
+![List view of the calendar page, with each event's time, location, description and source](docs/screenshots/list.png)
+
+## How it's built
+
+An AI coding agent wrote the scraper (`scraper/princeton_events.py`, Python standard library only) to my spec. A scheduled job on my server runs it every Monday morning and commits the refreshed feeds and page here, and GitHub Pages serves them. Three of the department sites reject plain HTTP requests, so the job loads those pages in a headless browser; the university-wide listing is a plain RSS feed.
+
+The scraper reads only public pages. `my.princeton.edu/events` sits behind Princeton's login and is left out on purpose.
+
+## Layout
+
+- `index.html`: a self-contained calendar page with month, week and list views and per-source toggles, built from the same data as the feeds. Deep-link with `?view=week` or `?view=list`, and `?date=YYYY-MM-DD` to open a given week or month.
+- `*.ics`: the feeds above.
+- `scraper/princeton_events.py`: the generator. It scrapes each source, parses the listings, and writes the `.ics` files and the page.
 
 ## Sources
 
@@ -37,24 +49,14 @@ Details are pulled from each event's own page, so a listing that says only "Recr
 - https://campusrec.princeton.edu/events
 - https://www.princeton.edu/feed/events/
 
-All event data belongs to Princeton University and the organizing departments; this repo
-just reformats their public listings. Times are published in UTC. `all.ics` and the
-per-source `.ics` files use stable per-event UIDs, so re-subscribing or refreshing updates
-events in place rather than duplicating them.
+All event data belongs to Princeton University and the organizing departments; this repo reformats their public listings. Times are published in UTC. Every event has a stable ID, so refreshing a subscription updates events in place instead of duplicating them.
 
-## Layout
+## Limitations
 
-- `index.html` — self-contained calendar page with three views (month grid, week grid,
-  list) and per-source toggles, no external dependencies; built from the same data as the
-  feeds. Deep-link with `?view=week` or `?view=list`, and `?date=YYYY-MM-DD` to open a
-  given week or month.
-- `*.ics` — the feeds above.
-- `scraper/princeton_events.py` — the generator: scrapes each source, parses the listings,
-  and writes the `.ics` files and page.
+- The refresh is weekly, so a brand-new event can take up to a week to appear.
+- Calendar apps cache subscriptions; Google can take several hours to pick up a change.
+- Multi-day events and events with no listed time are published as all-day entries.
 
-## Notes / limitations
+## License
 
-- Refresh cadence is weekly, so brand-new events can take up to a week to appear.
-- Calendar clients cache subscriptions; Google can take several hours to pick up a change.
-- `my.princeton.edu/events` is behind Princeton SSO and is deliberately not included.
-- Multiday and "no time given" events are published as all-day entries.
+The code is [MIT](LICENSE). The event data stays Princeton's.
