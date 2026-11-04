@@ -5,157 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:650a685dd00121671ea9541c1017956d
-DTSTAMP:20261102T113031Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Princeton in Asia (PiA) Fellowship - Application Deadline
-DESCRIPTION:Princeton in Asia (PiA) fosters mutual appreciation and cross
- -cultural understanding between the United States and Asia through immer
- sive work fellowships in host organizations and communities. For the 202
- 7-2028 fellowship cycle\, PiA plans to offer 60 one- and two-year fellow
- ship positions in the following countries and regions: Cambodia\, China\
- , Indonesia\, Japan\, Kazakhstan\, Kyrgyzstan\, Laos\, Macao S.A.R.\, Mo
- ngolia\, Singapore\, Sri Lanka\, Taiwan\, Thailand\, Uzbekistan and Viet
- nam. PiA fellowships span a variety of focus areas: arts and culture\; e
- conomic development\; education\; environmental sustainability\; peace\,
-  justice\, and access to information\; public health\; sports\; and scie
- nce\, technology\, engineering and math. Current seniors as well as alum
- ni are encouraged to apply. Apply by Nov. 1\, 2026.\nhttps://careerdevel
- opment.princeton.edu/events/princeton-asia-pia-fellowship-application-de
- adline
-URL:https://careerdevelopment.princeton.edu/events/princeton-asia-pia-fel
- lowship-application-deadline
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:572ce864259b1d864f0253b9e31efea1
-DTSTAMP:20261102T113031Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Princeton in Latin America Fellowship - Application Deadline
-DESCRIPTION:Princeton in Latin America (PiLA) partners with NGOs and mult
- ilateral organizations and places highly qualified recent college gradua
- tes (graduating students) in year-long service fellowships with nonprofi
- t\, public service\, humanitarian\, and government organizations in Lati
- n America and Caribbean. Apply by November 1\, 2026 at 11:59 p.m.\nhttps
- ://careerdevelopment.princeton.edu/events/princeton-latin-america-fellow
- ship-application-deadline
-URL:https://careerdevelopment.princeton.edu/events/princeton-latin-americ
- a-fellowship-application-deadline
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:783e453de24eae3ad1028f1d3be3afbc
-DTSTAMP:20261102T113031Z
-DTSTART:20261102T190000Z
-DTEND:20261102T210000Z
-SUMMARY:Drop-in Advising for Undergraduate Students
-LOCATION:Center for Career Development
-DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
-  that do not require an appointment. In-person drop-ins for the fall sem
- ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
-URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
- duate-students-28
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:7ae81152c96b921ed0231dcd0a7c6df3
-DTSTAMP:20261102T113031Z
-DTSTART:20261102T210000Z
-DTEND:20261102T220000Z
-SUMMARY:Global Job Search
-LOCATION:Louis A. Simpson International Building 144
-DESCRIPTION:Considering an international work experience? Learn strategie
- s and resources to help you search for international jobs and internship
- s.\nhttps://careerdevelopment.princeton.edu/events/global-job-search
-URL:https://careerdevelopment.princeton.edu/events/global-job-search
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:502c4bbc5baffd963c9f394b5812c430
-DTSTAMP:20261102T113031Z
-DTSTART:20261102T213000Z
-DTEND:20261102T223000Z
-SUMMARY:Navigating Job Offers\, Negotiations & Budgeting
-LOCATION:EBCAO Suite 350
-DESCRIPTION:Join this session to learn how to interpret and negotiate job
-  offers\, make a budget and find apartments and roommates.\nhttps://care
- erdevelopment.princeton.edu/events/navigating-job-offers-negotiations-bu
- dgeting
-URL:https://careerdevelopment.princeton.edu/events/navigating-job-offers-
- negotiations-budgeting
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:564bbead35d15afb7c4ba486045a7e75
-DTSTAMP:20261102T113031Z
-DTSTART:20261102T230000Z
-DTEND:20261103T000000Z
-SUMMARY:Applying Your Strengths to Your Summer Plans
-LOCATION:Rockefeller College\, Private Dining Room
-DESCRIPTION:Learn how to use your CliftonStrengths talent themes to explo
- re and plan for your summer\, whether you’re considering jobs\, intern
- ships\, research\, or volunteer opportunities. You'll see examples of ho
- w students highlight their strengths in their resumes\, cover letters an
- d interviews. You’ll leave with ideas\, resources and next steps to\nh
- ttps://careerdevelopment.princeton.edu/events/applying-your-strengths-yo
- ur-summer-plans
-URL:https://careerdevelopment.princeton.edu/events/applying-your-strength
- s-your-summer-plans
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:eb664e5dc8a7d2e0f992212b7d37c812
-DTSTAMP:20261102T113031Z
-DTSTART:20261102T233000Z
-DTEND:20261103T003000Z
-SUMMARY:Jefferies Summer 2028 Info Session
-LOCATION:Lewis Library 138
-DESCRIPTION:This event consists of a presentation\, a recruiting timeline
-  overview and a networking opportunity. It is geared towards sophomores 
- interested in Summer 2028 internship opportunities within Investment Ban
- king and Sales & Trading.\nhttps://careerdevelopment.princeton.edu/event
- s/jefferies-summer-2028-info-session
-URL:https://careerdevelopment.princeton.edu/events/jefferies-summer-2028-
- info-session
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
-UID:effda038ad501166245d041716d183e4
-DTSTAMP:20261102T113031Z
-DTSTART:20261103T170000Z
-DTEND:20261103T180000Z
-SUMMARY:The D. E. Shaw Group Info Session
-LOCATION:Computer Science Building 104
-DESCRIPTION:D.E. Shaw Group will share information about their work and o
- pportunities.\nhttps://careerdevelopment.princeton.edu/events/d-e-shaw-g
- roup-info-session
-URL:https://careerdevelopment.princeton.edu/events/d-e-shaw-group-info-se
- ssion
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:87e4ebc6759d36480cf398b941229571
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261103T190000Z
 DTEND:20261103T210000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -163,8 +14,20 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
- aduate-students-28
+ m. Students are welcome to come at any point during those times that fit
+  their schedules. They are held at the Center for Career Development (ab
+ ove the U-Store on 36 University Place). You can come to drop-ins to jus
+ t talk through your interests and possible options\, you do not need to 
+ have anything prepared to meet with an adviser. Common topics covered du
+ ring drop-in sessions include: - How the Center for Career Development c
+ an help you - Starting to explore career options - Resume and cover lett
+ er reviews - Preparing for career fairs - Job/internship/fellowship appl
+ ication help - Networking strategies and how to contact alumni - Plannin
+ g for summer experiences and reflection This progr\nRegister: https://pr
+ inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
+ N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
+ te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
+ ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -173,14 +36,26 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:bb7dfd1846552db4b93cf3c8fb7e9363
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261103T220000Z
 DTEND:20261103T230000Z
 SUMMARY:From Asia to Wall Street and Beyond: An Alum's Global Career Path
 LOCATION:Center for Career Development
 DESCRIPTION:Join us for a chat for students thinking about international 
- careers.\nhttps://careerdevelopment.princeton.edu/events/asia-wall-stree
- t-and-beyond-alums-global-career-path
+ careers. Moderated by Molly Giblin\, the director of program for Princet
+ on in Asia (PiA)\, this conversation with David Willard '06 will focus o
+ n how he built his career in China and will provide practical advice for
+  students weighing a year or more abroad after graduation. A Q&A will fo
+ llow. David is a former PiA fellow whose path has taken him through inte
+ rnational M&A law at Cravath\, advisory work at Goldman Sachs in London 
+ and San Francisco\, and now his own Silicon Valley investment banking fi
+ rm\, 52 Capital Partners. He also teaches finance at Santa Clara\, serve
+ s on the Advisory Council of the Wythes Center on Contemporary China\, a
+ nd is a member of the National Committee on U.S.-China Relations. He maj
+ ored in East Asian Studies\, is fluent in Mandarin and played lacrosse a
+ t Princeton. He enjoys speaking with students who are t\nRegister: https
+ ://app.joinhandshake.com/edu/events/2049363\nhttps://careerdevelopment.p
+ rinceton.edu/events/asia-wall-street-and-beyond-alums-global-career-path
 URL:https://careerdevelopment.princeton.edu/events/asia-wall-street-and-b
  eyond-alums-global-career-path
 STATUS:CONFIRMED
@@ -189,15 +64,23 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:b9ae314975373e06343e69c1a4853deb
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261103T230000Z
 DTEND:20261104T003000Z
 SUMMARY:Jane Street: All Majors Estimathon®
 LOCATION:Friend Center 006
 DESCRIPTION:The Estimathon is a mind-bending mixture of math and trivia. 
  In teams\, students will attempt 13 Fermi problems in 30 minutes\, rangi
- ng from totally trivial to positively Putnamesque.\nhttps://careerdevelo
- pment.princeton.edu/events/jane-street-all-majors-estimathon%C2%AE-0
+ ng from totally trivial to positively Putnamesque. Seeking students from
+  majors that are traditionally underrepresented in quantitative finance\
+ , including biology\, chemistry\, physics\, linguistics and economics. P
+ lease Note: Interested in joining? Register through Handshake and comple
+ te Jane Street’s Google form. The team will only review Google form su
+ bmissions for event participation. The Google form will be linked two we
+ eks before the event. Please check back then to complete registration.\n
+ Audience: Graduate Students\nRegister: https://princeton.joinhandshake.c
+ om/edu/events/2015289\nhttps://careerdevelopment.princeton.edu/events/ja
+ ne-street-all-majors-estimathon%C2%AE-0
 URL:https://careerdevelopment.princeton.edu/events/jane-street-all-majors
  -estimathon%C2%AE-0
 STATUS:CONFIRMED
@@ -225,7 +108,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:b8540fe301038fe968649fc9f315aebe
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261104T190000Z
 DTEND:20261104T210000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -233,20 +116,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -255,22 +126,15 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:c4829e29c9b4f916f85da669d4a3979b
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261104T214500Z
 DTEND:20261104T224500Z
 SUMMARY:First-Year Internship & Summer Plans Panel
 LOCATION:Frist Campus Center - MPR A&B
 DESCRIPTION:This program will be led by Peer Career Advisers (PCAs) and w
  ill feature students sharing how they've spent their summers\, including
-  internships and other unique experiences. There will be an opportunity 
- for Q&A. At the end of the event\, you'll receive resources to help you 
- figure out your summer plans. Check back on this event towards the end O
- ctober to submit your questions before the event. This program is open t
- o all Princeton University undergraduates regardless of identity. Email 
- careerdevelopment@princeton.edu to request accommodations at least two w
- eeks prior to the program.\nRegister: https://princeton.joinhandshake.co
- m/edu/events/1979384\nhttps://careerdevelopment.princeton.edu/events/fir
- st-year-internship-summer-plans-panel
+  internships and other unique experiences.\nhttps://careerdevelopment.pr
+ inceton.edu/events/first-year-internship-summer-plans-panel
 URL:https://careerdevelopment.princeton.edu/events/first-year-internship-
  summer-plans-panel
 STATUS:CONFIRMED
@@ -279,7 +143,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:218dfe12d95c2e209a69924cc752363d
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261104T223000Z
 DTEND:20261105T000000Z
 SUMMARY:Balyasny Asset Management Coding Challenge
@@ -287,15 +151,8 @@ LOCATION:Lewis Library\, Room 120
 DESCRIPTION:Test your skills on real problems from a multi-strategy hedge
   fund. Balyasny Asset Management (BAM) is hosting an invite-only coding 
  challenge at Princeton for students interested in technology\, data\, qu
- antitative trading\, and research. What to expect: - A hands-on technica
- l assessment that takes about 70 minutes. - Problems drawn from BAM's op
- en-source GitHub repository. They involve manipulating data sets and app
- lying math and statistics\, like the work BAM teams do. - A virtual mach
- ine for each participant. You can code in any language you like. - Cater
- ing and swag. - After the event\, BAM's team will review submissions and
-  identify top performers.\nRegister: https://princeton.joinhandshake.com
- /edu/events/2044901\nhttps://careerdevelopment.princeton.edu/events/baly
- asny-asset-management-coding-challenge
+ antitative trading\, and research.\nhttps://careerdevelopment.princeton.
+ edu/events/balyasny-asset-management-coding-challenge
 URL:https://careerdevelopment.princeton.edu/events/balyasny-asset-managem
  ent-coding-challenge
 STATUS:CONFIRMED
@@ -304,23 +161,16 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:1a8a3496de1faabcc9129704558a406a
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261105T010000Z
 DTEND:20261105T030000Z
 SUMMARY:PCA Chats at Frist Late Meal
 LOCATION:Frist Campus Center\, A level
-DESCRIPTION:Do you have questions about resumes\, cover letters\, LinkedI
- n\, networking or internship searches? Curious how the Center for Career
-  Development supports students? Stop by and talk to Peer Career Advisers
-  (PCAs) who are trained by the Center for Career Development. They can a
- nswer your questions and share their experiences from a peer perspective
- . This program is open to all Princeton University undergraduates regard
- less of identity. Email [careerdevelopment@princeton.edu](mailto:careerd
- evelopment@princeton.edu) to request accommodations at least two weeks p
- rior to the program.\nRegister: https://princeton.joinhandshake.com/stu/
- events?collection=ALL&eventFormat=HYBRID&sort=RELEVANCE&date=ALL&keyword
- =frist%20late%20meal\nhttps://careerdevelopment.princeton.edu/events/pca
- -chats-frist-late-meal-0
+DESCRIPTION:Stop by and talk to Peer Career Advisers (PCAs) who are train
+ ed by the Center for Career Development. They can answer your career dev
+ elopment questions and share their experiences from a peer perspective.\
+ nhttps://careerdevelopment.princeton.edu/events/pca-chats-frist-late-mea
+ l-0
 URL:https://careerdevelopment.princeton.edu/events/pca-chats-frist-late-m
  eal-0
 STATUS:CONFIRMED
@@ -329,7 +179,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:1e1226c70675d4253983b8593ae1b323
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261105T190000Z
 DTEND:20261105T210000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -337,20 +187,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -359,27 +197,18 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:2d06d0454e1749e663c09d3c7c8f12f8
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261105T220000Z
 DTEND:20261105T233000Z
 SUMMARY:CIA Information Session
 LOCATION:McCosh Hall 010
-DESCRIPTION:We have a mission for you! The Central Intelligence Agency (C
- IA) Directorate of Operations (DO) is actively hiring students from all 
- backgrounds and majors to play an impactful role in promoting US nationa
- l security. They are seeking graduate students and seniors who have a de
- monstrated interest in foreign affairs (through coursework\, language st
- udy\, study abroad\, or travel) who are eager to serve their country. Sp
- ace permitting\, students will have the opportunity to connect with othe
- r undergraduates as well. Interested applicants attending the informatio
- n session will receive an event code for expedited hiring\, as well as b
- est practices for the application process. Prior to the Information Sess
- ion\, potential applicants are encouraged to visit cia.gov to become fam
- iliar with the CIA’s unique mission and cia.gov/careers (filtering by 
- the DO) to learn about DO careers. Applicants are requi\nAudience: Gradu
- ate Students\nRegister: https://princeton.joinhandshake.com/edu/events/2
- 043909\nhttps://careerdevelopment.princeton.edu/events/cia-information-s
- ession-1
+DESCRIPTION:The Central Intelligence Agency (CIA) Directorate of Operatio
+ ns (DO) is actively hiring students from all backgrounds and majors to p
+ lay an impactful role in promoting US national security. They are seekin
+ g graduate students and seniors who have a demonstrated interest in fore
+ ign affairs (through coursework\, language study\, study abroad\, or tra
+ vel) who are eager to serve their country.\nhttps://careerdevelopment.pr
+ inceton.edu/events/cia-information-session-1
 URL:https://careerdevelopment.princeton.edu/events/cia-information-sessio
  n-1
 STATUS:CONFIRMED
@@ -388,7 +217,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:3e4b3d2b85abc2f9404bf198943e0397
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261105T233000Z
 DTEND:20261106T003000Z
 SUMMARY:Centerview Partners Info Session
@@ -397,13 +226,8 @@ DESCRIPTION:Centerview Partners is a leading global investment banking ad
  visory firm with offices in New York\, London\, Paris\, Menlo Park and S
  an Francisco. Centerview’s summer analyst program offers a truly uniqu
  e and differentiated opportunity. In the independent advisory firm model
- \, summer analysts play a vital role on teams that are leaner than those
-  of typical investment banks. As a result\, analysts should expect regul
- ar interaction with both senior Centerview professionals and clients. We
-  are a flat organization that fosters thought leadership and has a stron
- g commitment to professional development.\nRegister: https://princeton.j
- oinhandshake.com/edu/events/2037007\nhttps://careerdevelopment.princeton
- .edu/events/centerview-partners-info-session
+ \, summer analysts play a vital role on teams that are leaner\nhttps://c
+ areerdevelopment.princeton.edu/events/centerview-partners-info-session
 URL:https://careerdevelopment.princeton.edu/events/centerview-partners-in
  fo-session
 STATUS:CONFIRMED
@@ -412,27 +236,18 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:8f90845be6affefb75f5e637bf78ec3c
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261106T150000Z
 DTEND:20261106T210000Z
 SUMMARY:CIA Coffee Chat
 LOCATION:Center for Career Development
-DESCRIPTION:Join a coffee chat with the Central Intelligence Agency (CIA)
-  Directorate of Operations (DO). (https://app.joinhandshake.com/edu/empl
- oyers/13164) The CIA is the world's premier intelligence organization\, 
- protecting the security of the Nation. The CIA looks for all academic ba
- ckgrounds and experiences to fill a variety of careers and student inter
- nships. Our people are patriotic\, collaborative\, driven\, creative\, a
- nd much more. Visit CIA.GOV/CAREERS to learn about opportunities to serv
- e your country. US citizenship (birthright\, naturalized\, or dual) is a
-  requirement for employment with the CIA. This event is currently open t
- o seniors and graduate students. Students need toupload a resume visible
-  to employers (https://support.joinhandshake.com/hc/en-us/articles/21869
- 2648-How-to-Upload-a-New-Document) before registering for a coffee chat.
-  If you want assistance updating your resume before th\nAudience: Gradua
- te Students\nRegister: https://princeton.joinhandshake.com/edu/events/20
- 46438/overview\nhttps://careerdevelopment.princeton.edu/events/cia-coffe
- e-chat
+DESCRIPTION:Join a coffee chat with the [Central Intelligence Agency (CIA
+ ) Directorate of Operations (DO). Link is external](https://app.joinhand
+ shake.com/edu/employers/13164) The CIA is the world's premier intelligen
+ ce organization\, protecting the security of the Nation. The CIA looks f
+ or all academic backgrounds and experiences to fill a variety of careers
+  and student internships.\nhttps://careerdevelopment.princeton.edu/event
+ s/cia-coffee-chat
 URL:https://careerdevelopment.princeton.edu/events/cia-coffee-chat
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -440,7 +255,7 @@ END:VEVENT
 END:VCALENDAR
 BEGIN:VEVENT
 UID:5ff70221e65f33ff1579186e1d6f5a11
-DTSTAMP:20261102T113031Z
+DTSTAMP:20261104T180348Z
 DTSTART:20261106T190000Z
 DTEND:20261106T210000Z
 SUMMARY:Drop-in Advising for Undergraduate Students
@@ -448,20 +263,8 @@ LOCATION:Center for Career Development
 DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
   that do not require an appointment. In-person drop-ins for the fall sem
  ester begin on Monday\, August 31 and are held most weekdays from 2-4 p.
- m. Students are welcome to come at any point during those times that fit
-  their schedules. They are held at the Center for Career Development (ab
- ove the U-Store on 36 University Place). You can come to drop-ins to jus
- t talk through your interests and possible options\, you do not need to 
- have anything prepared to meet with an adviser. Common topics covered du
- ring drop-in sessions include: - How the Center for Career Development c
- an help you - Starting to explore career options - Resume and cover lett
- er reviews - Preparing for career fairs - Job/internship/fellowship appl
- ication help - Networking strategies and how to contact alumni - Plannin
- g for summer experiences and reflection This progr\nRegister: https://pr
- inceton.joinhandshake.com/stu/events?collection=ALL&eventFormat=IN_PERSO
- N&sort=RELEVANCE&date=ALL&keyword=Drop-in%20Advising%20for%20Undergradua
- te%20Students\nhttps://careerdevelopment.princeton.edu/events/drop-advis
- ing-undergraduate-students-28
+ m.\nhttps://careerdevelopment.princeton.edu/events/drop-advising-undergr
+ aduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
 STATUS:CONFIRMED
@@ -571,6 +374,26 @@ DESCRIPTION:Drop-ins are 20-minute\, advising sessions for undergraduates
  ing-undergraduate-students-28
 URL:https://careerdevelopment.princeton.edu/events/drop-advising-undergra
  duate-students-28
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+BEGIN:VEVENT
+UID:b53c0363219060dd7ea2da2f9d0f1691
+DTSTAMP:20261104T180348Z
+DTSTART:20261110T190000Z
+DTEND:20261110T210000Z
+SUMMARY:Sculptor Capital Management Coffee Chats
+LOCATION:Center for Career Development
+DESCRIPTION:Sculptor Capital LP is a leading global alternative asset man
+ agement firm providing investment products in a range of areas including
+  multi-strategy\, credit and real estate. With offices in New York\, Lon
+ don\, and Hong Kong\, the Company serves global clients through commingl
+ ed funds\, separate accounts and specialized products.\nRegister: https:
+ //princeton.joinhandshake.com/edu/jobs/11848235\nhttps://careerdevelopme
+ nt.princeton.edu/events/sculptor-capital-management-coffee-chats
+URL:https://careerdevelopment.princeton.edu/events/sculptor-capital-manag
+ ement-coffee-chats
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

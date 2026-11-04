@@ -468,7 +468,7 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Princeton Events</title>
+<title>Princeton Events (unofficial)</title>
 <style>
   :root{
     --bg:#0f1115; --card:#161a22; --card2:#1c2130; --line:#2a3040;
@@ -564,7 +564,7 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>Princeton <span>Events</span></h1>
+  <h1>Princeton <span>Events</span> <small style="font-size:13px;font-weight:500;color:var(--muted)">unofficial, not affiliated with Princeton University</small></h1>
   <div class="sub" id="sub"></div>
   <div class="bar">
     <div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
