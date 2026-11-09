@@ -5,25 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Princeton Events (all)
 BEGIN:VEVENT
-UID:7edd1d763120c0d962ceeed2450c719d
-DTSTAMP:20260920T025617Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261107
-SUMMARY:Mathey College Appreciation Week
-LOCATION:Class of 1986 Fitness & Wellness Center
-DESCRIPTION:[Engagement Activity]\n**Mathey College\, will your college r
- ally at the Class of 1986 Fitness & Wellness Center?** Undergraduate Stu
- dents of Mathey College can show school spirit by checking-in at the Cla
- ss of 1986 Fitness & Wellness Center for a chance to win Campus Rec Swag
- ! Participants Must: Stop at the Front Desk of the Class\nhttps://campus
- rec.princeton.edu/events/mathey-college-appreciation-week
-URL:https://campusrec.princeton.edu/events/mathey-college-appreciation-we
- ek
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
-BEGIN:VEVENT
 UID:4ab12bf88c9a0c345a1b19ff97bbb479
 DTSTAMP:20260920T025617Z
 DTSTART;VALUE=DATE:20261111
